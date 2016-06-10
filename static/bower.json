@@ -1,0 +1,18 @@
+{
+  "name": "structured-pdf",
+  "homepage": "https://github.com/codeOfRobin/structureDataPDF",
+  "authors": [
+    "Robin Malhotra <me@rmalhotra.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "Private pliss",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
