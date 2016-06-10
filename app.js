@@ -17,12 +17,18 @@ app.use('/static',express.static(__dirname + '/static'))
 
 app.get('/',function(req,res)
 {
-    res.render('home.jade')
+    console.log(unidict.keys);
+    res.render('home.jade',{
+        params:{
+            communities: Object.keys(unidict),
+            resumeIDs: mba.map(function(resume){return resume.bulk_upload_resume_id})
+        }
+    })
 })
 
 app.get('/resume',function(req,res)
 {
-
+    res.json({"comm": req.query.community,"resumeID": req.query.resumeID})
 })
 
 app.listen(3000)

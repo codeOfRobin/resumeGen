@@ -5,8 +5,12 @@ html
   body
     label(for="community") Community
     select(id="community" name="community")
-    label(for="person") Person_id
-    select(id="person" name="person")
+        each community in params.communities
+            option= community
+    label(for="resumeID") Resume ID
+    select(id="resumeID" name="resumeID")
+        each resumeID in params.resumeIDs
+            option= resumeID
     button(type="submit") Submit
     script(src="./static/bower_components/jquery/dist/jquery.min.js")
     script(src="./static/main.js")
