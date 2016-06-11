@@ -13,7 +13,7 @@ margin: 0.5in 2in;
 font-family: 'normal';
 line-height: 1.5em;
 }
-h1, .date, .schoolname, .company, .location, .designation
+h1, .date, .schoolname, .company, .location, .companydescription
 {
 font-family: 'bold';
 font-size: 1.2em;

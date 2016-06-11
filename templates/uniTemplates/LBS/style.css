@@ -1,4 +1,4 @@
-    
+
 @font-face {
   font-family: 'bold';
   src: url('./bold.ttf')  format('truetype');
@@ -13,7 +13,7 @@ body
     font-family: 'normal';
     line-height: 1.5em;
 }
-h1, .date, .schoolname, .company, .location, .designation
+h1, .date, .schoolname, .company, .location, .description
 {
 	font-family: 'bold';
 	font-size: 1.2em;
