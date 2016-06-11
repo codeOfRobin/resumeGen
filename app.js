@@ -28,7 +28,15 @@ app.get('/',function(req,res)
 
 app.get('/resume',function(req,res)
 {
-    res.json({"comm": req.query.community,"resumeID": req.query.resumeID})
+    //testing 162130
+    // res.json({"comm": req.query.community,"resumeID": req.query.resumeID})
+    for (resume of mba)
+    {
+        if (resume.bulk_upload_resume_id == req.query.resumeID)
+        {
+            res.render("")
+        }
+    }
 })
 
 app.listen(3000)

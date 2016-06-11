@@ -1,0 +1,10 @@
+.separated
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+body
+{
+    margin:  0.5in 1.5in;
+}
