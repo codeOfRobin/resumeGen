@@ -34,7 +34,9 @@ app.get('/resume',function(req,res)
     {
         if (resume.bulk_upload_resume_id == req.query.resumeID)
         {
-            res.render("")
+            res.render("uniTemplates/LBS/index.jade", {
+                resume: resume.DataStructure.entities
+            })
         }
     }
 })
