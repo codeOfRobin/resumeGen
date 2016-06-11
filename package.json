@@ -10,7 +10,8 @@
     "jade": "^1.11.0",
     "morgan": "^1.7.0",
     "pug": "^2.0.0-beta3",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "upfront-editable": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {

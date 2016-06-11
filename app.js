@@ -14,6 +14,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views',__dirname + '/templates');
 app.use('/static',express.static(__dirname + '/static'))
+app.use("/node_modules", express.static(__dirname + "/node_modules"));
 
 app.get('/',function(req,res)
 {
