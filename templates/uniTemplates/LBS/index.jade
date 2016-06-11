@@ -7,8 +7,8 @@ html(lang='en',ng-app = "resumeEditApp")
     body(ng-controller = "mainCtrl")
         section.personalInformation
             .personalInformation.name(ng-click = "teritoh()" ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
-            .personalInformation.email ralsuqair@gmail.com
-            .personalInformation.phone 00447456772774 - 00966505890586
+            .personalInformation.email(ng-model = "resumeData.personalInformation.email") {{resumeData.personalInformation.email}}
+            .personalInformation.phone(ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
         section.education
             h1 Education
             .educationPoint
@@ -69,5 +69,10 @@ html(lang='en',ng-app = "resumeEditApp")
             });
             editable.on('change', elem => {
                 const currentContent = editable.getContent(elem);
-                console.log(elem);
+                var scope = angular.element($("body")).scope();
+                scope.$apply(function(){
+                    var path = "resumeData."+($(elem).attr("ng-model"))
+                    scope[path] = editable.getContent(elem);
+                    console.log(path + " has been updated to " + scope[path]);
+                })
             })
