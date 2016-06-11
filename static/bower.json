@@ -14,5 +14,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "popper.js": "^0.4.2"
+  }
 }

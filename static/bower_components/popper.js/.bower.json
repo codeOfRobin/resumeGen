@@ -1,0 +1,36 @@
+{
+  "name": "popper.js",
+  "description": "",
+  "main": "src/popper.js",
+  "authors": [
+    "Federico Zivolo & Andrea Scianò"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "homepage": "https://fezvrasta.github.io/popper.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "^2.2.0"
+  },
+  "version": "0.4.2",
+  "_release": "0.4.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.2",
+    "commit": "566d4e66f9c3257a69d7b0d4c5369aaa5581d9d4"
+  },
+  "_source": "https://github.com/FezVrasta/popper.js.git",
+  "_target": "^0.4.2",
+  "_originalSource": "popper.js",
+  "_direct": true
+}

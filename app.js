@@ -7,9 +7,9 @@ var fs = require('fs')
 var request = require('request')
 var mba = require("./data/mba.json")
 var ug = require("./data/ug.json")
-var unidict = require('./data/uni2Category.json')
+var unidict = require('./uni2Category.json')
 
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views',__dirname + '/templates');

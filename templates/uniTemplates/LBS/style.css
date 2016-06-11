@@ -1,0 +1,49 @@
+    
+@font-face {
+  font-family: 'bold';
+  src: url('./bold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'normal';
+  src: url('./normal.ttf')  format('truetype');
+}
+body
+{
+    margin: 0.5in 2in;
+    font-family: 'normal';
+    line-height: 1.5em;
+}
+h1, .date, .schoolname, .company, .location, .designation
+{
+	font-family: 'bold';
+	font-size: 1.2em;
+}
+section.experience ,section.education,section.additionalInformation,section.languages,section.nationality
+{
+    border-top: 1px solid black;
+}
+section
+{
+	margin-bottom: 15px;
+}
+.personalInformation
+{
+    text-align: center;
+}
+.separated
+{
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+
+.date
+{
+    min-width: 15%;
+    margin-right: 10%;
+}
+.rightCol
+{
+    min-width: 70%
+}
