@@ -7,42 +7,42 @@ html(lang='en',ng-app = "resumeEditApp")
         link(rel='stylesheet', href='./static/popper.css')
     body(ng-controller = "mainCtrl")
         section.personalInformation
-            .personalInformation.name(ng-click = "teritoh()" ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
-            .personalInformation.email(ng-model = "resumeData.personalInformation.email") {{resumeData.personalInformation.email}}
-            .personalInformation.phone(ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
+            .personalInformation.name(scopeVal = "personalInformation name") {{resumeData.personalInformation.name}}
+            .personalInformation.email(scopeVal = "personalInformation email") {{resumeData.personalInformation.email}}
+            .personalInformation.phone(scopeVal = "personalInformation phone") {{resumeData.personalInformation.phone}}
         section.education
             h1 Education
-            .educationPoint(ng-repeat = "educationPoint in resumeData.education")
+            .educationPoint(ng-repeat = "educationPoint in resumeData.education" scopeVal = "education[{{$index}}]")
                 .separated
                     .educationPoint.date {{educationPoint.startyear}} - {{educationPoint.endyear}}
                     .rightCol
-                        .educationPoint.schoolname(ng-model = "educationPoint.schoolname") {{educationPoint.schoolname}}
-                        .educationPoint.degree {{educationPoint.degree}}
-                        ul
-                            li.educationBullet(ng-repeat = "bullet in educationPoint.bullets") {{bullet}}
+                        .educationPoint.schoolname(scopeVal = "education[{{$index}}] schoolname") {{educationPoint.schoolname}}
+                        .educationPoint.degree(scopeVal = "education[{{$index}}] degree") {{educationPoint.degree}}
+                        ul(scopeVal = "resumeData education[{{$index}}]")
+                            li.education.Bullet(ng-repeat = "bullet in educationPoint.bullets" scopeVal = "bullets[{{$index}}]") {{bullet}}
         section.experience
             h1  Experience
-            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
+            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience" )
                 .separated
                     .experiencePoint.date {{experiencePoint.data_raw}}            
                     .rightCol
-                        .experiencePoint.company {{experiencePoint.companyname}}
-                        .experiencePoint.location {{experiencePoint.location}}
+                        .experiencePoint.company(scopeVal ="company") {{experiencePoint.companyname}}
+                        .experiencePoint.location(scopeVal ="location") {{experiencePoint.location}}
                         //- .experiencePoint.companydescription Central Bank of Saudi Arabia.
-                        .experiencePoint.companydescription {{experiencePoint.industry}}
-                        .experiencePoint.designation {{experiencePoint.position}}
+                        .experiencePoint.companydescription(scopeVal ="industry") {{experiencePoint.industry}}
+                        .experiencePoint.designation(scopeVal ="position") {{experiencePoint.position}}
                         ul.experiencePoint.bullets
-                            li.experiencePoint.bullet(ng-repeat = "bullet in experiencePoint.bullets") {{bullet}}
+                            li.experiencePoint.bullet(scopeVal ="bullet" ng-repeat = "bullet in experiencePoint.bullets") {{bullet}}
         section.additionalInformation
             h1 Additional Information        
             ul.additionalInformation.bullets
-                li.additionalInformation.bullet(ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                li.additionalInformation.bullet(scopeVal ="bullet" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
         section.languages
             h1 Languages
-            .languages.text Fluent English, Native Arabic
+            .languages.text(scopeVal ="languages.text") Fluent English, Native Arabic
         section.nationality
-            h1 Nationality  
-            .nationality.text Saudi Arabia
+            h1 Nationality
+            .nationality.text(scopeVal ="nationality.text") Saudi Arabia
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
         script.
@@ -55,5 +55,6 @@ html(lang='en',ng-app = "resumeEditApp")
                 })
         script(src = "./node_modules/upfront-editable/dist/editable.js")
         script(src = "./node_modules/popper.js/build/popper.min.js")
+        script(src = "./node_modules/lodash/lodash.min.js")
         script(src = "./static/templateSpecific/core.js")
         
