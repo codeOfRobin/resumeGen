@@ -16,7 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.0.0",
-    "popper.js": "^0.4.2"
+    "jquery": "^3.0.0"
   }
 }
