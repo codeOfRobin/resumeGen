@@ -14,7 +14,7 @@ $('h1,li,.name,.email,.phone,.schoolname,.degree,.company,.location,.companydesc
 
 editable.on('change', elem => {
     const currentContent = editable.getContent(elem);
-    var scope = angular.element(elem).scope();
+    var scope = angular.element($("body")).scope();
     var ul = $(elem).parent().attr('scopeVal')
     var li = $(elem)
     scope.$apply(function(){
@@ -25,7 +25,7 @@ editable.on('change', elem => {
 .on('blur', elem => {
   // your code...
   const currentContent = editable.getContent(elem);
-  var scope = angular.element(elem).scope();
+  var scope = angular.element($("body")).scope();
   var path = ($(elem).attr("scopeVal"))
   var ul = $(elem).parent().attr('scopeVal')
   scope.$apply(function(){

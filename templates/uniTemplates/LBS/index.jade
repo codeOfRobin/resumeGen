@@ -22,21 +22,21 @@ html(lang='en',ng-app = "resumeEditApp")
                             li.education.Bullet(ng-repeat = "bullet in educationPoint.bullets" scopeVal = "bullets[{{$index}}]") {{bullet}}
         section.experience
             h1  Experience
-            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience" )
+            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience" scopeVal = "experience[{{$index}}]")
                 .separated
                     .experiencePoint.date {{experiencePoint.data_raw}}            
                     .rightCol
-                        .experiencePoint.company(scopeVal ="company") {{experiencePoint.companyname}}
-                        .experiencePoint.location(scopeVal ="location") {{experiencePoint.location}}
+                        .experiencePoint.company(scopeVal ="experience[{{$index}}] companyname") {{experiencePoint.companyname}}
+                        .experiencePoint.location(scopeVal ="experience[{{$index}}] location") {{experiencePoint.location}}
                         //- .experiencePoint.companydescription Central Bank of Saudi Arabia.
-                        .experiencePoint.companydescription(scopeVal ="industry") {{experiencePoint.industry}}
-                        .experiencePoint.designation(scopeVal ="position") {{experiencePoint.position}}
+                        .experiencePoint.companydescription(scopeVal ="experience[{{$index}}] industry") {{experiencePoint.industry}}
+                        .experiencePoint.designation(scopeVal ="experience[{{$index}}] position") {{experiencePoint.position}}
                         ul.experiencePoint.bullets
-                            li.experiencePoint.bullet(scopeVal ="bullet" ng-repeat = "bullet in experiencePoint.bullets") {{bullet}}
+                            li.experiencePoint.bullet(ng-repeat = "bullet in experiencePoint.bullets" scopeVal = "bullets[{{$index}}]") {{bullet}}
         section.additionalInformation
             h1 Additional Information        
             ul.additionalInformation.bullets
-                li.additionalInformation.bullet(scopeVal ="bullet" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                li.additionalInformation.bullet(scopeVal = "additional_data.bullets[{{$index}}]" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
         section.languages
             h1 Languages
             .languages.text(scopeVal ="languages.text") Fluent English, Native Arabic
