@@ -7,54 +7,86 @@ html(lang='en',ng-app = "resumeEditApp")
         link(rel='stylesheet', href='./static/popper.css')
     body(ng-controller = "mainCtrl")
         section.personalInformation
-            .personalInformation.name(scopeVal = "personalInformation name") {{resumeData.personalInformation.name}}
-            .personalInformation.email(scopeVal = "personalInformation email") {{resumeData.personalInformation.email}}
-            .personalInformation.phone(scopeVal = "personalInformation phone") {{resumeData.personalInformation.phone}}
+            .personalInformation.name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
+            .personalInformation.email(contenteditable ng-model = "resumeData.personalInformation.email") {{resumeData.personalInformation.email}}
+            .personalInformation.phone(contenteditable ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
         section.education
             h1 Education
-            .educationPoint(ng-repeat = "educationPoint in resumeData.education" scopeVal = "education[{{$index}}]")
+            .educationPoint(ng-repeat = "educationPoint in resumeData.education")
                 .separated
                     .educationPoint.date {{educationPoint.startyear}} - {{educationPoint.endyear}}
                     .rightCol
-                        .educationPoint.schoolname(scopeVal = "education[{{$index}}] schoolname") {{educationPoint.schoolname}}
-                        .educationPoint.degree(scopeVal = "education[{{$index}}] degree") {{educationPoint.degree}}
-                        ul(scopeVal = "resumeData education[{{$index}}]")
-                            li.education.Bullet(ng-repeat = "bullet in educationPoint.bullets" scopeVal = "bullets[{{$index}}]") {{bullet}}
+                        .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}
+                        .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
+                        ul
+                            li.education.Bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}}
         section.experience
             h1  Experience
-            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience" )
+            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
                 .separated
                     .experiencePoint.date {{experiencePoint.data_raw}}            
                     .rightCol
-                        .experiencePoint.company(scopeVal ="company") {{experiencePoint.companyname}}
-                        .experiencePoint.location(scopeVal ="location") {{experiencePoint.location}}
+                        .experiencePoint.company(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
+                        .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
                         //- .experiencePoint.companydescription Central Bank of Saudi Arabia.
-                        .experiencePoint.companydescription(scopeVal ="industry") {{experiencePoint.industry}}
-                        .experiencePoint.designation(scopeVal ="position") {{experiencePoint.position}}
+                        .experiencePoint.companydescription(contenteditable ng-model ="experiencePoint.industry") {{experiencePoint.industry}}
+                        .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
                         ul.experiencePoint.bullets
-                            li.experiencePoint.bullet(scopeVal ="bullet" ng-repeat = "bullet in experiencePoint.bullets") {{bullet}}
+                            li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
         section.additionalInformation
             h1 Additional Information        
             ul.additionalInformation.bullets
-                li.additionalInformation.bullet(scopeVal ="bullet" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
         section.languages
             h1 Languages
-            .languages.text(scopeVal ="languages.text") Fluent English, Native Arabic
+            .languages.text() Fluent English, Native Arabic
         section.nationality
             h1 Nationality
-            .nationality.text(scopeVal ="nationality.text") Saudi Arabia
+            .nationality.text() Saudi Arabia
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
         script.
-            angular.module("resumeEditApp", []).controller('mainCtrl',function ($scope)
+            var resumeDataOld = !{JSON.stringify(resume)}
+            for (var educationPoint of resumeDataOld.education)
+            {
+                educationPoint.bullets = educationPoint.bullets.map(function(bullet){
+                    return {"text":bullet}
+                })
+            }
+            for (var experiencePoint of resumeDataOld.experience)
+            {
+                experiencePoint.bullets = experiencePoint.bullets.map(function(bullet){
+                    return {"text":bullet}
+                })
+            }
+            console.log(resumeDataOld);
+            var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($scope)
                 {
-                    $scope.resumeData = !{JSON.stringify(resume)}
+                    $scope.resumeData = resumeDataOld
                     $scope.teritoh = function()
                     {
+                        
                     }
                 })
-        script(src = "./node_modules/upfront-editable/dist/editable.js")
+                app.directive("contenteditable", function() {
+                return {
+                    restrict: "A",
+                    require: "ngModel",
+                    link: function(scope, element, attrs, ngModel) {
+
+                      function read() {
+                        ngModel.$setViewValue(element.html());
+                      }
+
+                      ngModel.$render = function() {
+                        element.html(ngModel.$viewValue || "");
+                      };
+
+                      element.bind("blur keyup change", function() {
+                        scope.$apply(read);
+                      });
+                    }
+                    };
+                });
         script(src = "./node_modules/popper.js/build/popper.min.js")
-        script(src = "./node_modules/lodash/lodash.min.js")
-        script(src = "./static/templateSpecific/core.js")
         
