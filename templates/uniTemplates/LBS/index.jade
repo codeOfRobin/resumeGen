@@ -45,6 +45,7 @@ html(lang='en',ng-app = "resumeEditApp")
             .nationality.text() Saudi Arabia
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
+        script(src = "./node_modules/popper.js/build/popper.min.js")
         script.
             var resumeDataOld = !{JSON.stringify(resume)}
             for (var educationPoint of resumeDataOld.education)
@@ -89,4 +90,5 @@ html(lang='en',ng-app = "resumeEditApp")
                     };
                 });
         script(src = "./node_modules/popper.js/build/popper.min.js")
+        script(src = "./static/templateSpecific/core.js")
         

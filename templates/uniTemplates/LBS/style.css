@@ -9,9 +9,10 @@
 }
 body
 {
-    margin: 0.5in 2in;
+    margin: 1in 3in;
     font-family: 'normal';
     line-height: 1.5em;
+
 }
 h1, .date, .schoolname, .company, .location, .description
 {

@@ -9,7 +9,7 @@ src: url('./normal.ttf')  format('truetype');
 }
 body
 {
-margin: 0.5in 2in;
+margin: 1in 3in;
 font-family: 'normal';
 line-height: 1.5em;
 }
