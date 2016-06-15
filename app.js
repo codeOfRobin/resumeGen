@@ -16,13 +16,20 @@ app.set('views',__dirname + '/templates');
 app.use('/static',express.static(__dirname + '/static'))
 app.use("/node_modules", express.static(__dirname + "/node_modules"));
 
+
+app.get('/login', function(req,res)
+{
+    res.render('login.jade')
+})
+
 app.get('/',function(req,res)
 {
     console.log(unidict.keys);
     res.render('home.jade',{
         params:{
             communities: Object.keys(unidict),
-            resumeIDs: mba.map(function(resume){return resume.bulk_upload_resume_id})
+            resumeIDs: mba.map(function(resume){return resume.bulk_upload_resume_id}),
+            templates : ['ChicagoBooth','LBS']
         }
     })
 })
@@ -35,7 +42,7 @@ app.get('/resume',function(req,res)
     {
         if (resume.bulk_upload_resume_id == req.query.resumeID)
         {
-            res.render("uniTemplates/LBS/index.jade", {
+            res.render("uniTemplates/"+ req.query.template + "/index.jade", {
                 resume: resume.DataStructure.entities
             })
         }

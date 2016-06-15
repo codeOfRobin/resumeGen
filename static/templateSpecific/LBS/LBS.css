@@ -7,6 +7,11 @@ src: url('./bold.ttf')  format('truetype');
 font-family: 'normal';
 src: url('./normal.ttf')  format('truetype');
 }
+
+.name, .email, .phone, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation
+{
+    min-width: 100px;
+}
 body
 {
 margin: 1in 3in;
@@ -35,9 +40,6 @@ text-align: center;
 display: flex;
 justify-content:flex-start;
 }
-
-
-
 .date
 {
 min-width: 15%;
