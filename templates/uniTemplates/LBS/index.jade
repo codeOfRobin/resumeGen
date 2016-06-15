@@ -4,7 +4,7 @@ html(lang='en',ng-app = "resumeEditApp")
         title LBS Template  
         meta(charset='utf-8', name='name', content='content')
         link(rel='stylesheet', href='./static/templateSpecific/LBS/LBS.css')
-        link(rel='stylesheet', href='./static/popper.css')
+        link(rel = 'stylesheet' href = "./static/bower_components/tether-tooltip/dist/css/tooltip-theme-arrows.css")
     body(ng-controller = "mainCtrl")
         section.personalInformation
             .personalInformation.name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
@@ -14,29 +14,34 @@ html(lang='en',ng-app = "resumeEditApp")
             h1 Education
             .educationPoint(ng-repeat = "educationPoint in resumeData.education")
                 .separated
-                    .educationPoint.date {{educationPoint.startyear}} - {{educationPoint.endyear}}
+                    .educationPoint.date(contenteditable ng-model = "educationPoint.date_raw") {{educationPoint.date_raw}}
                     .rightCol
                         .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}
                         .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
                         ul
-                            li.education.Bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}}
+                            li.education.bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}} 
+                            button(ng-click = "addBullet(educationPoint)") Add Bullet
+            button(ng-click = "addEducationPoint()") Add another education detail
         section.experience
             h1  Experience
             .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
                 .separated
-                    .experiencePoint.date {{experiencePoint.data_raw}}            
+                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.data_raw}}            
                     .rightCol
-                        .experiencePoint.company(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
+                        .experiencePoint.companyname(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
                         .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
                         //- .experiencePoint.companydescription Central Bank of Saudi Arabia.
                         .experiencePoint.companydescription(contenteditable ng-model ="experiencePoint.industry") {{experiencePoint.industry}}
                         .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
-                        ul.experiencePoint.bullets
+                        ul
                             li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
+                            button(ng-click = "addBullet(experiencePoint)") Add Bullet
+            button(ng-click = "addExperiencePoint()") Add another experience detail
         section.additionalInformation
             h1 Additional Information        
-            ul.additionalInformation.bullets
+            ul
                 li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                button(ng-click = "addBullet(resumeData.additional_data)") Add Bullet
         section.languages
             h1 Languages
             .languages.text() Fluent English, Native Arabic
@@ -45,8 +50,12 @@ html(lang='en',ng-app = "resumeEditApp")
             .nationality.text() Saudi Arabia
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
-        script(src = "./node_modules/popper.js/build/popper.min.js")
         script.
+            Array.prototype.remove = function(from, to) {
+            var rest = this.slice((to || from) + 1 || this.length);
+            this.length = from < 0 ? this.length + from : from;
+            return this.push.apply(this, rest);
+            };
             var resumeDataOld = !{JSON.stringify(resume)}
             for (var educationPoint of resumeDataOld.education)
             {
@@ -64,9 +73,36 @@ html(lang='en',ng-app = "resumeEditApp")
             var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($scope)
                 {
                     $scope.resumeData = resumeDataOld
-                    $scope.teritoh = function()
+                    $scope.addBullet = function(point)
                     {
-                        
+                        var bullet = {text: " "}
+                        point.bullets.push(bullet)
+                    }
+                    $scope.addEducationPoint = function()
+                    {
+                        //- var point = {startyear = "0000", endyear = "1000", schoolname = "University Name", degree = "Degree", bullets = {[{text: " "}]}}
+                        var point = {}
+                        point.date_raw = "0000-1000"
+                        point.schoolname = "University Name"
+                        point.degree = "Degree"
+                        point.bullets = [{text:" "}]
+                        $scope.resumeData.education.push(point)
+                    }
+                    $scope.addExperiencePoint = function()
+                    {
+                        //- var point = {startyear = "0000", endyear = "1000", schoolname = "University Name", degree = "Degree", bullets = {[{text: " "}]}}
+                        var point = {}
+                        point.data_raw = "June 0000 to May1000"
+                        point.companyname = "XYZ Evil Corporation"
+                        point.position = "Henchman"
+                        point.industry = "Provider of Shark Traps and volcanic lairs"
+                        point.location = "Inside an active volcano, obvs"
+                        point.bullets = [{text:" "}]
+                        $scope.resumeData.experience.push(point)
+                    }
+                    $scope.deleteBullet = function(index,point)
+                    {
+                        point.bullets.remove(index)
                     }
                 })
                 app.directive("contenteditable", function() {
@@ -76,7 +112,7 @@ html(lang='en',ng-app = "resumeEditApp")
                     link: function(scope, element, attrs, ngModel) {
 
                       function read() {
-                        ngModel.$setViewValue(element.html());
+                        ngModel.$setViewValue(element.text());
                       }
 
                       ngModel.$render = function() {
@@ -89,6 +125,8 @@ html(lang='en',ng-app = "resumeEditApp")
                     }
                     };
                 });
-        script(src = "./node_modules/popper.js/build/popper.min.js")
+        script(src = "./static/bower_components/tether/dist/js/tether.min.js")
+        script(src = "./static/bower_components/tether-drop/dist/js/drop.min.js")
+        script(src = "./static/bower_components/tether-tooltip/dist/js/tooltip.min.js")
         script(src = "./static/templateSpecific/core.js")
         

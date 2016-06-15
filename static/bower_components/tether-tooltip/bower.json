@@ -1,0 +1,31 @@
+{
+  "name": "tether-tooltip",
+  "version": "1.2.0",
+  "homepage": "https://github.hubspot.com/tooltip",
+  "authors": [
+    "Zack Bloom <zackbloom@gmail.com>",
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
+  ],
+  "maintainers": [
+    "Nicholas Hwang <nick.joosung.hwang@gmail.com>"
+  ],
+  "description": "Tooltips built on Tether",
+  "keywords": [
+    "tooltip",
+    "overlay",
+    "tether"
+  ],
+  "license": "MIT",
+  "main": "dist/js/tooltip.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tether": "^1.1.0",
+    "tether-drop": "^1.4.0"
+  }
+}
