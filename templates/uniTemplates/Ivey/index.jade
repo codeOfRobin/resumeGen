@@ -1,66 +1,54 @@
 doctype html
 html(lang='en',ng-app = "resumeEditApp")
     head
-        title St Gallen Template
+        title Chicago Booth Template
         meta(charset='utf-8', name='name', content='content')
         meta(name="viewport" content="initial-scale=1.0, width=device-width")
-        link(rel='stylesheet', href='./static/templateSpecific/StGallen/StGallen.css')
-        link(rel="stylesheet" href="./static/templateSpecific/ChicagoBooth/print.css" type="text/css" media="print")
+        link(rel='stylesheet', href='./static/templateSpecific/Ivey/Ivey.css')
+        link(rel="stylesheet" href="./static/templateSpecific/Ivey/print.css" type="text/css" media="print")
         link(rel = 'stylesheet' href = "./static/bower_components/tether-tooltip/dist/css/tooltip-theme-arrows.css")
         link(rel='stylesheet', href='./static/bower_components/sweetalert/dist/sweetalert.css')
     body(ng-controller = "mainCtrl")
-        .separated
-            .leftCol
-                img(src = "./static/face.png")
-                .container  
-                    section.personalInformation
-                        h1 Personal Data
-                        .yearOfBirth(contenteditable ng-model = "resumeData.personalInformation.yearOfBirth") {{resumeData.personalInformation.yearOfBirth}} 
-                        .nationality(contenteditable ng-model = "resumeData.personalInformation.nationality") {{resumeData.personalInformation.nationality}}
-                        .residencePermit(contenteditable ng-model = "resumeData.personalInformation.residencePermit") {{resumeData.personalInformation.residencePermit}}
-                    section.contact
-                        h1 Contact
-                        .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}}
-                        .phone(contenteditable ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
-                        .email(contenteditable ng-model = "resumeData.personalInformation.email") {{resumeData.personalInformation.email}}
-                    section.languages
-                        h1 Languages
-                        span(ng-repeat = "language in resumeData.additional_data.languages")
-                    section.extraCurriculars
-                        h1 ExtraCurricular Activities
-                        ul
-                            li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
-                    section.interests
-                        h1 Interests
-                        span(contenteditable ng-model = "resumeData.additional_data.interests[index]" ng-repeat = "(index,interest) in resumeData.additional_data.interests"){{interest + ","}}
-            .rightCol
-                .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
-                section.profile
-                    h1 Profile
-                    .profile(contenteditable ng-model = "resumeData.profile") {{resumeData.profile}} 
-                section.education
-                    h1 Education
-                    .educationPoint(ng-repeat = "educationPoint in resumeData.education")
-                        .separated
-                            .educationPoint.date(contenteditable ng-model = "educationPoint.endyear") {{educationPoint.startyear}} - {{educationPoint.endyear}}
-                            .rightLarger
-                                .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}, 
-                                .educationPoint.location(contenteditable ng-model = "educationPoint.location" ) {{educationPoint.location}}
-                                .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
-                    button(ng-click = "addEducationPoint()") Add another education detail
-                section.experience
-                    h1  Experience
-                    .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
-                        .separated
-                            .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.startyear}} - {{experiencePoint.endyear}}
-                            .rightLarger
-                                .experiencePoint.companyname(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
-                                .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
-                                .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
-                                ul
-                                    li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
-                                    button(ng-click = "addBullet(experiencePoint)") Add Bullet
-                    button(ng-click = "addExperiencePoint()") Add another experience detail
+        section.personalInformation
+            .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
+            .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}}
+            .centeredFlex
+                .phone(contenteditable ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
+                | ,
+                .email(contenteditable ng-model = "resumeData.personalInformation.email") {{resumeData.personalInformation.email}}
+        section.education
+            h1 Education
+            .educationPoint(ng-repeat = "educationPoint in resumeData.education")
+                .separated
+                    div 
+                        .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}
+                        | ,     
+                        .educationPoint.location(contenteditable ng-model = "educationPoint.location" ) {{educationPoint.location}}
+                    .educationPoint.date(contenteditable ng-model = "educationPoint.endyear") {{educationPoint.endyear}}    
+                .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
+                ul
+                    li.education.bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}} 
+                    button(ng-click = "addBullet(educationPoint)") Add Bullet
+            button(ng-click = "addEducationPoint()") Add another education detail
+        section.experience
+            h1  Experience
+            .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
+                .separated
+                    div
+                        .experiencePoint.companyname(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
+                        |,
+                        .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
+                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.data_raw}}            
+                .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
+                ul
+                    li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
+                    button(ng-click = "addBullet(experiencePoint)") Add Bullet
+            button(ng-click = "addExperiencePoint()") Add another experience detail
+        section.additionalInformation
+            h1 Additional Information        
+            ul
+                li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                button(ng-click = "addBullet(resumeData.additional_data)") Add Bullet
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
         script(src = "./static/bower_components/sweetalert/dist/sweetalert.min.js")
@@ -85,7 +73,7 @@ html(lang='en',ng-app = "resumeEditApp")
             }
             function checkEmail()
             {
-                if(! /^[^@\s]+@chicagobooth.edu$/i.test(resumeDataOld.personalInformation.email))
+                if(! /^[^@\s]+@yahoo.com$/i.test(resumeDataOld.personalInformation.email))
                 {
                     swal({
                         title: "Wrong email domain",
@@ -125,7 +113,7 @@ html(lang='en',ng-app = "resumeEditApp")
             //-     })
             //-     $(".additionalInformation").css("background-color","#DD6B55")
             //- }
-            //- 
+            
             
             
             var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($scope)
@@ -133,7 +121,7 @@ html(lang='en',ng-app = "resumeEditApp")
                     $scope.resumeData = resumeDataOld
                     $scope.addBullet = function(point)
                     {
-                        var bullet = {text: ""}
+                        var bullet = {text: "Insert Bullet Here"}
                         point.bullets.push(bullet)
                     }
                     $scope.addEducationPoint = function()
@@ -143,7 +131,7 @@ html(lang='en',ng-app = "resumeEditApp")
                         point.date_raw = "0000-1000"
                         point.schoolname = "University Name"
                         point.degree = "Degree"
-                        point.bullets = [{text:""}]
+                        point.bullets = [{text:"Insert Bullet here"}]
                         $scope.resumeData.education.push(point)
                     }
                     $scope.addExperiencePoint = function()
