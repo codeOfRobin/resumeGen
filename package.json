@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "async": "^2.0.0-rc.6",
+    "basic-auth": "^1.0.4",
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
     "jade": "^1.11.0",

@@ -8,6 +8,7 @@ var request = require('request')
 var mba = require("./data/mba.json")
 var ug = require("./data/ug.json")
 var unidict = require('./uni2Category.json')
+// var utils = require('./utils');
 
 app.set('view engine', 'pug');
 app.use(morgan('dev'));
@@ -15,6 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views',__dirname + '/templates');
 app.use('/static',express.static(__dirname + '/static'))
 app.use("/node_modules", express.static(__dirname + "/node_modules"));
+// app.use('/', utils.basicAuth('testUser', 'testPass'));
 
 
 app.get('/login', function(req,res)
@@ -29,7 +31,7 @@ app.get('/',function(req,res)
         params:{
             communities: Object.keys(unidict),
             resumeIDs: mba.map(function(resume){return resume.bulk_upload_resume_id}),
-            templates : ['ChicagoBooth','LBS']
+            templates : ['ChicagoBooth','LBS', 'StGallen']
         }
     })
 })

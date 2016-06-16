@@ -1,0 +1,10 @@
+
+body
+{
+    margin: 0.8in;
+}
+
+button, .margin-control
+{
+    display: none;
+}
