@@ -45,7 +45,7 @@ h1, .schoolname, .companyname, .companydescription
 {
     font-style: bold;
 }
-.educationPoint.location, .experiencePoint.location
+.educationPoint.location, .experiencePoint.location, .experiencePoint.designation
 {
     font-style: italic;
     text-transform: capitalize;

@@ -35,7 +35,9 @@ html(lang='en',ng-app = "resumeEditApp")
                         span(contenteditable ng-model = "resumeData.additional_data.interests[index]" ng-repeat = "(index,interest) in resumeData.additional_data.interests"){{interest + ","}}
             .rightCol
                 .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
-                .profile(contenteditable ng-model = "resumeData.profile") {{resumeData.profile}} Enter Profile Here
+                section.profile
+                    h1 Profile
+                    .profile(contenteditable ng-model = "resumeData.profile") {{resumeData.profile}} 
                 section.education
                     h1 Education
                     .educationPoint(ng-repeat = "educationPoint in resumeData.education")
@@ -55,10 +57,9 @@ html(lang='en',ng-app = "resumeEditApp")
                                 .experiencePoint.companyname(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
                                 .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
                                 .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
-                            
-                        ul
-                            li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
-                            button(ng-click = "addBullet(experiencePoint)") Add Bullet
+                                ul
+                                    li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
+                                    button(ng-click = "addBullet(experiencePoint)") Add Bullet
                     button(ng-click = "addExperiencePoint()") Add another experience detail
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
