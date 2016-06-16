@@ -23,7 +23,7 @@
 {
     min-width: 20%
 }
-.educationPoint .schoolname, .educationPoint .location
+.educationPoint .schoolname, .educationPoint .location, .experiencePoint .companyname, .experiencePoint .location
 {
     display: inline;
 }
@@ -41,11 +41,11 @@ h1, .schoolname, .companyname, .companydescription
     font-size: 1.2em;
     font-weight: 600;
 }
-.educationPoint.schoolname
+.educationPoint.schoolname, .educationPoint.location
 {
     font-style: bold;
 }
-.educationPoint.location
+.educationPoint.location, .experiencePoint.location
 {
     font-style: italic;
     text-transform: capitalize;
