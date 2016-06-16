@@ -15,7 +15,7 @@
 .name
 {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 1.3em;
 }
 .name::first-letter
@@ -53,24 +53,21 @@ body
     line-height: 1.5em;
     font-size: 11pt;
 }
-h1, .date, .schoolname, .company, .location, .companydescription
+h1, .schoolname, .companyname   , .location, .companydescription
 {
     font-size: 1.2em;
+    font-weight: 600;
 }
 ul
 {
     padding: 0;
     list-style-position: inside;
 }
-li
-{
-    margin-right: 30px;
-    padding-right: 30px;
-}
-
 h1
 {
     border-bottom: 1px solid black;
+    font-size: 1.4em;
+    font-weight: 800;
 }
 section
 {
@@ -88,4 +85,27 @@ section
 .rightCol
 {
     min-width: 70%
+}
+
+@media screen and (max-width: 1024px) and (min-width: 500px)
+{
+    body
+    {
+        margin: 1in;
+    }
+	li
+	{
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width: 500px)
+{
+    body
+    {
+        margin: 20px;
+    }
+	li
+	{
+		font-size: 1.3em;
+	}
 }

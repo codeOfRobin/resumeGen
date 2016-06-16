@@ -1,11 +1,11 @@
 
 @font-face {
-font-family: 'bold';
-src: url('./bold.ttf')  format('truetype');
+    font-family: 'bold';
+    src: url('./bold.ttf')  format('truetype');
 }
 @font-face {
-font-family: 'normal';
-src: url('./normal.ttf')  format('truetype');
+    font-family: 'normal';
+    src: url('./normal.ttf')  format('truetype');
 }
 
 .name, .email, .phone, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation
@@ -14,38 +14,61 @@ src: url('./normal.ttf')  format('truetype');
 }
 body
 {
-margin: 1in 3in;
-font-family: 'normal';
-line-height: 1.5em;
+    margin: 1in 3in;
+    font-family: 'normal';
+    line-height: 1.5em;
 }
 h1, .date, .schoolname, .company, .location, .companydescription
 {
-font-family: 'bold';
-font-size: 1.2em;
+    font-family: 'bold';
+    font-size: 1.2em;
 }
 section.experience ,section.education,section.additionalInformation,section.languages,section.nationality
 {
-border-top: 1px solid black;
+    border-top: 1px solid black;
 }
 section
 {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .personalInformation
 {
-text-align: center;
+    text-align: center;
 }
 .separated
 {
-display: flex;
-justify-content:flex-start;
+    display: flex;
+    justify-content:flex-start;
 }
 .date
 {
-min-width: 15%;
-margin-right: 10%;
+    min-width: 15%;
+    margin-right: 10%;
 }
 .rightCol
 {
-min-width: 70%
+    min-width: 70%
+}
+
+@media screen and (max-width: 1024px) and (min-width: 500px)
+{
+    body
+    {
+        margin: 1in;
+    }
+    li
+    {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    body
+    {
+        margin: 20px;
+    }
+    li
+    {
+        font-size: 1.3em;
+    }
 }
