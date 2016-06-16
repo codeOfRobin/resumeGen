@@ -10,7 +10,7 @@ html(lang='en',ng-app = "resumeEditApp")
         link(rel='stylesheet', href='./static/bower_components/sweetalert/dist/sweetalert.css')
     body(ng-controller = "mainCtrl")
         section.personalInformation
-            .name(contenteditable ng-model = "  resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
+            .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
             .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}} | Chicago, IL 60637
             .centeredFlex
                 .phone(contenteditable ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
@@ -172,5 +172,6 @@ html(lang='en',ng-app = "resumeEditApp")
         script(src = "./static/bower_components/tether/dist/js/tether.min.js")
         script(src = "./static/bower_components/tether-drop/dist/js/drop.min.js")
         script(src = "./static/bower_components/tether-tooltip/dist/js/tooltip.min.js")
+        script(src = "https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js")
         script(src = "./static/templateSpecific/core.js")
         
