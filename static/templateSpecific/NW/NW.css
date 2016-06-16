@@ -2,16 +2,36 @@
 {
     min-width: 100px;
 }
-.name
-{
-    text-transform: capitalize;
-    font-weight: 800;
-    font-size: 2em;
+
+.name, .email, .centeredFlex{
     max-width: 400px;
 }
-.name,h1
+
+.schoolname, .companyname
 {
-    color: #008C41;
+    text-transform: uppercase;
+}
+
+.name
+{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+.name::first-letter
+{
+    font-size: 1.2em;
+}
+.centeredFlex
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.centeredFlex div
+{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .personalInformation
 {
@@ -19,17 +39,10 @@
     flex-direction: column;
     align-items: center;
 }
-.educationPoint .date
+
+.date, .location
 {
-    min-width: 20%
-}
-.date
-{
-    font-style: italic;
-}
-.educationPoint .schoolname, .educationPoint .location, .experiencePoint .companyname, .experiencePoint .location
-{
-    display: inline;
+    text-align: right;
 }
 body
 {
@@ -40,19 +53,10 @@ body
     line-height: 1.5em;
     font-size: 11pt;
 }
-h1, .schoolname, .companyname, .companydescription
+h1, .schoolname, .companyname   , .location, .companydescription
 {
     font-size: 1.2em;
     font-weight: 600;
-}
-.educationPoint.schoolname, .educationPoint.location
-{
-    font-style: bold;
-}
-.educationPoint.location, .experiencePoint.location, .experiencePoint.designation
-{
-    font-style: italic;
-    text-transform: capitalize;
 }
 ul
 {
@@ -60,10 +64,11 @@ ul
     list-style-position: outside;
     margin-left: 1em;
 }
-h1{
+h1
+{
+    border-bottom: 1px solid black;
     font-size: 1.4em;
     font-weight: 800;
-    text-transform: uppercase;
 }
 section
 {
@@ -78,30 +83,9 @@ section
     display: flex;
     justify-content:space-between;
 }
-
-.leftCol
-{
-    width: 33%;
-    margin-left: 0;
-    margin-right: 30px;
-}
-.leftCol .container
-{
-    margin-top: 15px;
-    background-color: #E6E7E9;
-    padding:20px;
-}
 .rightCol
 {
-    width: 66%
-}
-.rightLarger
-{
-    width:80%;
-}
-.leftCol img
-{
-    width: 100%;
+    min-width: 70%
 }
 
 @media screen and (max-width: 1024px) and (min-width: 500px)
