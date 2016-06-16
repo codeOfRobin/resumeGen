@@ -61,7 +61,8 @@ h1, .schoolname, .companyname   , .location, .companydescription
 ul
 {
     padding: 0;
-    list-style-position: inside;
+    list-style-position: outside;
+    margin-left: 1em;
 }
 h1
 {

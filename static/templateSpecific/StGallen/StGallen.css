@@ -2,31 +2,30 @@
 {
     min-width: 100px;
 }
-
-.name, .email, .centeredFlex{
-    max-width: 400px;
-}
-
-.schoolname, .companyname
-{
-    text-transform: uppercase;
-}
-
 .name
 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 800;
-    font-size: 1.3em;
-}.personalInformation
+    font-size: 2em;
+    max-width: 400px;
+}
+.name,h1
+{
+    color: #008C41;
+}
+.personalInformation
 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.date, .location
+.educationPoint .date
 {
-    text-align: right;
+    min-width: 20%
+}
+.educationPoint .schoolname, .educationPoint .location
+{
+    display: inline;
 }
 body
 {
@@ -37,21 +36,30 @@ body
     line-height: 1.5em;
     font-size: 11pt;
 }
-h1, .schoolname, .companyname   , .location, .companydescription
+h1, .schoolname, .companyname, .companydescription
 {
     font-size: 1.2em;
     font-weight: 600;
 }
+.educationPoint.schoolname
+{
+    font-style: bold;
+}
+.educationPoint.location
+{
+    font-style: italic;
+    text-transform: capitalize;
+}
 ul
 {
     padding: 0;
-    list-style-position: inside;
+    list-style-position: outside;
+    margin-left: 1em;
 }
-h1
-{
-    border-bottom: 1px solid black;
+h1{
     font-size: 1.4em;
     font-weight: 800;
+    text-transform: uppercase;
 }
 section
 {
@@ -66,9 +74,30 @@ section
     display: flex;
     justify-content:space-between;
 }
+
+.leftCol
+{
+    width: 33%;
+    margin-left: 0;
+    margin-right: 30px;
+}
+.leftCol .container
+{
+    margin-top: 15px;
+    background-color: #E6E7E9;
+    padding:20px;
+}
 .rightCol
 {
-    min-width: 66%
+    width: 66%
+}
+.rightLarger
+{
+    width:80%;
+}
+.leftCol img
+{
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 500px)
