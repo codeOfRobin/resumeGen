@@ -25,7 +25,7 @@ html(lang='en',ng-app = "resumeEditApp")
                             button(ng-click = "addBullet(educationPoint)") Add Bullet
             button(ng-click = "addEducationPoint()") Add another education detail
         section.experience
-            h1  Experience
+            h1 Business Experience
             .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
                 .separated
                     .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.data_raw}}            
@@ -61,5 +61,5 @@ html(lang='en',ng-app = "resumeEditApp")
         var resumeDataOld = !{JSON.stringify(resume)}
     script(src = "./static/templateSpecific/core.js")
     script.
-        var emailDomain = "lbs.edu"
+        var emailDomain = "london.edu"
         checkEmail(emailDomain)

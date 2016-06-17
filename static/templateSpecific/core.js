@@ -60,24 +60,27 @@ var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($s
     }
     $scope.addEducationPoint = function()
     {
-        //- var point = {startyear = "0000", endyear = "1000", schoolname = "University Name", degree = "Degree", bullets = {[{text: " "}]}}
         var point = {}
-        point.date_raw = "0000-1000"
+        point.date_raw = "2015-2016"
         point.schoolname = "University Name"
         point.degree = "Degree"
-        point.bullets = [{text:"Insert Bullet here"}]
+        point.bullets = [{text:"Insert a Bullet"}]
+        point.location = "Location"
+        point.startyear = 2015
+        point.endyear = 2016
         $scope.resumeData.education.push(point)
     }
     $scope.addExperiencePoint = function()
     {
-        //- var point = {startyear = "0000", endyear = "1000", schoolname = "University Name", degree = "Degree", bullets = {[{text: " "}]}}
         var point = {}
-        point.data_raw = "June 0000 to May1000"
-        point.companyname = "XYZ Evil Corporation"
-        point.position = "Henchman"
-        point.industry = "Provider of Shark Traps and volcanic lairs"
-        point.location = "Inside an active volcano, obvs"
-        point.bullets = [{text:" "}]
+        point.data_raw = "Jun 2015 to May 2016"
+        point.companyname = "Company Name"
+        point.position = "Designation"
+        point.industry = "Company Industry"
+        point.location = "Company Location"
+        point.bullets = [{text:"Insert a Bullet"}]
+        point.startyear = 1000
+        point.endyear = 1000
         $scope.resumeData.experience.push(point)
     }
     $scope.deleteBullet = function(index,point)
