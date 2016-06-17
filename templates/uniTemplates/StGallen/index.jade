@@ -37,7 +37,7 @@ html(lang='en',ng-app = "resumeEditApp")
                 .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
                 section.profile
                     h1 Profile
-                    .profile(contenteditable ng-model = "resumeData.profile") {{resumeData.profile}} 
+                    .profile(contenteditable ng-model = "resumeData.profile.text") {{resumeData.profile.text}} 
                 section.education
                     h1 Education
                     .educationPoint(ng-repeat = "educationPoint in resumeData.education")
