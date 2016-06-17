@@ -21,11 +21,7 @@
 }
 .educationPoint .date
 {
-    min-width: 20%
-}
-.date
-{
-    font-style: italic;
+    min-width: 20%;
 }
 .educationPoint .schoolname, .educationPoint .location, .experiencePoint .companyname, .experiencePoint .location
 {
