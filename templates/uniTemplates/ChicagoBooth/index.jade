@@ -29,7 +29,7 @@ html(lang='en',ng-app = "resumeEditApp")
                 ul
                     li.education.bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}} 
                     button(ng-click = "addBullet(educationPoint)") Add Bullet
-            button(ng-click = "addEducationPoint()") Add Education
+            button(style = "font-size : 1.5em" ng-click = "addEducationPoint()") Add Education
         section.experience
             h1  Experience
             .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
@@ -42,7 +42,7 @@ html(lang='en',ng-app = "resumeEditApp")
                 ul
                     li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
                     button(ng-click = "addBullet(experiencePoint)") Add Bullet
-            button(ng-click = "addExperiencePoint()") Add Experience
+            button(style = "font-size : 1.5em" ng-click = "addExperiencePoint()") Add Experience
         section.additionalInformation
             h1 Additional Information        
             ul
