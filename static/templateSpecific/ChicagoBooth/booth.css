@@ -44,6 +44,10 @@
 {
     text-align: right;
 }
+.educationPoint.location
+{
+    text-transform: capitalize;
+}
 body
 {
     font-family: system, -apple-system, BlinkMacSystemFont,
