@@ -55,7 +55,7 @@ var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($s
     $scope.resumeData = resumeDataOld
     $scope.addBullet = function(point)
     {
-        var bullet = {text: "Insert Bullet Here"}
+        var bullet = {text: "Insert a Bullet"}
         point.bullets.push(bullet)
     }
     $scope.addEducationPoint = function()
@@ -79,8 +79,8 @@ var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($s
         point.industry = "Company Industry"
         point.location = "Company Location"
         point.bullets = [{text:"Insert a Bullet"}]
-        point.startyear = 1000
-        point.endyear = 1000
+        point.startyear = 2015
+        point.endyear = 2016
         $scope.resumeData.experience.push(point)
     }
     $scope.deleteBullet = function(index,point)
