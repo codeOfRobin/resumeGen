@@ -1,3 +1,129 @@
+Array.prototype.remove = function(from, to) {
+    var rest = this.slice((to || from) + 1 || this.length);
+    this.length = from < 0 ? this.length + from : from;
+    return this.push.apply(this, rest);
+};
+for (var educationPoint of resumeDataOld.education)
+{
+    educationPoint.bullets = educationPoint.bullets.map(function(bullet){
+        return {"text":bullet}
+    })
+}
+for (var experiencePoint of resumeDataOld.experience)
+{
+    experiencePoint.bullets = experiencePoint.bullets.map(function(bullet){
+        return {"text":bullet}
+    })
+}
+function checkEmail(emailDomain)
+{
+    var search = new RegExp('^[A-Za-z0-9._%+-]+@' + emailDomain + '$');
+    if(!search.test(resumeDataOld.personalInformation.email))
+    {
+        swal({
+            title: "Wrong email domain",
+            text: "Please use your " + emailDomain + " email",
+            type: "error",
+            closeOnConfirm: false
+        })
+        $(".email").css("background-color","#DD6B55")
+    }
+}
+
+
+
+
+var toolTip = {
+    "resumeData.personalInformation.name" : "Your Name",
+    "resumeData.personalInformation.address" : "Your Address",
+    "resumeData.personalInformation.phone" : "Your Contact Number",
+    "resumeData.personalInformation.email" : "Your University Email Address",
+    "educationPoint.schoolname" : "Name of School/College/University",
+    "educationPoint.location" : "Location of School/College/University",
+    "educationPoint.degree" : "Degree",
+    "educationPoint.endyear" : "Year of Completion",
+    "bullet.text" : "These are the bullets under the Education Section",
+    "experiencePoint.companyname" : "Organization Name",
+    "experiencePoint.location" : "Organization Location",
+    "experiencePoint.position" : "Your Designation",
+    "experiencePoint.data_raw" : "Experience Tenure (January 2001 - June 2005)",
+    "bullet.text" : "These are the bullets under Experience Section"
+}
+
+var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($scope)
+{
+    $scope.resumeData = resumeDataOld
+    $scope.addBullet = function(point)
+    {
+        var bullet = {text: "Insert Bullet Here"}
+        point.bullets.push(bullet)
+    }
+    $scope.addEducationPoint = function()
+    {
+        //- var point = {startyear = "0000", endyear = "1000", schoolname = "University Name", degree = "Degree", bullets = {[{text: " "}]}}
+        var point = {}
+        point.date_raw = "0000-1000"
+        point.schoolname = "University Name"
+        point.degree = "Degree"
+        point.bullets = [{text:"Insert Bullet here"}]
+        $scope.resumeData.education.push(point)
+    }
+    $scope.addExperiencePoint = function()
+    {
+        //- var point = {startyear = "0000", endyear = "1000", schoolname = "University Name", degree = "Degree", bullets = {[{text: " "}]}}
+        var point = {}
+        point.data_raw = "June 0000 to May1000"
+        point.companyname = "XYZ Evil Corporation"
+        point.position = "Henchman"
+        point.industry = "Provider of Shark Traps and volcanic lairs"
+        point.location = "Inside an active volcano, obvs"
+        point.bullets = [{text:" "}]
+        $scope.resumeData.experience.push(point)
+    }
+    $scope.deleteBullet = function(index,point)
+    {
+        point.bullets.remove(index)
+    }
+})
+app.directive("contenteditable", function() {
+    return {
+        restrict: "A",
+        require: "ngModel",
+        link: function(scope, element, attrs, ngModel) {
+
+            function read()
+            {
+                var model = element[0].getAttribute('ng-model')
+                if(model == "resumeData.personalInformation.email")
+                {
+                    var search = new RegExp('^[A-Za-z0-9._%+-]+@' + emailDomain + '$');
+                    if(search.test(element.text()))
+                    {
+                        $(".email").css("background-color",$(".email").parent().parent().css("background-color"))
+                    }
+                    else
+                    {
+                        $(".email").css("background-color","#DD6B55")
+                    }
+                }
+                ngModel.$setViewValue(element.text());
+            }
+
+            ngModel.$render = function()
+            {
+                if(ngModel.$viewValue == "")
+                {
+                }
+                element.html(ngModel.$viewValue);
+            };
+
+            element.bind("blur change", function()
+            {
+                scope.$apply(read);
+            });
+        }
+    };
+});
 var elems = $('.name, .email, .phone, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation')
 $.each(elems,function(index, value)
 {

@@ -31,7 +31,7 @@ app.get('/',function(req,res)
         params:{
             communities: Object.keys(unidict),
             resumeIDs: mba.map(function(resume){return resume.bulk_upload_resume_id}),
-            templates : ['ChicagoBooth','LBS', 'StGallen', 'Ivey']
+            templates : ['ChicagoBooth', 'StGallen', 'Ivey', 'LBS']
         }
     })
 })
