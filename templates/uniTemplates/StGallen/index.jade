@@ -47,7 +47,7 @@ html(lang='en',ng-app = "resumeEditApp")
                                 .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}, 
                                 .educationPoint.location(contenteditable ng-model = "educationPoint.location" ) {{educationPoint.location}}
                                 .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
-                    button(ng-click = "addEducationPoint()") Add another education detail
+                    button(ng-click = "addEducationPoint()") Add Education
                 section.experience
                     h1  Experience
                     .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
@@ -60,7 +60,7 @@ html(lang='en',ng-app = "resumeEditApp")
                                 ul
                                     li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
                                     button(ng-click = "addBullet(experiencePoint)") Add Bullet
-                    button(ng-click = "addExperiencePoint()") Add another experience detail
+                    button(ng-click = "addExperiencePoint()") Add Experience
     script(src = "./static/bower_components/angular/angular.min.js")
     script(src = "./static/bower_components/jquery/dist/jquery.min.js")
     script(src = "./static/bower_components/sweetalert/dist/sweetalert.min.js")
