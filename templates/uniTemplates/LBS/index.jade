@@ -5,6 +5,7 @@ html(lang='en',ng-app = "resumeEditApp")
         meta(charset='utf-8', name='name', content='content')
         meta(name="viewport" content="initial-scale=1.0, width=device-width")
         link(rel='stylesheet', href='./static/templateSpecific/LBS/LBS.css')
+        link(rel='stylesheet', href='./static/templateSpecific/LBS/print.css' media="print")    
         link(rel = 'stylesheet' href = "./static/bower_components/tether-tooltip/dist/css/tooltip-theme-arrows.css")
         link(rel='stylesheet', href='./static/bower_components/sweetalert/dist/sweetalert.css')
     body(ng-controller = "mainCtrl")
@@ -40,15 +41,20 @@ html(lang='en',ng-app = "resumeEditApp")
             button(ng-click = "addExperiencePoint()") Add Experience
         section.additionalInformation
             h1 Additional Information        
-            ul
-                li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
-                button(ng-click = "addBullet(resumeData.additional_data)") Add Bullet
+            .additionalContainer
+                ul
+                    li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                    button(ng-click = "addBullet(resumeData.additional_data)") Add Bullet
         section.languages
-            h1 Languages
-            .languages.text() Fluent English, Native Arabic
+            .separated
+                h1 Languages
+                .rightCol
+                    .languages(contenteditable ng-model = "resume.additional_data.languages"){{resumeData.additional_data.languages}}
         section.nationality
-            h1 Nationality
-            .nationality.text() Saudi Arabia
+            .separated
+                h1 Nationality
+                .rightCol
+                    .nationality(contenteditable ng-model = "resume.personalInformation.nationality"){{resumeData.personalInformation.nationality}}
     script(src = "./static/bower_components/angular/angular.min.js")
     script(src = "./static/bower_components/jquery/dist/jquery.min.js")
     script(src = "./static/bower_components/sweetalert/dist/sweetalert.min.js")

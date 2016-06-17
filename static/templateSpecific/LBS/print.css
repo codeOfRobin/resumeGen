@@ -1,10 +1,15 @@
 
 body
 {
-    margin: 0.8in;
+    margin: 0.5in;
+    font-size: 10pt;
 }
 
 button, .margin-control
 {
     display: none;
+}
+@viewport{
+    zoom: 0.3;
+    width: extend-to-zoom;
 }

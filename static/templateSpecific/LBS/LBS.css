@@ -35,17 +35,31 @@ section
     display: flex;
     justify-content:flex-start;
 }
-.date
+.date, .languages h1, .nationality h1
 {
     min-width: 15%;
     margin-right: 10%;
 }
 .rightCol
 {
-    min-width: 70%
+    width: 75%
+}
+.languages, .nationality
+{
+    margin-top: 1em;
 }
 ul
 {
+    margin-top: 0px;
+}
+.additionalContainer
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.additionalContainer ul
+{
+    width: 75%;
     margin-top: 0px;
 }
 @media screen and (max-width: 1024px) and (min-width: 500px)
