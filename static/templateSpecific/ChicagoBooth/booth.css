@@ -106,6 +106,10 @@ ul
 	{
 		font-size: 1.2em;
 	}
+    button
+    {
+        margin: 10px;
+    }
 }
 @media screen and (max-width: 500px)
 {
@@ -117,4 +121,9 @@ ul
 	{
 		font-size: 1.4em;
 	}
+     button
+    {
+        margin: 5px;
+        padding: 5px;
+    }
 }
