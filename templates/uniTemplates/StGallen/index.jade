@@ -75,5 +75,15 @@ html(lang='en',ng-app = "resumeEditApp")
     script.
         var emailDomain = "student.unisg.ch"
         checkEmail(emailDomain)
+        var name = $(".name")[0].text()
+        var nameParts = name.split(' ')
+        String.prototype.capitalizeFirstLetter = function() {
+            return this.charAt(0).toUpperCase() + this.slice(1);
+        }
+        nameParts[0] = nameParts[0].capitalizeFirstLetter()
+        for(var i = 1;i<nameParts.length; i+=1)
+        {
+            nameParts[i] = nameParts[i].toUpperCase()
+        }
     
         

@@ -5,7 +5,7 @@ var morgan     = require('morgan');
 var async = require('async')
 var fs = require('fs')
 var request = require('request')
-var mba = require("./data/mba.json")
+var mba = require("./data/mba_formatted.json")
 var ug = require("./data/ug.json")
 var unidict = require('./uni2Category.json')
 // var utils = require('./utils');
@@ -38,8 +38,6 @@ app.get('/',function(req,res)
 
 app.get('/resume',function(req,res)
 {
-    //testing 162130
-    // res.json({"comm": req.query.community,"resumeID": req.query.resumeID})
     for (resume of mba)
     {
         if (resume.bulk_upload_resume_id == req.query.resumeID)
