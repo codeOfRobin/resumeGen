@@ -4,6 +4,7 @@ html(lang='en',ng-app = "resumeEditApp")
         title LBS Template  
         meta(charset='utf-8', name='name', content='content')
         meta(name="viewport" content="initial-scale=1.0, width=device-width")
+        link(rel='stylesheet', href='./static/button.css')
         link(rel='stylesheet', href='./static/templateSpecific/LBS/LBS.css')
         link(rel='stylesheet', href='./static/templateSpecific/LBS/print.css' media="print")    
         link(rel = 'stylesheet' href = "./static/bower_components/tether-tooltip/dist/css/tooltip-theme-arrows.css")
@@ -23,7 +24,7 @@ html(lang='en',ng-app = "resumeEditApp")
                         .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
                         ul
                             li.education.bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}} 
-                            button(ng-click = "addBullet(educationPoint)") Add Bullet
+                            button.btn.green(ng-click = "addBullet(educationPoint)") Add Bullet
             button(ng-click = "addEducationPoint()") Add Education
         section.experience
             h1 Business Experience

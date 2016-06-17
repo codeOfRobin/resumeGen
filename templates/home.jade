@@ -2,15 +2,18 @@ doctype html
 html
   head
     meta(charset='utf-8')
+    link(rel='stylesheet', href='./static/home.css')
+    meta(name="viewport" content="initial-scale=1.0, width=device-width")
   body
-    label(for="template") Template
-    select(id="template" name="template")
-        each template in params.templates
-            option= template
-    label(for="resumeID") Resume ID
-    select(id="resumeID" name="resumeID")
-        each resumeID in params.resumeIDs
-            option= resumeID
-    button(type="submit") Submit
-    script(src="./static/bower_components/jquery/dist/jquery.min.js")
-    script(src="./static/main.js")
+    .container
+        label(for="template") Template
+        select(id="template" name="template")
+            each template in params.templates
+                option= template
+        label(for="resumeID") Resume ID
+        select(id="resumeID" name="resumeID")
+            each resumeID in params.resumeIDs
+                option= resumeID
+        button(type="submit") Submit
+        script(src="./static/bower_components/jquery/dist/jquery.min.js")
+        script(src="./static/main.js")
