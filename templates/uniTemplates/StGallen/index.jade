@@ -32,7 +32,7 @@ html(lang='en',ng-app = "resumeEditApp")
                             li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
                     section.interests
                         h1 Interests
-                        span(contenteditable ng-model = "resumeData.additional_data.interests[index]" ng-repeat = "(index,interest) in resumeData.additional_data.interests"){{interest + ","}}
+                        span(ng-model = "resumeData.additional_data.interests[index]" ng-repeat = "(index,interest) in resumeData.additional_data.interests"){{interest + "  "}}
             .rightCol
                 .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
                 section.profile
