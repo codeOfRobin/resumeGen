@@ -18,7 +18,7 @@ body
     font-family: 'normal';
     line-height: 1.5em;
 }
-h1, .date, .schoolname, .company, .location, .companydescription
+h1, .date, .schoolname, .companyname, .location, .companydescription
 {
     font-family: 'bold';
     font-size: 1.2em;
