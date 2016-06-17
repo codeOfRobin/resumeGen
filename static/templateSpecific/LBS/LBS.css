@@ -1,13 +1,3 @@
-
-@font-face {
-    font-family: 'bold';
-    src: url('./bold.ttf')  format('truetype');
-}
-@font-face {
-    font-family: 'normal';
-    src: url('./normal.ttf')  format('truetype');
-}
-
 .name, .email, .phone, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation
 {
     min-width: 100px;
@@ -15,13 +5,14 @@
 body
 {
     margin: 1in 3in;
-    font-family: 'normal';
     line-height: 1.5em;
+    font-family: system, -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "Lucida Grande", "Roboto", "Segoe";
 }
 h1, .date, .schoolname, .companyname, .location, .companydescription
 {
-    font-family: 'bold';
     font-size: 1.2em;
+    font-weight: bold;
 }
 section.experience ,section.education,section.additionalInformation,section.languages,section.nationality
 {
