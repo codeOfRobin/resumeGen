@@ -15,9 +15,9 @@ html(lang='en',ng-app = "resumeEditApp")
                 .container  
                     section.personalInformation
                         h1 Personal Data
-                        .yearOfBirth(contenteditable ng-model = "resumeData.personalInformation.yearOfBirth") {{resumeData.personalInformation.yearOfBirth}} 
-                        .nationality(contenteditable ng-model = "resumeData.personalInformation.nationality") {{resumeData.personalInformation.nationality}}
-                        .residencePermit(contenteditable ng-model = "resumeData.personalInformation.residencePermit") {{resumeData.personalInformation.residencePermit}}
+                        .yearOfBirth Year Of Birth : {{resumeData.personalInformation.yearOfBirth}} 
+                        .nationality Nationality {{resumeData.personalInformation.nationality}}
+                        .residencePermit {{resumeData.personalInformation.residencePermit}}
                     section.contact
                         h1 Contact
                         .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}}
