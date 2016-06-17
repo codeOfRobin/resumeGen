@@ -50,6 +50,7 @@ html(lang='en',ng-app = "resumeEditApp")
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
         script(src = "./static/bower_components/sweetalert/dist/sweetalert.min.js")
+        script(src = "https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js")
         script.
             Array.prototype.remove = function(from, to) {
             var rest = this.slice((to || from) + 1 || this.length);
@@ -71,7 +72,7 @@ html(lang='en',ng-app = "resumeEditApp")
             }
             function checkEmail()
             {
-                if(! /^[^@\s]+@yahoo.com$/i.test(resumeDataOld.personalInformation.email))
+                if(! /^[^@\s]+@chicagobooth.edu$/i.test(resumeDataOld.personalInformation.email))
                 {
                     swal({
                         title: "Wrong email domain",
@@ -113,7 +114,23 @@ html(lang='en',ng-app = "resumeEditApp")
             }
             
             
-            
+            var toolTip = {
+            "resumeData.personalInformation.name" : "Your Name",
+            "resumeData.personalInformation.address" : "Your Address",
+            "resumeData.personalInformation.phone" : "Your Contact Number",
+            "resumeData.personalInformation.email" : "Your University Email Address",
+            "educationPoint.schoolname" : "Name of School/College/University",
+            "educationPoint.location" : "Location of School/College/University",
+            "educationPoint.degree" : "Degree",
+            "educationPoint.endyear" : "Year of Completion",
+            "bullet.text" : "These are the bullets under the Education Section",
+            "experiencePoint.companyname" : "Organization Name",
+            "experiencePoint.location" : "Organization Location",
+            "experiencePoint.position" : "Your Designation",
+            "experiencePoint.data_raw" : "Experience Tenure (January 2001 - June 2005)",
+            "bullet.text" : "These are the bullets under Experience Section"
+            }
+
             var app = angular.module("resumeEditApp", []).controller('mainCtrl',function ($scope)
                 {
                     $scope.resumeData = resumeDataOld
@@ -155,15 +172,26 @@ html(lang='en',ng-app = "resumeEditApp")
                     require: "ngModel",
                     link: function(scope, element, attrs, ngModel) {
 
-                      function read() {
-                        ngModel.$setViewValue(element.text());
+                      function read() 
+                      {
+                          var model = element[0].getAttribute('ng-model')
+                          if(model == "resumeData.personalInformation.email")
+                          {
+                              if(/^[^@\s]+@chicagobooth.edu$/i.test(element.text()))
+                              {
+                                  $(".email").css("background-color","white")
+                              }
+                          }
+                          ngModel.$setViewValue(element.text());
                       }
 
-                      ngModel.$render = function() {
-                        element.html(ngModel.$viewValue || "");
+                      ngModel.$render = function() 
+                      {
+                          element.html(ngModel.$viewValue );
                       };
 
-                      element.bind("blur change", function() {
+                      element.bind("blur change", function() 
+                      {
                         scope.$apply(read);
                       });
                     }
@@ -172,6 +200,5 @@ html(lang='en',ng-app = "resumeEditApp")
         script(src = "./static/bower_components/tether/dist/js/tether.min.js")
         script(src = "./static/bower_components/tether-drop/dist/js/drop.min.js")
         script(src = "./static/bower_components/tether-tooltip/dist/js/tooltip.min.js")
-        script(src = "https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js")
         script(src = "./static/templateSpecific/core.js")
         
