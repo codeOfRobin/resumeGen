@@ -37,7 +37,7 @@ html(lang='en',ng-app = "resumeEditApp")
                     .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
                 .separated
                     .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
-                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.data_raw}}            
+                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.startyear}} - {{experiencePoint.endyear}}            
                 ul
                     li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
                     button(ng-click = "addBullet(experiencePoint)") Add Bullet
