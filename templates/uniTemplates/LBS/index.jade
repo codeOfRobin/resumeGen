@@ -16,7 +16,7 @@ html(lang='en',ng-app = "resumeEditApp")
             h1 Education
             .educationPoint(ng-repeat = "educationPoint in resumeData.education")
                 .separated
-                    .educationPoint.date(contenteditable ng-model = "educationPoint.date_raw") {{educationPoint.date_raw}}
+                    .educationPoint.date(contenteditable ng-model = "educationPoint.date_raw") {{educationPoint.startyear}} - {{educationPoint.startyear}}
                     .rightCol
                         .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}
                         .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
@@ -28,11 +28,10 @@ html(lang='en',ng-app = "resumeEditApp")
             h1 Business Experience
             .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
                 .separated
-                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.data_raw}}            
+                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.startyear}} - {{experiencePoint.endyear}}            
                     .rightCol
                         .experiencePoint.companyname(contenteditable ng-model ="experiencePoint.companyname") {{experiencePoint.companyname}}
                         .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
-                        //- .experiencePoint.companydescription Central Bank of Saudi Arabia.
                         .experiencePoint.companydescription(contenteditable ng-model ="experiencePoint.industry") {{experiencePoint.industry}}
                         .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
                         ul
