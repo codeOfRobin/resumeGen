@@ -114,9 +114,6 @@ app.directive("contenteditable", function() {
 
             ngModel.$render = function()
             {
-                if(ngModel.$viewValue == "")
-                {
-                }
                 element.html(ngModel.$viewValue);
             };
 
