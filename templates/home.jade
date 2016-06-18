@@ -6,11 +6,13 @@ html
     meta(name="viewport" content="initial-scale=1.0, width=device-width")
   body
     .container
-        label(for="template") Template
+        h1 VMock Resume Parser
+        h3 Please choose a Template and a Resume and hit 'Submit'
+        label(for="template") Choose a University Template
         select(id="template" name="template")
             each template in params.templates
                 option= template
-        label(for="resumeID") Resume ID
+        label(for="resumeID") Choose a Resume
         select(id="resumeID" name="resumeID")
             each resumeID in params.resumeIDs
                 option= resumeID
