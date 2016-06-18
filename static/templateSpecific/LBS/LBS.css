@@ -62,7 +62,7 @@ ul
     width: 75%;
     margin-top: 0px;
 }
-@media screen and (max-width: 1024px) and (min-width: 500px)
+@media screen and (max-width: 1024px)
 {
     body
     {
@@ -71,6 +71,18 @@ ul
     li
     {
         font-size: 1.2em;
+    }
+    .separated
+    {
+        flex-direction: column;
+    }
+    .leftCol,.rightCol,.additionalContainer ul
+    {
+        width: 100%
+    }
+    ul
+    {
+        padding-left: 1em;
     }
 }
 @media screen and (max-width: 500px)

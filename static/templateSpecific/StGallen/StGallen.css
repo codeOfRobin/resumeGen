@@ -31,7 +31,7 @@ body
     font-family: system, -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "Lucida Grande", "Roboto", "Segoe";
         /*font-family: "Helvetica"*/
-    margin: 1in 2in;
+    margin: 1in 1.5in;
     line-height: 1.5em;
     font-size: 11pt;
 }
@@ -80,7 +80,7 @@ section
 {
     margin-top: 15px;
     background-color: #E6E7E9;
-    padding:20px;
+    padding:10px;
 }
 .rightCol
 {
@@ -107,16 +107,40 @@ ul
 {
     margin-top: 0px;
 }
-@media screen and (max-width: 1024px) and (min-width: 500px)
+@media screen and (max-width: 1023px)
 {
     body
     {
-        margin: 1in;
+        margin: 0.5in;
     }
 	li
 	{
 		font-size: 1.2em;
 	}
+    .separated
+    {
+        flex-direction: column;
+    }
+    .leftCol
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .rightCol
+    {
+        width: 100%;
+    }
+    .leftCol img
+    {
+        width: 30%;
+    }
+    .leftCol .container
+    {
+        background-color: white;
+    }
 }
 @media screen and (max-width: 500px)
 {
