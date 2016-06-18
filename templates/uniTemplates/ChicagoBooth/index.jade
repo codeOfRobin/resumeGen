@@ -60,34 +60,28 @@ html(lang='en',ng-app = "resumeEditApp")
         script(src = "./static/templateSpecific/core.js")
         script.
             var emailDomain = "chicagobooth.edu"
+            var corrections = []
+            var search = new RegExp('^[A-Za-z0-9._%+-]+@' + emailDomain + '$');
+            if(!search.test(resumeDataOld.personalInformation.email))
+            {
+                corrections += "<li>Please use a valid " + emailDomain + " email ID</li>"
+                $(".email").css("background-color","#DD6B55")
+            }
             if (resumeDataOld.additional_data.bullets.length < 2)
             {
-                swal({
-                    title: "Too few bullets!",
-                    text: "Please ensure you have 2-5 bullets in the 'Additional Information' section",
-                    type: "error",
-                    closeOnConfirm: false
-                },
-                function(isConfirm)
-                {
-                    checkEmail("chicagobooth.edu")
-                }
-            )
-            $(".additional_data").css("background-color","#DD6B55")
-            }
-            if (resumeDataOld.additional_data.bullets.length > 5)
-            {
-                swal({
-                    title: "Too many bullets!",
-                    text: "Please ensure you have 2-5 bullets in the 'Additional Information' section",
-                    type: "error",
-                    closeOnConfirm: false
-                },
-                function(isConfirm)
-                {
-                    checkEmail("chicagobooth.edu")
-                })
+                corrections += "<li>Too few Bullets! Please ensure you have 2-5 bullets in the 'Additional Information' section</li>"
                 $(".additionalInformation").css("background-color","#DD6B55")
             }
+            else if (resumeDataOld.additional_data.bullets.length > 5)
+            {
+                corrections += "<li>Too many Bullets! Please ensure you have 2-5 bullets in the 'Additional Information' section</li>"
+                $(".additionalInformation").css("background-color","#DD6B55")
+            }
+            swal({
+                    title: "Error!",
+                    text: "<ul>" + corrections + "</ul>",
+                    type: "error",
+                    html: true
+                })
         
         
