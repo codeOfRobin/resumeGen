@@ -20,10 +20,10 @@ function checkEmail(emailDomain)
     var search = new RegExp('^[A-Za-z0-9._%+-]+@' + emailDomain + '$');
     if(!search.test(resumeDataOld.personalInformation.email))
     {
-        swal({   
+        swal({
             title: "Wrong email domain",
             text: "Please use your " + emailDomain + " email",
-            imageUrl: "./static/caution.png" 
+            imageUrl: "./static/caution.png"
         });
         $(".email").css("background-color","#DD6B55")
     }
@@ -131,7 +131,7 @@ $.each(elems,function(index, value)
     value.setAttribute('data-tooltip-position', "bottom left")
 })
 
-var forJSONStuff = $('.name, .email,.date, .phone,.address, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation, .bullet')
+var forJSONStuff = $('.name, h1, .email,.date, .phone,.address, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation, .bullet')
 var divArray = []
 $.each(forJSONStuff,function(index, value)
 {
@@ -140,4 +140,7 @@ $.each(forJSONStuff,function(index, value)
     divDict["page"] = 1
     divDict["text"] = $(value).text()
     divDict["text"] = $(value).text()
+    divArray.push(divDict)
 })
+
+console.log(divArray)
