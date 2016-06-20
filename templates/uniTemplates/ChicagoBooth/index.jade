@@ -51,7 +51,7 @@ html(lang='en',ng-app = "resumeEditApp")
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
         script(src = "./static/bower_components/sweetalert/dist/sweetalert.min.js")
-        script(src = "https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js")
+        script(src = "./node_modules/lodash/lodash.min.js")
         script(src = "./static/bower_components/tether/dist/js/tether.min.js")
         script(src = "./static/bower_components/tether-drop/dist/js/drop.min.js")
         script(src = "./static/bower_components/tether-tooltip/dist/js/tooltip.min.js")
@@ -79,8 +79,7 @@ html(lang='en',ng-app = "resumeEditApp")
             }
             swal({
                     title: "Error!",
-                    text: "<ul>" + corrections + "</ul>",
-                    type: "error",
+                    text: "<img src = \"./static/caution.png\"><ul>" + corrections + "</ul>",
                     html: true
                 })
         

@@ -17,7 +17,7 @@ html(lang='en',ng-app = "resumeEditApp")
                     section.personalInformation
                         h1 Personal Data
                         .yearOfBirth Year Of Birth : {{resumeData.personalInformation.yearOfBirth}} 
-                        .nationality Nationality {{resumeData.personalInformation.nationality}}
+                        .nationality Nationality : {{resumeData.personalInformation.nationality}}
                         .residencePermit {{resumeData.personalInformation.residencePermit}}
                     section.contact
                         h1 Contact
@@ -66,7 +66,7 @@ html(lang='en',ng-app = "resumeEditApp")
     script(src = "./static/bower_components/angular/angular.min.js")
     script(src = "./static/bower_components/jquery/dist/jquery.min.js")
     script(src = "./static/bower_components/sweetalert/dist/sweetalert.min.js")
-    script(src = "https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js")
+    script(src = "./node_modules/lodash/lodash.min.js")
     script(src = "./static/bower_components/tether/dist/js/tether.min.js")
     script(src = "./static/bower_components/tether-drop/dist/js/drop.min.js")
     script(src = "./static/bower_components/tether-tooltip/dist/js/tooltip.min.js")

@@ -9,7 +9,7 @@
 
 .schoolname, .companyname
 {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .degree, .designation
 {
@@ -18,7 +18,7 @@
 
 .name
 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 800;
     font-size: 1.3em;
 }
@@ -81,6 +81,7 @@ h1
     font-size: 1.4em;
     font-weight: 800;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 section
 {

@@ -95,7 +95,16 @@ ul
 {
     margin-top: 0px;
 }
-
+.sweet-alert ul
+{
+    text-align: left;
+}
+.sweet-alert p img
+{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
 @media screen and (max-width: 1024px) and (min-width: 500px)
 {
     body

@@ -74,4 +74,11 @@ Jade directly inserts the resumé object as a string into the webpage.
 Angular.js reads the variable and inserts objects into the template(lists, bullets, headings etc).
 Each of the editable elements is `contenteditable`. When there's a `blur/change` event, Angular reads the element text and propagates the changes backwards into the scope variable where the resumé data is stored.
 
+# Modules 
+1. In `app.js`, the `mba` object contains all the static data that we're displaying. This will be replaced by a REST API call, probably.
+2. When the user selects a template and user_ID, the relevant data is passed onto the template(refer to the `res.render` function in `app.js`). This data is passed as a plain text string to the web page.
+3. The frontend reads this data( stored as `resumeDataOld` ), and passes it over to the `$scope` variable in angular.
+4. The angularjs code in `core.js` reads all the data and binds it to the template (read up on `ng-repeat`, `ng-model` etc before editing angular code).
+5. Once the data is bound to the DOM, where it can be edited. Edits are automatically back-propagated to the angular scope variable
+
 
