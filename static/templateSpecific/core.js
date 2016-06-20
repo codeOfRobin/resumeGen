@@ -133,14 +133,19 @@ $.each(elems,function(index, value)
 
 var forJSONStuff = $('.name, h1, .email,.date, .phone,.address, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation, .bullet')
 var divArray = []
-$.each(forJSONStuff,function(index, value)
+function logOutJSON()
 {
-    var divDict = {}
-    divDict["div_id"] = index
-    divDict["page"] = 1
-    divDict["text"] = $(value).text()
-    divDict["text"] = $(value).text()
-    divArray.push(divDict)
-})
+    $.each(forJSONStuff,function(index, value)
+    {
+        var divDict = {}
+        divDict["div_id"] = index
+        divDict["page"] = 1
+        divDict["text"] = $(value).text()
+        divDict["text"] = $(value).text()
+        divArray.push(divDict)
+    })
+    console.log(JSON.stringify(divArray))
+}
 
-console.log(divArray)
+setTimeOut(6000,logOutJSON)
+
