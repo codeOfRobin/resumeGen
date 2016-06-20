@@ -147,5 +147,5 @@ function logOutJSON()
     console.log(JSON.stringify(divArray))
 }
 
-setTimeOut(6000,logOutJSON)
+setTimeout(logOutJSON,6000)
 
