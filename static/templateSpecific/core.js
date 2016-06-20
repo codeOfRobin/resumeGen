@@ -131,21 +131,22 @@ $.each(elems,function(index, value)
     value.setAttribute('data-tooltip-position', "bottom left")
 })
 
-var forJSONStuff = $('.name, h1, .email,.date, .phone,.address, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation, .bullet')
-var divArray = []
+
 function logOutJSON()
 {
+    var forJSONStuff = $('.name, h1, .email,.date, .phone,.address, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation, .bullet')
+    var divArray = []
     $.each(forJSONStuff,function(index, value)
     {
         var divDict = {}
         divDict["div_id"] = index
         divDict["page"] = 1
         divDict["text"] = $(value).text()
-        divDict["text"] = $(value).text()
+        divDict["model"] = $(value).attr('ng-model')
         divArray.push(divDict)
     })
     console.log(JSON.stringify(divArray))
 }
 
-setTimeout(logOutJSON,6000)
+setTimeout(logOutJSON,4000)
 
