@@ -10,6 +10,7 @@ var ug = require("./data/ug.json")
 var unidict = require('./uni2Category.json')
 // var utils = require('./utils');
 
+
 app.set('view engine', 'pug');
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));

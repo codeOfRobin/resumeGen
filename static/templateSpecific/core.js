@@ -131,3 +131,39 @@ $.each(elems,function(index, value)
     value.setAttribute('data-tooltip', _.get(toolTip,model))
     value.setAttribute('data-tooltip-position', "bottom left")
 })
+
+
+
+
+function JSONData()
+{
+    var forJSONStuff = $('.name, .email,.date, .phone,.address, .schoolname, .degree, .bullet, .companyname, .location, .companydescription, .designation, .bullet')
+    var divArray = []
+    $.each(forJSONStuff,function(index, value)
+    {
+        var divDict = {}
+        divDict["div_id"] = index
+        divDict["page"] = 1
+        divDict["text"] = $(value).text()
+        var offset = $(value).offset();
+        divDict["minx"] = offset.left
+        divDict["miny"] = offset.left
+        divDict["is_bold"] = false
+        divDict["is_italic"] = false
+        divDict["is_partially_bold"] = false
+        divDict["is_partially_italic"] = false
+        divDict["is_totally_bold"] = false
+        divDict["is_totally_italic"] = false
+        divDict["width"] = $(value).width()
+        divDict["height"] = $(value).height()
+        divDict["col"] = 1
+        divDict["model"] = value.getAttribute('ng-model')
+        divArray.push(divDict)
+    })
+    console.log(JSON.stringify(divArray))
+}
+
+
+ setTimeout(JSONData, 6000)
+
+    
