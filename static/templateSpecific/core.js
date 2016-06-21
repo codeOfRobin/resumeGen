@@ -143,6 +143,11 @@ function logOutJSON()
         divDict["page"] = 1
         divDict["text"] = $(value).text()
         divDict["model"] = $(value).attr('ng-model')
+        var offset = $(value).offset()
+        divDict["minx"] = offset.left
+        divDict["miny"] = offset.top
+        divDict["height"] = $(value).height()
+        divDict["width"] = $(value).width()
         divArray.push(divDict)
     })
     console.log(JSON.stringify(divArray))
