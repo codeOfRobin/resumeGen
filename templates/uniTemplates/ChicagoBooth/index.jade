@@ -12,7 +12,7 @@ html(lang='en',ng-app = "resumeEditApp")
     body(ng-controller = "mainCtrl")
         section.personalInformation
             .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
-            .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}} | Chicago, IL 60637
+            .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}} | New Delhi India 110070
             .centeredFlex
                 .phone(contenteditable ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
                 | |
@@ -38,15 +38,17 @@ html(lang='en',ng-app = "resumeEditApp")
                     .experiencePoint.location(contenteditable ng-model ="experiencePoint.location") {{experiencePoint.location}}
                 .separated
                     .experiencePoint.designation(contenteditable ng-model ="experiencePoint.position") {{experiencePoint.position}}
-                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.startyear}} - {{experiencePoint.endyear}}            
+                    .experiencePoint.date(contenteditable ng-model = "experiencePoint.data_raw") {{experiencePoint.data_raw}}            
                 ul
                     li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
                     button(ng-click = "addBullet(experiencePoint)") Add Bullet
             button(style = "font-size : 1.5em" ng-click = "addExperiencePoint()") Add Experience
         section.additionalInformation
-            h1 Additional Information        
+            h1 Personal Projects
             ul
-                li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets") {{bullet.text}} 
+                li.additionalInformation.bullet(ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets")
+                    b {{bullet.heading}} : 
+                    {{bullet.text}}
                 button(ng-click = "addBullet(resumeData.additional_data)") Add Bullet
         script(src = "./static/bower_components/angular/angular.min.js")
         script(src = "./static/bower_components/jquery/dist/jquery.min.js")
@@ -59,7 +61,7 @@ html(lang='en',ng-app = "resumeEditApp")
             var resumeDataOld = !{JSON.stringify(resume)}
         script(src = "./static/templateSpecific/core.js")
         script.
-            var emailDomain = "chicagobooth.edu"
+            var emailDomain = "rmalhotra.com"
             var corrections = []
             var search = new RegExp('^[A-Za-z0-9._%+-]+@' + emailDomain + '$');
             if(!search.test(resumeDataOld.personalInformation.email))
@@ -67,16 +69,16 @@ html(lang='en',ng-app = "resumeEditApp")
                 corrections += "<li>Please use a valid " + emailDomain + " email ID</li>"
                 $(".email").css("background-color","#DD6B55")
             }
-            if (resumeDataOld.additional_data.bullets.length < 2)
-            {
-                corrections += "<li>Too few Bullets! Please ensure you have 2-5 bullets in the 'Additional Information' section</li>"
-                $(".additionalInformation").css("background-color","#DD6B55")
-            }
-            else if (resumeDataOld.additional_data.bullets.length > 5)
-            {
-                corrections += "<li>Too many Bullets! Please ensure you have 2-5 bullets in the 'Additional Information' section</li>"
-                $(".additionalInformation").css("background-color","#DD6B55")
-            }
+            //- if (resumeDataOld.additional_data.bullets.length < 2)
+            //- {
+            //-     corrections += "<li>Too few Bullets! Please ensure you have 2-5 bullets in the 'Additional Information' section</li>"
+            //-     $(".additionalInformation").css("background-color","#DD6B55")
+            //- }
+            //- else if (resumeDataOld.additional_data.bullets.length > 5)
+            //- {
+            //-     corrections += "<li>Too many Bullets! Please ensure you have 2-5 bullets in the 'Additional Information' section</li>"
+            //-     $(".additionalInformation").css("background-color","#DD6B55")
+            //- }
             swal({
                     title: "Feedback",
                     text: "<img src = \"./static/caution.png\"><ul>" + corrections + "</ul>",
