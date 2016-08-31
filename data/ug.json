@@ -1,0 +1,1678 @@
+[
+    {
+        "bulk_upload_category_id": "152",
+        "bulk_upload_resume_id": "116755",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "XXXXXX XXXXXX XXXXXXX XXXXXXX",
+                    "address": null,
+                    "email": null,
+                    "phone": "650333930966815433      "
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "",
+                        "location": null,
+                        "field": "Mechanical Engineering;Arts",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": "3.2\/4.0",
+                        "bullets": [
+                            "GPA: 3.2\/4.0",
+                            "Expected Graduation Date: June 2018"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Technician",
+                        "position_trimed": "Drum Line Technician",
+                        "position_full_div_text": "Drum Line Technician",
+                        "companyname": "Spring High School",
+                        "function": "IT Operations, Support Services",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "June 2014        September 2014",
+                        "startmonth": "06",
+                        "endmonth": "09",
+                        "startyear": "2014",
+                        "endyear": "2014",
+                        "duration": 3,
+                        "bullets": [
+                            "Primary Front Ensemble and Master Class Instructor",
+                            "Worked with students to improve drumming technique and musicality"
+                        ]
+                    },
+                    {
+                        "position": "Technician",
+                        "position_trimed": "Tire Technician",
+                        "position_full_div_text": "Tire Technician",
+                        "companyname": "Discount Tire Company",
+                        "function": "Engineering-Others",
+                        "industry": "Automotive",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "June 2013        August 2013",
+                        "startmonth": "06",
+                        "endmonth": "08",
+                        "startyear": "2013",
+                        "endyear": "2013",
+                        "duration": 2,
+                        "bullets": [
+                            "Performed tire diagnostics as well as installation, repair, and rotation of tires",
+                            "Assisted in training new employees"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "Shop Apprentice",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Houston, TX",
+                        "data_raw": "June 2012        August 2012",
+                        "startmonth": "06",
+                        "endmonth": "08",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 2,
+                        "bullets": [
+                            "Managed drill presses, stock cutters, sanders, and material movers",
+                            "Assisted with itemizing and shipping products to customers"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "\u00c2\u00b7 Engineers Without Borders"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Society of Hispanic Professional Engineers"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Percussive Arts Society"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Proficient in Microsoft Office, Windows 8.0, MATLAB"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Able to multi-task in a fast paced work environment"
+                        },
+                        {
+                            "text": "This resume has been provided by INROADS for the sole purpose of placement in an INROADS internship"
+                        },
+                        {
+                            "text": "Thus, the hiring of this candidate constitutes an INROADS placement."
+                        },
+                        {
+                            "text": "Willing & Able to Relocate"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 AYERS CCI Business Symposium"
+                        },
+                        {
+                            "text": "Marketing Committee"
+                        },
+                        {
+                            "text": "September 2014 - Present"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Symphonic Band"
+                        },
+                        {
+                            "text": "Section Leader"
+                        },
+                        {
+                            "text": "March 2014 - June 2014"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Relay For Life"
+                        },
+                        {
+                            "text": "Recruiter"
+                        },
+                        {
+                            "text": "May 2014"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Multicultural Student Affairs"
+                        },
+                        {
+                            "text": "Member"
+                        },
+                        {
+                            "text": "September 2013 - June 2014"
+                        },
+                        {
+                            "text": "\u00c2\u00b7 Northwestern University Marching Band"
+                        },
+                        {
+                            "text": "Drum Line Member"
+                        },
+                        {
+                            "text": "August 2013 - June 2014"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "152",
+        "bulk_upload_resume_id": "116757",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "XXXXX XXXX XXXXX XXXXX XXXXXX",
+                    "address": null,
+                    "email": null,
+                    "phone": "1913458692971"
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "NORTHWESTERN UNIVERSITY",
+                        "location": "evanston",
+                        "field": "Music;Computer Science;Arts",
+                        "gmat": null,
+                        "date_raw": "Sept 2013 - June 2017",
+                        "startmonth": "09",
+                        "endmonth": "06",
+                        "startyear": "2013",
+                        "endyear": "2017",
+                        "duration": 45,
+                        "grade": "3.874\/4.000",
+                        "bullets": [
+                            "Bachelor of Arts in Computer Science",
+                            "GPA: 3.874\/4.000",
+                            "ACT: 34",
+                            "SAT II: 800 Math II \/ 800 Physics"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Camp Counselor",
+                        "position_trimed": "Camp Counselor",
+                        "position_full_div_text": "Camp Counselor",
+                        "companyname": "Credo Chamber Music Festival",
+                        "function": "Education, Teachers, Professors, Lecturers, Academics",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Oberlin, OH \/ Chicago,",
+                        "data_raw": "July 2014",
+                        "startmonth": "07",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Organized daily night activities every week for the resident campers",
+                            "Taught violin lessons",
+                            "Coached chamber groups on rehearsal and performance techniques"
+                        ]
+                    },
+                    {
+                        "position": "Volunteer",
+                        "position_trimed": "Volunteer",
+                        "position_full_div_text": "Volunteer",
+                        "companyname": "Habitat for Humanity Re-Store",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Cleveland,",
+                        "data_raw": "July 2014",
+                        "startmonth": "07",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Worked at the loading dock",
+                            "Collected donated items or loaded purchased items onto customer vehicles"
+                        ]
+                    },
+                    {
+                        "position": "Volunteer",
+                        "position_trimed": "Volunteer",
+                        "position_full_div_text": "Volunteer",
+                        "companyname": "Midnight Mission",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Los Angeles, CA",
+                        "data_raw": "March 2014",
+                        "startmonth": "03",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Provided meal services in The Midnight Mission kitchen",
+                            "Helped with general clean-up"
+                        ]
+                    },
+                    {
+                        "position": "Leader ",
+                        "position_trimed": "Worship Leader  Pianist",
+                        "position_full_div_text": "Worship Leader \/ Pianist",
+                        "companyname": "First Presbyterian Church",
+                        "function": "Non Profit, Community and Social Services, NGO",
+                        "industry": "Religious Institutions",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "Aug 2011 - Sept 2013",
+                        "startmonth": "08",
+                        "endmonth": "09",
+                        "startyear": "2011",
+                        "endyear": "2013",
+                        "duration": 25,
+                        "bullets": [
+                            "Helped select appropriate hymns for weekly Sunday services",
+                            "Played piano during worship services and improvised in appropriate places",
+                            "Wedding Stringers  Wedding Quartet"
+                        ]
+                    },
+                    {
+                        "position": "Violinist",
+                        "position_trimed": "Substitute Violinist",
+                        "position_full_div_text": "Substitute Violinist",
+                        "companyname": "First Presbyterian Church",
+                        "function": "Non Profit, Community and Social Services, NGO",
+                        "industry": "Religious Institutions",
+                        "linkedin_company_name": null,
+                        "location": "Moline, IL",
+                        "data_raw": "Aug 2010 - Sept 2013",
+                        "startmonth": "08",
+                        "endmonth": "09",
+                        "startyear": "2010",
+                        "endyear": "2013",
+                        "duration": 37,
+                        "bullets": [
+                            "Played both Violin I and Violin II parts when needed",
+                            "Prepared over 30 pieces to play for wedding ceremonies and receptions"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "152",
+        "bulk_upload_resume_id": "116758",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "XXXXXX XXXXXXX XXXXXXXXX XXXXXXX XXXX XXXX XXXX",
+                    "address": null,
+                    "email": null,
+                    "phone": "--         01019"
+                },
+                "education": [
+                    {
+                        "degree": "",
+                        "schoolname": "",
+                        "location": null,
+                        "field": "",
+                        "gmat": null,
+                        "date_raw": "2018",
+                        "startmonth": "01",
+                        "endmonth": 0,
+                        "startyear": "2018",
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Cumulative GPA: 3.778, Sophomore",
+                            "Relevant Courses: Integrated Science Program (ISP) General Physics, Classical Mechanics, Waves and Special Relativity, ISP Astrophysics, Mathematical Experience for Northwestern Undergraduates",
+                            "Multivariable Calculus and Linear Algebra, Elementary Differential Equations",
+                            "Graduating Weighted GPA: 5.010 (5.220 scale)",
+                            "RESEARCH HISTORY",
+                            "Potential options: charm tagger development using ATLAS Data, track fit algorithm optimization, Zynq chip latency testing for potential use in CMS detector",
+                            "Collaborated on writing dark photon search proposal. Tested Cesium Iodide scintillating crystals for suitability in use for proposed project. Tasks: programming Arduino (C), data analysis (Python), circuit board maintenance and testing using oscilloscopes\/signal generators.",
+                            "Apr. - Jun. 2014 http:\/\/spindry.phys.northwestern.edu\/",
+                            "Assisted in testing amplifiers for use in liquid helium temperatures. Tasks: testing using signal generators\/oscilloscopes, soldering, data collection (MagRes) and analysis (Excel)."
+                        ],
+                        "organizations": [
+                            " Integrated Science Program ",
+                            " programming Arduino ",
+                            " circuit board maintenance and testing using oscilloscopes\/signal generators."
+                        ],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "TECHNICIAN",
+                        "position_trimed": "STAGE MANGERRECORDING DUB TECHNICIAN",
+                        "position_full_div_text": "STAGE MANGER\/RECORDING DUB TECHNICIAN, PICK-STAIGER CONCERT HALL, EVANSTON IL",
+                        "companyname": "STAGE MANGER\/RECORDING DUB TECHNICIAN",
+                        "function": "IT Operations, Support Services",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "2014 - Present",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2014",
+                        "endyear": -1,
+                        "duration": 11,
+                        "bullets": [
+                            "Aug. - Sept. 2012 and Aug. - Sept. 2014 http:\/\/repstudio.com\/"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "S AND",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "Dec. 2014",
+                        "startmonth": "12",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Henry Crew\/Welch Scholarship for academic achievement in physics"
+                        ]
+                    },
+                    {
+                        "position": "Dean\u2019s List",
+                        "position_trimed": "Weinberg College of Arts and Sciences Deans List",
+                        "position_full_div_text": "Weinberg College of Arts and Sciences Dean\u2019s List",
+                        "companyname": "HONORS",
+                        "function": "Research, Science",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "2013",
+                        "startmonth": "01",
+                        "endmonth": 0,
+                        "startyear": "2013",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Address comments\/concerns of physics students to the Student Advisory Board,",
+                            "POSITIONS quarterly meetings with Director of Undergraduate Studies."
+                        ]
+                    },
+                    {
+                        "position": "Assistant Music Director",
+                        "position_trimed": "Assistant Music DirectorTech Chair",
+                        "position_full_div_text": "Assistant Music Director\/Tech Chair, Phi Mu Alpha Sinfonia Fraternity, Iota Chapter",
+                        "companyname": "HONORS",
+                        "function": "Administration, Executive Assistant, Front Office, Data Entry, Secretary",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Ithaca High School Concert Band",
+                        "data_raw": "2014-Present",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2014",
+                        "endyear": -1,
+                        "duration": 11,
+                        "bullets": [
+                            "Oversee brainstorm, design, and creation of main robot mechanisms. Scout and plan alliance strategy during competition, direct robot driver movement during high-pressure situations."
+                        ]
+                    },
+                    {
+                        "position": "Fundraiser LAN Party",
+                        "position_trimed": "Chief Organizer for Biannual Robotics Fundraiser LAN Party",
+                        "position_full_div_text": "Chief Organizer for Biannual Robotics Fundraiser LAN Party",
+                        "companyname": "HONORS",
+                        "function": "Non Profit, Community and Social Services, NGO",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Ithaca High School Concert Band",
+                        "data_raw": "2009",
+                        "startmonth": "01",
+                        "endmonth": 0,
+                        "startyear": "2009",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Plan and oversee all logistics of event, coordinate and manage setup teams, supervise team members, ensure customer satisfaction."
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "COMPUTER SKILLS",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "2010",
+                        "startmonth": "01",
+                        "endmonth": 0,
+                        "startyear": "2010",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "VOLUNTEERINGMentoring middle and elementary school FIRST Lego League teams"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "178",
+        "bulk_upload_resume_id": "144580",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "VMOCK",
+                    "address": "4401 Wheeler St., Room# NT-1618 Houston TX 77004",
+                    "email": "abdallah@hotmail.com",
+                    "phone": "(817)-304-5115"
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "University of Houston ",
+                        "location": "houston",
+                        "field": "Mechanical Engineering Technology;Science",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Bachelor of Science in Mechanical Engineering Technology"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "MINOR",
+                        "schoolname": "University of Houston ",
+                        "location": "houston",
+                        "field": "Technology",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Expected year of graduation (Fall 2015)"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "",
+                        "schoolname": "Weatherford College:",
+                        "location": "houston",
+                        "field": "Arts;Science",
+                        "gmat": null,
+                        "date_raw": "2010-2012",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2010",
+                        "endyear": "2012",
+                        "duration": 24,
+                        "grade": null,
+                        "bullets": [
+                            "Associate in science 2010-2012"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Assistant Manager Exxon on The Run",
+                        "position_trimed": "CashierAssistant Manager Exxon on The Run",
+                        "position_full_div_text": "Cashier\/Assistant Manager Exxon on The Run",
+                        "companyname": "",
+                        "function": "Project Management",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "93-8178",
+                        "startmonth": "01",
+                        "endmonth": 0,
+                        "startyear": "1993",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Manage the merchandise that was delivered from the companies, and making sure all the equipment are working properly",
+                            "Taking some shifts in the afternoon to fulfill the position if somebody wasn  t able to make it to work.",
+                            "Keep count and making sure that the shelves were full and the coolers are stocked properly.",
+                            "Deep Water Technology, Offshore Drilling, Petroleum Technology, and Pumps"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "178",
+        "bulk_upload_resume_id": "149320",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "VMOCK",
+                    "address": "77084 Mobile: (832) 293-3282 17034",
+                    "email": "tikka1121@outlook.com",
+                    "phone": ""
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor Of Business Administration",
+                        "schoolname": "",
+                        "location": "houston",
+                        "field": "Business Administration;Supply Chain;Management",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Bachelor of Business Administration in Supply Chain Management, Dec 2014"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "",
+                        "schoolname": "Strategic Sourcing Certificates, Dec 2014",
+                        "location": "houston",
+                        "field": "Business;Supply Chain;Management",
+                        "gmat": null,
+                        "date_raw": "Dec 2014",
+                        "startmonth": "12",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Supply Chain Management G.P.A :3.1 ; Cumulative G.P.A : 3.1"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Warehouse Associate",
+                        "position_trimed": "Warehouse Associate",
+                        "position_full_div_text": "Warehouse Associate",
+                        "companyname": "SHIBO Manufacture & Supply INC",
+                        "function": "Database Management, Datawarehousing",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "Jan.2014",
+                        "startmonth": "01",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Processed outbound shipments of inventory via commercial carrier",
+                            "Process and package goods in a time efficient manner",
+                            "Maintained a clean and safe condition of equipment and work area"
+                        ]
+                    },
+                    {
+                        "position": "Warehouse Assistant",
+                        "position_trimed": "Warehouse Assistant",
+                        "position_full_div_text": "Warehouse Assistant",
+                        "companyname": "Texma Petroleum Machinery LLC",
+                        "function": "Materials and Procurement",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Houston, TX",
+                        "data_raw": "Sep.2012",
+                        "startmonth": "09",
+                        "endmonth": 0,
+                        "startyear": "2012",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Utilized Lean, Six Sigma to assemble packaging and manage inventory",
+                            "Collaborated with employees on special projects as required",
+                            "Analysis and forecast of products to maintain the consistent inventory"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "Texma Petroleum Machinery LLC",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Houston, TX",
+                        "data_raw": "Sep.2010",
+                        "startmonth": "09",
+                        "endmonth": 0,
+                        "startyear": "2010",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Actively sold and promoted over $1000 in company products and services per day",
+                            "Consistently met and exceeded sales quotas of 20%",
+                            "Maintained a sound, and up-to-date knowledge to sale products and special programs"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [
+                        "english"
+                    ],
+                    "bullets": [
+                        {
+                            "text": "\uf0b7"
+                        },
+                        {
+                            "text": "\u2013May.2011"
+                        },
+                        {
+                            "text": "Chinese students Association, member"
+                        },
+                        {
+                            "text": "Jan.2008"
+                        },
+                        {
+                            "text": "Offer assistance and support to Chinese students at University of Houston"
+                        },
+                        {
+                            "text": "\uf0b7 Chinese Civic Center, performer"
+                        },
+                        {
+                            "text": "Dec.2011"
+                        },
+                        {
+                            "text": "Performance of the Spring Festival"
+                        },
+                        {
+                            "text": "\uf0b7 Member of Asian Business Students Association"
+                        },
+                        {
+                            "text": "Jan.2011-Dec.2011"
+                        },
+                        {
+                            "text": "Participated in community volunteer events"
+                        },
+                        {
+                            "text": "Skill"
+                        },
+                        {
+                            "text": "\uf0b7 Fluent in English and Chinese"
+                        },
+                        {
+                            "text": "\uf0b7 Microsoft Excel, World, PowerPoint"
+                        },
+                        {
+                            "text": "\uf0b7 Palisade Decision Tools(@Risk and StatTools)"
+                        },
+                        {
+                            "text": "\uf0b7 SAP HANA, Business Intelligence, Business warehouse, Predictive analysis"
+                        },
+                        {
+                            "text": "Chuan Xiong Wu"
+                        },
+                        {
+                            "text": "7601"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "178",
+        "bulk_upload_resume_id": "146160",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "VMOCK",
+                    "address": "2111 Holly Hall Street, Apt #4007 (617)-(842)-1505 \u2013 77054",
+                    "email": "dharanidavineni92@gmail.com",
+                    "phone": ""
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Science",
+                        "schoolname": "Unive rsity of Houston, Texas",
+                        "location": "houston",
+                        "field": "Mechanical Engineering;Applied Mathematics",
+                        "gmat": null,
+                        "date_raw": "Aug    14- May    16",
+                        "startmonth": "08",
+                        "endmonth": "05",
+                        "startyear": "2014",
+                        "endyear": "2016",
+                        "duration": 21,
+                        "grade": null,
+                        "bullets": [],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "Bachelor Of Engineering",
+                        "schoolname": "Course work",
+                        "location": "houston",
+                        "field": "Mechanical Engineering",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "DVR Colle ge of Engineering and Te chnology, Hyderabad, India.",
+                            "GPA",
+                            "MathematicalMethods, Computer Programming, Production Technology, Object Oriented"
+                        ],
+                        "organizations": [
+                            " Computer Programming"
+                        ],
+                        "awards": []
+                    },
+                    {
+                        "degree": "",
+                        "schoolname": "Re late d Coursework",
+                        "location": "houston",
+                        "field": "Probability;Management;Statistics;Economics",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Programming, Probability and statistics, Managerial Economics and Financial Analysis, Industrial Management, Database",
+                            "Management Systems, Finite Element Methods, Mechatronics, Data Structures and Algorithms, Machine Tools, Dynamics and kinematics of Machinery, Heat transfer, Thermal Engineering, Fluid Mechanics and Hydraulic Machinery"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Graduate Assistant Jan \u201915 - till date",
+                        "position_trimed": "Graduate Assistant Jan 15",
+                        "position_full_div_text": "\uf0b7 Graduate Assistant Jan \u201915 - till date",
+                        "companyname": "ECE Department",
+                        "function": "Administration, Executive Assistant, Front Office, Data Entry, Secretary",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "hyderabad",
+                        "data_raw": "March    14-July    14",
+                        "startmonth": "03",
+                        "endmonth": "07",
+                        "startyear": "2014",
+                        "endyear": "2014",
+                        "duration": 4,
+                        "bullets": [
+                            "AutoCAD Designer Intern, Innovative Engineers, Hyderabad, India. Worked on designing of shells, Auto clave in AutoCAD.",
+                            "Desk Assistant Administration Services, DVR College of Engineering & Technology"
+                        ]
+                    },
+                    {
+                        "position": "Data entry and Documentation which included updating",
+                        "position_trimed": "Data entry and Documentation which included updating of databasesdocumenting all changes to the systems",
+                        "position_full_div_text": "Data entry and Documentation which included updating of databases\/documenting all changes to the systems.",
+                        "companyname": "ECE Department",
+                        "function": "Administration, Executive Assistant, Front Office, Data Entry, Secretary",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "hyderabad",
+                        "data_raw": "Sept    13-March    14",
+                        "startmonth": "09",
+                        "endmonth": "03",
+                        "startyear": "2013",
+                        "endyear": "2014",
+                        "duration": 6,
+                        "bullets": [
+                            "Data entry and Documentation which included updating of databases\/documenting all changes to the systems."
+                        ]
+                    },
+                    {
+                        "position": "Intern at Accurate Engineers",
+                        "position_trimed": "Intern at Accurate Engineers Worked on CNC machines",
+                        "position_full_div_text": "\uf0b7 Intern at Accurate Engineers, Worked on CNC machines (Coding and Tool path simulation)",
+                        "companyname": "ECE Department",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "hyderabad",
+                        "data_raw": "May    13-June    13",
+                        "startmonth": "05",
+                        "endmonth": "06",
+                        "startyear": "2013",
+                        "endyear": "2013",
+                        "duration": 1,
+                        "bullets": [
+                            "Intern at Accurate Engineers, Worked on CNC machines (Coding and Tool path simulation)"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [
+                        "programming"
+                    ],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "\uf0b7 Office Automation Tools: Microsoft SharePoint, Microsoft office Suite."
+                        },
+                        {
+                            "text": "\uf0b7 Programming Languages: C,C++"
+                        },
+                        {
+                            "text": "\uf0b7 Design and Analysis: AutoCAD 2010, ANSYS Workbench, Solid Works 2011, Catia V5, Pro-E."
+                        },
+                        {
+                            "text": "\uf0b7 Master Cam Software: CNC Materials science programming using G & M coding and Tool path simulation"
+                        },
+                        {
+                            "text": "\uf0b7 GUI Software: Adobe Photoshop."
+                        },
+                        {
+                            "text": "\uf0b7 Organizer of Mechanical Engineering Association, January 2012-May 2014."
+                        },
+                        {
+                            "text": "\uf0b7 Volunteer for Heal India Foundation, Hyderabad, India."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "170",
+        "bulk_upload_resume_id": "140428",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "57 Cross Brook Cove, Jackson, TN, 38305",
+                    "email": "orange@yahoo.com",
+                    "phone": "081215     (7"
+                },
+                "education": [
+                    {
+                        "degree": "",
+                        "schoolname": "Madison Academic High School",
+                        "location": "madison",
+                        "field": "",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Graduated May 2014",
+                            "Starting Fall 2014"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Volunteer at RIFA",
+                        "position_trimed": "Volunteer at RIFA",
+                        "position_full_div_text": "Volunteer at RIFA",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "Nov 2012-Dec 2012",
+                        "startmonth": "11",
+                        "endmonth": "12",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 1,
+                        "bullets": [
+                            "Helped stock cans",
+                            "Performed various other jobs during holiday season"
+                        ]
+                    },
+                    {
+                        "position": "Volunteer at Jackson Madison County General Hospital",
+                        "position_trimed": "Volunteer at Jackson Madison County General Hospital",
+                        "position_full_div_text": "Volunteer at Jackson Madison County General Hospital",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Madison County General Hospital",
+                        "data_raw": "June 2013-July 2013",
+                        "startmonth": "06",
+                        "endmonth": "07",
+                        "startyear": "2013",
+                        "endyear": "2013",
+                        "duration": 1,
+                        "bullets": [
+                            "Worked in gift shop",
+                            "Filed papers",
+                            "Stocked various items"
+                        ]
+                    },
+                    {
+                        "position": "Volunteer at Library",
+                        "position_trimed": "Volunteer at Library",
+                        "position_full_div_text": "Volunteer at Library",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Madison County General Hospital",
+                        "data_raw": "May 2012-July 2012",
+                        "startmonth": "05",
+                        "endmonth": "07",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 2,
+                        "bullets": [
+                            "Helped shelve books"
+                        ]
+                    },
+                    {
+                        "position": "Cashier at Target",
+                        "position_trimed": "Cashier at Target",
+                        "position_full_div_text": "Cashier at Target",
+                        "companyname": "",
+                        "function": "Accounting",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "various other jobs during holiday season",
+                        "data_raw": "Nov 2013-current",
+                        "startmonth": "11",
+                        "endmonth": -1,
+                        "startyear": "2013",
+                        "endyear": -1,
+                        "duration": 13,
+                        "bullets": [
+                            "Sold merchandise",
+                            "Interacted with guests"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "170",
+        "bulk_upload_resume_id": "140429",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "721 W 30TH STREET \u2022 LOS ANGELES, CA 90007",
+                    "email": "iabhari@usc.edu",
+                    "phone": "081215       "
+                },
+                "education": [
+                    {
+                        "degree": "MAJORS",
+                        "schoolname": "University of Southern California",
+                        "location": "california",
+                        "field": "International Relations;Philosophy",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "G.P.A. 3.98 - Majors: Philosophy and International Relations, Minor: Iranian Studies May 2017",
+                            "Recipient, USC Trustee Scholarship (Full Tuition, Four Years)",
+                            "Honoree, Deans List (2013  Present)",
+                            "Captain, USC Dornsife Trial Advocacy Program (2013  Present)",
+                            "Outstanding Attorney Award, 2015",
+                            "Outstanding Witness Award (2), 2015",
+                            "Member, Trojan Scholars Society (2013  Present)",
+                            "Winner, California College Media Association, Best News Series, 2015",
+                            "Awarded for coverage of the Javier Bolden murder trial"
+                        ],
+                        "organizations": [
+                            " Deans List ",
+                            " USC Dornsife Trial Advocacy Program ",
+                            " Trojan Scholars Society "
+                        ],
+                        "awards": [
+                            " USC Trustee Scholarship ",
+                            "Outstanding Attorney Award",
+                            "Outstanding Witness Award ",
+                            "Awarded for coverage of the Javier Bolden murder trial"
+                        ]
+                    },
+                    {
+                        "degree": "Diploma",
+                        "schoolname": "University High School",
+                        "location": "irvine",
+                        "field": "Diploma",
+                        "gmat": null,
+                        "date_raw": "May 2013",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2013",
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "May 2013"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Intern",
+                        "position_trimed": "Legislative Intern",
+                        "position_full_div_text": "Legislative Intern",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "United States House of Representatives",
+                        "data_raw": "May 2015 - present",
+                        "startmonth": "05",
+                        "endmonth": -1,
+                        "startyear": "2015",
+                        "endyear": -1,
+                        "duration": 0,
+                        "bullets": [
+                            "Conduct research and draft official constituent correspondence on behalf of Congressmember Karen Bass. Lead VIP guests for tours of the United States Capitol Building. Provide support to legislative team through drafting memoranda and notes on Congressional briefings and hearings."
+                        ]
+                    },
+                    {
+                        "position": "News Editor",
+                        "position_trimed": "Special Projects Editor News Editor News and Opinion writer",
+                        "position_full_div_text": "Special Projects Editor, News Editor, News and Opinion writer",
+                        "companyname": "Daily Trojan",
+                        "function": "Content, Editors, Journalists",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Los Angeles, CA",
+                        "data_raw": "August 2013 - present",
+                        "startmonth": "08",
+                        "endmonth": -1,
+                        "startyear": "2013",
+                        "endyear": -1,
+                        "duration": 16,
+                        "bullets": [
+                            "Manage a staff of over 40 writers. Research, investigate and author news and opinion stories for the University of Southern California  s daily campus news publication. Responsible for professional contact with media sources and paper design."
+                        ]
+                    },
+                    {
+                        "position": "Hostess",
+                        "position_trimed": "ServerHostess",
+                        "position_full_div_text": "Server\/Hostess",
+                        "companyname": "Mick",
+                        "function": "Travel, Ticket, Airlines, Cabin Crew, Air Hostess, Floor Operations",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Irvine, CA",
+                        "data_raw": "October 2012 - August 2013",
+                        "startmonth": "10",
+                        "endmonth": "08",
+                        "startyear": "2012",
+                        "endyear": "2013",
+                        "duration": 10,
+                        "bullets": [
+                            "Performed community outreach services. Served as a liaison between the District Attorney  s Office and community to assist with information distribution and youth programs."
+                        ]
+                    },
+                    {
+                        "position": "Volunteer",
+                        "position_trimed": "Animal Care Volunteer",
+                        "position_full_div_text": "Animal Care Volunteer",
+                        "companyname": "CO MMUNI TY SERVI CE",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Los Angeles, CA",
+                        "data_raw": "August 2013 - May 2014",
+                        "startmonth": "08",
+                        "endmonth": "05",
+                        "startyear": "2013",
+                        "endyear": "2014",
+                        "duration": 9,
+                        "bullets": [
+                            "Provide food and general health maintenance services for animals at a non  profit grassroots shelter dedicated to removing feral cats from the streets of Los Angeles."
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "170",
+        "bulk_upload_resume_id": "140978",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "4431 Twin Peaks Ct. \uf097 Chino Hills, CA 91709",
+                    "email": "emilykim0803@gmail.com",
+                    "phone": "081215      (7"
+                },
+                "education": [
+                    {
+                        "degree": "CA",
+                        "schoolname": "University of Southern California - Los Angeles, CA",
+                        "location": "los angeles",
+                        "field": "Arts; Psychology;Psychology",
+                        "gmat": null,
+                        "date_raw": "May 2019",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2019",
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Bachelor of Arts, Psychology",
+                            "G.P.A.: 4.0"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Teacher Assistant",
+                        "position_trimed": "FPC Summer School Program Teacher Assistant",
+                        "position_full_div_text": "FPC Summer School Program Teacher Assistant",
+                        "companyname": "",
+                        "function": "Education, Teachers, Professors, Lecturers, Academics",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "July 2015",
+                        "startmonth": "07",
+                        "endmonth": 0,
+                        "startyear": "2015",
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "Responsible for aiding teacher in retrieving supplies, class preparation, and clean up",
+                            "Managed and taught groups of students in various cooking\/baking projects"
+                        ]
+                    },
+                    {
+                        "position": "Assistant",
+                        "position_trimed": "FPC Summer School Program Art Assistant",
+                        "position_full_div_text": "FPC Summer School Program Art Assistant",
+                        "companyname": "",
+                        "function": "Administration, Executive Assistant, Front Office, Data Entry, Secretary",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "June-July 2012",
+                        "startmonth": "06",
+                        "endmonth": "07",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 1,
+                        "bullets": [
+                            "Assisted the teacher in preparing for and cleaning up after classes",
+                            "Instructed and guided the students in different art projects"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [
+                        "basketball"
+                    ],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "Wesley Girls\u2019 Varsity Basketball"
+                        },
+                        {
+                            "text": "2012-2015"
+                        },
+                        {
+                            "text": "Wesley Girls\u2019 Varsity Soccer"
+                        },
+                        {
+                            "text": "2011, 2013-2014"
+                        },
+                        {
+                            "text": "Emily Kim"
+                        },
+                        {
+                            "text": "650"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "231",
+        "bulk_upload_resume_id": "165292",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "18260",
+                    "email": "arnaezkristina@gmail.com",
+                    "phone": "-       224     331"
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor Of Business Administration",
+                        "schoolname": "Florida International University, Miami, FL",
+                        "location": "florida",
+                        "field": "Finance And International Business",
+                        "gmat": null,
+                        "date_raw": "May 2015",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2015",
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": "3.970\/4.0",
+                        "bullets": [
+                            "Majors: Finance and International Business",
+                            "GPA: 3.970\/4.0"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "International Children",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "2013     Present",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2013",
+                        "endyear": -1,
+                        "duration": 23,
+                        "bullets": [
+                            "- Coordinate and manage unique fundraising events and develop community donor sponsorship letter",
+                            "- Assist the treasurer in all endeavors to achieve fundraising goals, ensuring all events are within budget",
+                            "- Maintain open communication with on-campus organizations and a calendar with philanthropic events"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "International Children",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "Spring 2012",
+                        "startmonth": "01",
+                        "endmonth": "03",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 2,
+                        "bullets": [
+                            "- Partook in a service trip to Guyana and restored a preschool  s exterior and playground",
+                            "- Interacted with locals and donated food and clothes to those in need"
+                        ]
+                    },
+                    {
+                        "position": "Team Member",
+                        "position_trimed": "Impact Team Member",
+                        "position_full_div_text": "Impact Team Member",
+                        "companyname": "International Children",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Miami, FL",
+                        "data_raw": "July 2010     Present",
+                        "startmonth": "07",
+                        "endmonth": -1,
+                        "startyear": "2010",
+                        "endyear": -1,
+                        "duration": 53,
+                        "bullets": [
+                            "-Extract merchandise from the stock room for the sales floor, where products must meet Abercrombie & Fitch  s high look standards",
+                            "-Distribute merchandise throughout the sales floor where a high level of costumer service is a must   key for a smooth-running store",
+                            "-Attend customers at register with excellent customer service to ensure a complete positive experience.",
+                            "- Florida International University  s Dean  s List"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "A C H I E V E M E N T S",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "florida",
+                        "data_raw": "2011     Present",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2011",
+                        "endyear": -1,
+                        "duration": 47,
+                        "bullets": [
+                            "- Florida Bright Future Scholarship"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "A C H I E V E M E N T S",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "florida",
+                        "data_raw": "2011     Present",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2011",
+                        "endyear": -1,
+                        "duration": 47,
+                        "bullets": [
+                            "- Beta Alpha Psi- Eta Iota  Superior  Chapter"
+                        ]
+                    },
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "A C H I E V E M E N T S",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "florida",
+                        "data_raw": "2013     Present",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2013",
+                        "endyear": -1,
+                        "duration": 23,
+                        "bullets": [
+                            "- Alternative Breaks"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "Motivated and willing to work hard to achieve goals. Has good social and ethic standard. Professional and  works well under pressure. Focused and hardworking. Able to work well in a fast-paced work environment."
+                        },
+                        {
+                            "text": "Puts forth maximum effort in all undertakings. Flexible hours. Handles others well. Great customer service."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "231",
+        "bulk_upload_resume_id": "165151",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "DAVID EMERSON",
+                    "address": "7421 S.W. 148 Street | Palmetto Bay, Florida 33158",
+                    "email": "emerson@gmail.com",
+                    "phone": "(305)-965-0611"
+                },
+                "education": [
+                    {
+                        "degree": "Bachelor",
+                        "schoolname": "Florida International University ",
+                        "location": "florida",
+                        "field": "Accounting;Business Administration",
+                        "gmat": null,
+                        "date_raw": "May 2017",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2017",
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Bachelor of Business Administration (BBA)"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "MINOR",
+                        "schoolname": "Florida International University ",
+                        "location": "florida",
+                        "field": "Computer Science;Macroeconomics;Accounting;Statistics;Business",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Relevant Coursework: Business Calculus, Macroeconomics, Microeconomics, Managerial Accounting,  Accounting for Decisions, Statistics for Business"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Business Intern",
+                        "position_trimed": "Business Intern",
+                        "position_full_div_text": "Business Intern",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Miami, FL",
+                        "data_raw": "July 2013     August 2013",
+                        "startmonth": "07",
+                        "endmonth": "08",
+                        "startyear": "2013",
+                        "endyear": "2013",
+                        "duration": 1,
+                        "bullets": [
+                            "Conducted competitive analysis along-side treasurer to minimize marginal costs and maximize revenue",
+                            "Reviewed and revised marketing material prior to new client presentations",
+                            "Researched the steps necessary to obtain a new product approval through the State of Florida building code"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    },
+    {
+        "bulk_upload_category_id": "231",
+        "bulk_upload_resume_id": "165546",
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "114 ST \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Phone: (786) 447 9963  NICKOLAS A. BURRY  \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Miami Fl, 33176",
+                    "email": "burry_nick@yahoo.com",
+                    "phone": "-  10533"
+                },
+                "education": [
+                    {
+                        "degree": "MAJOR",
+                        "schoolname": "",
+                        "location": null,
+                        "field": "Management",
+                        "gmat": null,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Miami Dade College",
+                            "Associate in Arts -June 2014"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "",
+                        "function": "",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "florida",
+                        "data_raw": 0,
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 12,
+                        "bullets": [
+                            "M&R Auto Repair, Miami, Florida"
+                        ]
+                    },
+                    {
+                        "position": "specialist -(January 2013 -current)",
+                        "position_trimed": "Automotive specialist",
+                        "position_full_div_text": "Automotive specialist -(January 2013 -current)",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "florida",
+                        "data_raw": "January 2013 -current",
+                        "startmonth": "01",
+                        "endmonth": -1,
+                        "startyear": "2013",
+                        "endyear": -1,
+                        "duration": 23,
+                        "bullets": [
+                            "Managed inventory throughout the shop and placed orders for parts and supplies",
+                            "Effectively communicate with customers the problem with their vehicle and the solution",
+                            "Assumed responsibility for vehicles being properly prepped for customer pickup",
+                            "Improved shop efficiency by ensuring deadlines and recommending new shop layout",
+                            "Witte Cycle, Miami, Florida"
+                        ]
+                    },
+                    {
+                        "position": "Shop Foreman -(August 2011 -December 2012",
+                        "position_trimed": "Shop Foreman August 2011 December 2012",
+                        "position_full_div_text": "Shop Foreman -(August 2011 -December 2012",
+                        "companyname": "",
+                        "function": "Administration, Executive Assistant, Front Office, Data Entry, Secretary",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "florida",
+                        "data_raw": "August 2011 -December 2012",
+                        "startmonth": "08",
+                        "endmonth": "12",
+                        "startyear": "2011",
+                        "endyear": "2012",
+                        "duration": 16,
+                        "bullets": [
+                            "Assisted in shop opening from inventory, purchasing shop equipment, and marketing material (website, flyers, clothing)",
+                            "Assisted in event planning",
+                            "Maximized performance by organizing shop, and arranging equipment"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        }
+    }
+]

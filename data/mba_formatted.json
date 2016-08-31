@@ -1,0 +1,1057 @@
+[{
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "Caitrin Abshere",
+					"address": "1260 Wilson St, Palo Alto, CA 94301",
+					"email": "cabshere@stanford.edu",
+					"phone": "617-515-1344",
+					"yearOfBirth": "1985",
+					"nationality": "Spanish",
+					"residencePermit": "Residence permit if applicable"
+				},
+				"profile": {
+					"text": "Finance professional with 8 years working experience, mainly in the steel industry, and a background in external and internal audit, financial control and forecasting. In collaboration with financial and tax advisors, supported various debt restructurings and provided extensive financial analysis for banking institutions in Spain and in the United Kingdom."
+				},
+				"education": [{
+					"degree": "Master Of Business Administration",
+					"schoolname": "Stanford Graduate School Of Business",
+					"location": "stanford",
+					"field": "",
+					"gmat": null,
+					"date_raw": "2012-2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2012",
+					"endyear": "2014",
+					"grade": null,
+					"bullets": [
+						"Healthcare Club Co-President; Career Management Committee Student Association Representative",
+						"Intensive summer session for global health professionals; coursework: Epidemiological Methods for Global Health; Seminar on Management Perspectives in Global Health Delivery; Introduction to Global Health Care Delivery"
+					],
+					"organizations": [
+						"Healthcare Club Co-President"
+					],
+					"awards": [],
+					"duration": 24
+				}, {
+					"degree": "Bachelor Of Arts",
+					"schoolname": "Middlebury College",
+					"location": "Middlebury",
+					"field": "Geography;English",
+					"gmat": null,
+					"date_raw": "2003-2007",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2003",
+					"endyear": "2007",
+					"grade": "3.73\/4.0",
+					"bullets": [
+						"Bachelor of Arts, Joint Degree in Geography & English; Magna Cum Laude",
+						"Overall GPA: 3.73\/4.0",
+						"Geography department research assistant; collaboration with Professor Anne Knowles profiled in New York Times and awarded 2012 Smithsonian Ingenuity Award",
+						"Womens varsity soccer (4 yrs.); 2006 captain; all-time assist leader"
+					],
+					"organizations": [],
+					"awards": [
+						" collaboration with Professor Anne Knowles profiled in New York Times and awarded 2012 Smithsonian Ingenuity Award"
+					],
+					"duration": 48
+				}],
+				"experience": [{
+					"position": "Summer Associate",
+					"position_trimed": "GE Healthymagination  Summer Associate",
+					"position_full_div_text": "GE Healthymagination | Summer Associate",
+					"companyname": "GE Healthymagination",
+					"function": "Venture Capital",
+					"industry": "Hospital & Health Care",
+					"linkedin_company_name": null,
+					"location": "Menlo Park, CA",
+					"data_raw": "Summer 2013",
+					"startmonth": "05",
+					"endmonth": "07",
+					"startyear": "2013",
+					"endyear": "2013",
+					"bullets": [
+						"Venture capital and business incubation arm of GE, focused on access & affordability",
+						"Developed project plan for 8-week effort culminating in presentation to CEO re: new business opportunity in the employer health space; wrote RFP, evaluated proposals, negotiated contract and selected consultants",
+						"Assumed responsibilities of absent Executive Director for 6 weeks; executed project plan while managing 10- person cross functional team"
+					],
+					"duration": "2"
+				}, {
+					"position": "Senior Associate",
+					"position_trimed": "Innosight  Senior Associate",
+					"position_full_div_text": "Innosight | Senior Associate",
+					"companyname": "Innosight",
+					"function": "Management Consulting",
+					"industry": "Management Consulting",
+					"linkedin_company_name": null,
+					"location": "Lexington, MA",
+					"data_raw": "2008-2012",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2008",
+					"endyear": "2012",
+					"bullets": [
+						"Strategy & innovation consultancy founded by Harvard Business School professor Clay Christensen",
+						"Developed strategic and disruptive business model innovations for Fortune 50 healthcare organizations",
+						"First in cohort promoted on accelerated management trajectory to Senior Associate (post-MBA title)",
+						"Recognized as firm expert in qualitative research, health system analysis, and business model designs that improve accessibility and quality of healthcare. Notable projects:",
+						"Romania: Transformative market entry strategy   Created proposal for public-private partnership that will debut  public health approach  to market entry for new drugs. Impetus   and first demonstration project   for creation of  health systems engineering  internal start-up, sponsored by worldwide chairman",
+						"India: Market expansion assessment   Managed 60 interviews across 8 stakeholder groups. Presented partnership models for addressing unmet needs in primary care to CFO. Client in discussions with country  s 2 largest healthcare players to bring 1st Western retail healthcare experience to India",
+						"USA: Opportunity diligence for lab testing   Developed business case for  laboratory diagnostics at retail  proposal to evaluate venture investment in a technology vendor, and then national launch of new successful model (live now!). Following  go  decision, led 10-person team to create physician communication strategy",
+						"USA: Business model design for chronic care   Designed heavy- and light-touch versions of medication and lifestyle adherence interventions delivered at retail. Consultation service (  heavy  ) in pilot in 8 US cities. Automated reminders and retail-counter interventions (  light  ) being rolled out nationally at 8,500 locations",
+						"Internal: Founded working group to increase social impact of projects. Engaged firm partnership on importance to employees, leading to formal 0.5 FTE allocation"
+					],
+					"duration": "48"
+				}, {
+					"position": "Research Specialist (Volunteer)",
+					"position_trimed": "Design That Matters  Health Research Specialist",
+					"position_full_div_text": "Design That Matters | Health Research Specialist (Volunteer)",
+					"companyname": "Design That Matters",
+					"function": "Clinical Research",
+					"industry": "Non profit organisation",
+					"linkedin_company_name": null,
+					"location": "Cambridge, MA \/ Hanoi, Vietnam",
+					"data_raw": "2010-2012",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2010",
+					"endyear": "2012",
+					"bullets": [
+						"Conducted in-field prototype testing for infant phototherapy device at district-level hospitals in rural Vietnam. Findings used to modify product design and hospital launch strategy",
+						"Firefly  treated first infant in January 2012, and was subsequently declared winner of 2012 IDSA IDEA Award"
+					],
+					"duration": "24"
+				}, {
+					"position": "Research Analyst",
+					"position_trimed": "Population Community Development Association  Research Analyst",
+					"position_full_div_text": "POPULATION & COMMUNITY DEVELOPMENT ASSOCIATION | Research Analyst",
+					"companyname": "POPULATION & COMMUNITY DEVELOPMENT ASSOCIATION",
+					"function": "Economic Research",
+					"industry": "Non profit organisation",
+					"linkedin_company_name": null,
+					"location": "Thailand",
+					"data_raw": "2007-2008",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2007",
+					"endyear": "2008",
+					"bullets": [
+						"Non-profit organization; recipient of 2007 Gates Award for Global Health, 2008 Skoll Award",
+						"Awarded grant to conduct research with PDA re: impact of microcredit-enabled enterprises on local ecologies",
+						"Developed  junior ecopreneurship  microcredit program that educates and finances village youth to innovate environmentally-beneficial enterprises; core element of initiative that won United Nation's 2009 SEED"
+					],
+					"duration": "12"
+				}],
+				"additional_data": {
+					"interests": {"text":"Football, traveling, cooking"},
+					"languages": [
+						"spanish",
+						"english"
+					],
+					"bullets": [{
+						"text": "Technical \/ language competencies: English (native), Spanish (native fluent), Matlab, SPSS, C"
+					}, {
+						"text": "Other experience: Led BCG global recruiting efforts for MIT associates; Volunteer MIT Assistant"
+					}, {
+						"text": "Coach XC & Track; Volunteer at Stanford Hospital and Clinics"
+					}, {
+						"text": "Interests: Running, swimming, cooking Peruvian cuisine, international development"
+					}]
+				}
+			}
+		},
+		"bulk_upload_category_id": "47",
+		"bulk_upload_resume_id": "30936"
+	}, {
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "Caitrin Abshere",
+					"address": "1260 Wilson St, Palo Alto, CA 94301",
+					"email": "cabshere@hotmail.com",
+					"phone": "617-515-1344",
+					"yearOfBirth": "1985",
+					"nationality": "Spanish",
+					"residencePermit": "Residence permit if applicable"
+				},
+				"profile": {
+					"text": "Finance professional with 8 years working experience, mainly in the steel industry, and a background in external and internal audit, financial control and forecasting.In collaboration with financial and tax advisors, supported various debt restructurings and provided extensive financial analysis for banking institutions in Spain and in the United Kingdom."
+				},
+				"education": [{
+					"degree": "Master Of Business Administration",
+					"schoolname": "Stanford Graduate School Of Business",
+					"location": "stanford",
+					"field": "",
+					"gmat": null,
+					"date_raw": "2012-2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2012",
+					"endyear": "2014",
+					"grade": null,
+					"bullets": [
+						"Healthcare Club Co-President; Career Management Committee Student Association Representative",
+						"Intensive summer session for global health professionals; coursework: Epidemiological Methods for Global Health; Seminar on Management Perspectives in Global Health Delivery; Introduction to Global Health Care Delivery"
+					],
+					"organizations": [
+						"Healthcare Club Co-President"
+					],
+					"awards": [],
+					"duration": 24
+				}, {
+					"degree": "Bachelor Of Arts",
+					"schoolname": "Middlebury College",
+					"location": "Middlebury",
+					"field": "Geography;English",
+					"gmat": null,
+					"date_raw": "2003-2007",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2003",
+					"endyear": "2007",
+					"grade": "3.73\/4.0",
+					"bullets": [
+						"Bachelor of Arts, Joint Degree in Geography & English; Magna Cum Laude",
+						"Overall GPA: 3.73\/4.0",
+						"Geography department research assistant; collaboration with Professor Anne Knowles profiled in New York Times and awarded 2012 Smithsonian Ingenuity Award",
+						"Womens varsity soccer (4 yrs.); 2006 captain; all-time assist leader"
+					],
+					"organizations": [],
+					"awards": [
+						" collaboration with Professor Anne Knowles profiled in New York Times and awarded 2012 Smithsonian Ingenuity Award"
+					],
+					"duration": 48
+				}],
+				"experience": [{
+					"position": "Summer Associate",
+					"position_trimed": "GE Healthymagination  Summer Associate",
+					"position_full_div_text": "GE Healthymagination | Summer Associate",
+					"companyname": "GE Healthymagination",
+					"function": "Venture Capital",
+					"industry": "Hospital & Health Care",
+					"linkedin_company_name": null,
+					"location": "Menlo Park, CA",
+					"data_raw": "Summer 2013",
+					"startmonth": "05",
+					"endmonth": "07",
+					"startyear": "2013",
+					"endyear": "2013",
+					"bullets": [
+						"Venture capital and business incubation arm of GE, focused on access & affordability",
+						"Developed project plan for 8-week effort culminating in presentation to CEO re: new business opportunity in the employer health space; wrote RFP, evaluated proposals, negotiated contract and selected consultants",
+						"Assumed responsibilities of absent Executive Director for 6 weeks; executed project plan while managing 10- person cross functional team"
+					],
+					"duration": "2"
+				}, {
+					"position": "Senior Associate",
+					"position_trimed": "Innosight  Senior Associate",
+					"position_full_div_text": "Innosight | Senior Associate",
+					"companyname": "Innosight",
+					"function": "Management Consulting",
+					"industry": "Management Consulting",
+					"linkedin_company_name": null,
+					"location": "Lexington, MA",
+					"data_raw": "2008-2012",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2008",
+					"endyear": "2012",
+					"bullets": [
+						"Strategy & innovation consultancy founded by Harvard Business School professor Clay Christensen",
+						"Developed strategic and disruptive business model innovations for Fortune 50 healthcare organizations",
+						"First in cohort promoted on accelerated management trajectory to Senior Associate (post-MBA title)",
+						"Recognized as firm expert in qualitative research, health system analysis, and business model designs that improve accessibility and quality of healthcare. Notable projects:",
+						"Romania: Transformative market entry strategy   Created proposal for public-private partnership that will debut  public health approach  to market entry for new drugs. Impetus   and first demonstration project   for creation of  health systems engineering  internal start-up, sponsored by worldwide chairman",
+						"India: Market expansion assessment   Managed 60 interviews across 8 stakeholder groups. Presented partnership models for addressing unmet needs in primary care to CFO. Client in discussions with country  s 2 largest healthcare players to bring 1st Western retail healthcare experience to India",
+						"USA: Opportunity diligence for lab testing   Developed business case for  laboratory diagnostics at retail  proposal to evaluate venture investment in a technology vendor, and then national launch of new successful model (live now!). Following  go  decision, led 10-person team to create physician communication strategy",
+						"USA: Business model design for chronic care   Designed heavy- and light-touch versions of medication and lifestyle adherence interventions delivered at retail. Consultation service (  heavy  ) in pilot in 8 US cities. Automated reminders and retail-counter interventions (  light  ) being rolled out nationally at 8,500 locations",
+						"Internal: Founded working group to increase social impact of projects. Engaged firm partnership on importance to employees, leading to formal 0.5 FTE allocation"
+					],
+					"duration": "48"
+				}, {
+					"position": "Research Specialist (Volunteer)",
+					"position_trimed": "Design That Matters  Health Research Specialist",
+					"position_full_div_text": "Design That Matters | Health Research Specialist (Volunteer)",
+					"companyname": "Design That Matters",
+					"function": "Clinical Research",
+					"industry": "Non profit organisation",
+					"linkedin_company_name": null,
+					"location": "Cambridge, MA \/ Hanoi, Vietnam",
+					"data_raw": "2010-2012",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2010",
+					"endyear": "2012",
+					"bullets": [
+						"Conducted in-field prototype testing for infant phototherapy device at district-level hospitals in rural Vietnam. Findings used to modify product design and hospital launch strategy",
+						"Firefly  treated first infant in January 2012, and was subsequently declared winner of 2012 IDSA IDEA Award"
+					],
+					"duration": "24"
+				}, {
+					"position": "Research Analyst",
+					"position_trimed": "Population Community Development Association  Research Analyst",
+					"position_full_div_text": "POPULATION & COMMUNITY DEVELOPMENT ASSOCIATION | Research Analyst",
+					"companyname": "POPULATION & COMMUNITY DEVELOPMENT ASSOCIATION",
+					"function": "Economic Research",
+					"industry": "Non profit organisation",
+					"linkedin_company_name": null,
+					"location": "Thailand",
+					"data_raw": "2007-2008",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2007",
+					"endyear": "2008",
+					"bullets": [
+						"Non-profit organization; recipient of 2007 Gates Award for Global Health, 2008 Skoll Award",
+						"Awarded grant to conduct research with PDA re: impact of microcredit-enabled enterprises on local ecologies",
+						"Developed  junior ecopreneurship  microcredit program that educates and finances village youth to innovate environmentally-beneficial enterprises; core element of initiative that won United Nation's 2009 SEED"
+					],
+					"duration": "12"
+				}],
+				"additional_data": {
+					"interests": "",
+					"languages": [],
+					"bullets": []
+				}
+			}
+		},
+		"bulk_upload_category_id": "47",
+		"bulk_upload_resume_id": "30936_1"
+	}, {
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "Hana Adaniya",
+					"address": "478 Oxford Ave. Palo Alto, CA 94306",
+					"email": "adaniya@stanford.edu",
+					"phone": "(617) 821-9713"
+				},
+				"education": [{
+					"degree": "Master Of Business Administration",
+					"schoolname": "Stanford Graduate School Of Business",
+					"location": "Stanford",
+					"field": "",
+					"gmat": "GMAT 760",
+					"date_raw": "2012-2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2012",
+					"endyear": "2014",
+					"duration": 24,
+					"grade": null,
+					"bullets": [
+						"Master of Business Administration Candidate  GMAT 760",
+						"Arbuckle Leadership Fellow; Hispanic Business Students Association co-president, Stanford University Committee on Graduate Studies student representative"
+					],
+					"organizations": [],
+					"awards": []
+				}, {
+					"degree": "Master Of Engineering",
+					"schoolname": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
+					"location": "cambridge",
+					"field": "Electrical Engineering;Computer Science",
+					"gmat": null,
+					"date_raw": "2007-2008",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2007",
+					"endyear": "2008",
+					"duration": 12,
+					"grade": "5.0\/5.0",
+					"bullets": [
+						"Master of Engineering - Electrical Engineering & Computer Science; GPA 5.0\/5.0"
+					],
+					"organizations": [],
+					"awards": []
+				}, {
+					"degree": "Bachelor Of Science",
+					"schoolname": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
+					"location": "cambridge",
+					"field": "Electrical Engineering;Computer Science",
+					"gmat": null,
+					"date_raw": "2003-2007",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2003",
+					"endyear": "2007",
+					"duration": 48,
+					"grade": null,
+					"bullets": [
+						"MIT VI-A Fellow; Academic All-American Track & Field, 2nd team; US Presidential Scholar",
+						"4 year Varsity Cross-Country, Indoor\/Outdoor Track & Field; Society of Hispanic Prof. Engineers"
+					],
+					"organizations": [
+						" Society of Hispanic Prof. Engineers"
+					],
+					"awards": []
+				}],
+				"experience": [{
+					"position": "Sales Support & Product Operations (SSPO) MBA intern",
+					"position_trimed": "gTech Sales Support  Product Operations  MBA intern",
+					"position_full_div_text": "gTech Sales Support & Product Operations (SSPO) MBA intern",
+					"companyname": "GOOGLE, INC",
+					"function": "Sales",
+					"industry": "Internet",
+					"linkedin_company_name": null,
+					"location": "Mountain View, CA",
+					"data_raw": "June 2013-Aug 2013",
+					"startmonth": "06",
+					"endmonth": "08",
+					"startyear": "2013",
+					"endyear": "2013",
+					"duration": 2,
+					"bullets": [
+						"Identified need for Services organization to track service-requests and service-levels-received for top accounts; piloted new metrics\/dashboards for AdWords Large Customer Sales North America Sectors securing cross-functional buy-in;  Service Health  metric now being rolled out across Google",
+						"Freed capacity via productivity initiatives equivalent to 5% of Product Ops & Escalation Mgmt team",
+						"Received a  SpotBonus  for contribution to SalesTech Americas team"
+					]
+				}, {
+					"position": "Consultant",
+					"position_trimed": "Consultant",
+					"position_full_div_text": "Consultant",
+					"companyname": "THE BOSTON CONSULTING GROUP",
+					"function": "Management Consulting",
+					"industry": "Management Consulting",
+					"linkedin_company_name": null,
+					"location": "Boston, MA",
+					"data_raw": "Sept 2010-Aug 2012",
+					"startmonth": "09",
+					"endmonth": "08",
+					"startyear": "2010",
+					"endyear": "2012",
+					"duration": 23,
+					"bullets": [
+						"Supported development of ~$30M routine immunization strategy for the Gates Foundation",
+						"Led efforts to increase clinical collaboration and efficiency for Gates Foundation grantees; launched shared training & lab audit program; developed $4M grant for global clinical trial site-finder platform",
+						"Developed strategy for a top vaccine manufacturer to increase adult immunization rates in the US"
+					]
+				}, {
+					"position": "Associate",
+					"position_trimed": "Associate",
+					"position_full_div_text": "Associate",
+					"companyname": "THE BOSTON CONSULTING GROUP",
+					"function": "Management Consulting",
+					"industry": "Management Consulting",
+					"linkedin_company_name": null,
+					"location": "Boston, MA",
+					"data_raw": "Sept 2008-Aug 2010",
+					"startmonth": "09",
+					"endmonth": "08",
+					"startyear": "2008",
+					"endyear": "2010",
+					"duration": 23,
+					"bullets": [
+						"Supported a new CEO of a Fortune 100 company in defining the organizational, leadership, and strategic direction for the company as part of the CEO's first 100-day transition plan",
+						"Supported sales force effectiveness strategy for major tech firm; created analysis to evaluate Return on Sales Force Investment (metric has since been adopted at executive level by client and BCG)",
+						"Designed and piloted a lean production system for manufacturer; identified ~15% capacity savings",
+						"Federally funded R&D center chartered to apply advanced technology to problems of national security 2005  2008 (part-time)"
+					]
+				}, {
+					"position": "Researcher in Tactical Systems Technology Division",
+					"position_trimed": "Researcher in Tactical Systems Technology Division",
+					"position_full_div_text": "Researcher in Tactical Systems Technology Division",
+					"companyname": "MIT LINCOLN LABORATORY",
+					"function": "Defense Forces",
+					"industry": "Defense & Space",
+					"linkedin_company_name": null,
+					"location": "Lexington , MA",
+					"data_raw": "July 2008-Aug 2008",
+					"startmonth": "07",
+					"endmonth": "08",
+					"startyear": "2008",
+					"endyear": "2008",
+					"duration": 1,
+					"bullets": [
+						"Researched a significant defense need in signal cancellation (Dept of Defense Secret Clearance)"
+					]
+				}],
+				"additional_data": {
+					"interests": {
+						"text":"Football, traveling, cooking"
+					},
+					"languages": [
+						"spanish",
+						"english"
+					],
+					"bullets": [{
+						"text": "Technical \/ language competencies: English (native), Spanish (native fluent), Matlab, SPSS, C"
+					}, {
+						"text": "Other experience: Led BCG global recruiting efforts for MIT associates; Volunteer MIT Assistant"
+					}, {
+						"text": "Coach XC & Track; Volunteer at Stanford Hospital and Clinics"
+					}, {
+						"text": "Interests: Running, swimming, cooking Peruvian cuisine, international development"
+					}]
+				}
+			}
+		},
+		"bulk_upload_category_id": "47",
+		"bulk_upload_resume_id": "30937"
+	}, {
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "Hana Adaniya",
+					"address": "478 Oxford Ave. Palo Alto, CA 94306",
+					"email": "adaniya@gmail.com",
+					"phone": "(617) 821-9713"
+				},
+				"education": [{
+					"degree": "Master Of Business Administration",
+					"schoolname": "Stanford Graduate School Of Business",
+					"location": "stanford",
+					"field": "",
+					"gmat": "GMAT 760",
+					"date_raw": "2012-2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2012",
+					"endyear": "2014",
+					"duration": 24,
+					"grade": null,
+					"bullets": [
+						"Master of Business Administration Candidate  GMAT 760",
+						"Arbuckle Leadership Fellow; Hispanic Business Students Association co-president, Stanford University Committee on Graduate Studies student representative"
+					],
+					"organizations": [],
+					"awards": []
+				}, {
+					"degree": "Master Of Engineering",
+					"schoolname": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
+					"location": "cambridge",
+					"field": "Electrical Engineering;Computer Science",
+					"gmat": null,
+					"date_raw": "2007-2008",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2007",
+					"endyear": "2008",
+					"duration": 12,
+					"grade": "5.0\/5.0",
+					"bullets": [
+						"Master of Engineering - Electrical Engineering & Computer Science; GPA 5.0\/5.0"
+					],
+					"organizations": [],
+					"awards": []
+				}, {
+					"degree": "Bachelor Of Science",
+					"schoolname": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
+					"location": "cambridge",
+					"field": "Electrical Engineering;Computer Science",
+					"gmat": null,
+					"date_raw": "2003-2007",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2003",
+					"endyear": "2007",
+					"duration": 48,
+					"grade": null,
+					"bullets": [
+						"MIT VI-A Fellow; Academic All-American Track & Field, 2nd team; US Presidential Scholar",
+						"4 year Varsity Cross-Country, Indoor\/Outdoor Track & Field; Society of Hispanic Prof. Engineers"
+					],
+					"organizations": [
+						" Society of Hispanic Prof. Engineers"
+					],
+					"awards": []
+				}],
+				"experience": [{
+					"position": "Sales Support & Product Operations (SSPO) MBA intern",
+					"position_trimed": "gTech Sales Support  Product Operations  MBA intern",
+					"position_full_div_text": "gTech Sales Support & Product Operations (SSPO) MBA intern",
+					"companyname": "GOOGLE, INC",
+					"function": "Sales",
+					"industry": "Internet",
+					"linkedin_company_name": null,
+					"location": "Mountain View, CA",
+					"data_raw": "June 2013-Aug 2013",
+					"startmonth": "06",
+					"endmonth": "08",
+					"startyear": "2013",
+					"endyear": "2013",
+					"duration": 2,
+					"bullets": [
+						"Identified need for Services organization to track service-requests and service-levels-received for top accounts; piloted new metrics\/dashboards for AdWords Large Customer Sales North America Sectors securing cross-functional buy-in;  Service Health  metric now being rolled out across Google",
+						"Freed capacity via productivity initiatives equivalent to 5% of Product Ops & Escalation Mgmt team",
+						"Received a  SpotBonus  for contribution to SalesTech Americas team"
+					]
+				}, {
+					"position": "Consultant",
+					"position_trimed": "Consultant",
+					"position_full_div_text": "Consultant",
+					"companyname": "THE BOSTON CONSULTING GROUP",
+					"function": "Management Consulting",
+					"industry": "Management Consulting",
+					"linkedin_company_name": null,
+					"location": "Boston, MA",
+					"data_raw": "Sept 2010-Aug 2012",
+					"startmonth": "09",
+					"endmonth": "08",
+					"startyear": "2010",
+					"endyear": "2012",
+					"duration": 23,
+					"bullets": [
+						"Supported development of ~$30M routine immunization strategy for the Gates Foundation",
+						"Led efforts to increase clinical collaboration and efficiency for Gates Foundation grantees; launched shared training & lab audit program; developed $4M grant for global clinical trial site-finder platform",
+						"Developed strategy for a top vaccine manufacturer to increase adult immunization rates in the US"
+					]
+				}, {
+					"position": "Associate",
+					"position_trimed": "Associate",
+					"position_full_div_text": "Associate",
+					"companyname": "THE BOSTON CONSULTING GROUP",
+					"function": "Management Consulting",
+					"industry": "Management Consulting",
+					"linkedin_company_name": null,
+					"location": "Boston, MA",
+					"data_raw": "Sept 2008-Aug 2010",
+					"startmonth": "09",
+					"endmonth": "08",
+					"startyear": "2008",
+					"endyear": "2010",
+					"duration": 23,
+					"bullets": [
+						"Supported a new CEO of a Fortune 100 company in defining the organizational, leadership, and strategic direction for the company as part of the CEO's first 100-day transition plan",
+						"Supported sales force effectiveness strategy for major tech firm; created analysis to evaluate Return on Sales Force Investment (metric has since been adopted at executive level by client and BCG)",
+						"Designed and piloted a lean production system for manufacturer; identified ~15% capacity savings",
+						"Federally funded R&D center chartered to apply advanced technology to problems of national security 2005  2008 (part-time)"
+					]
+				}, {
+					"position": "Researcher in Tactical Systems Technology Division",
+					"position_trimed": "Researcher in Tactical Systems Technology Division",
+					"position_full_div_text": "Researcher in Tactical Systems Technology Division",
+					"companyname": "MIT LINCOLN LABORATORY",
+					"function": "Defense Forces",
+					"industry": "Defense & Space",
+					"linkedin_company_name": null,
+					"location": "Lexington , MA",
+					"data_raw": "July 2008-Aug 2008",
+					"startmonth": "07",
+					"endmonth": "08",
+					"startyear": "2008",
+					"endyear": "2008",
+					"duration": 1,
+					"bullets": [
+						"Researched a significant defense need in signal cancellation (Dept of Defense Secret Clearance)"
+					]
+				}],
+				"additional_data": {
+					"interests": {"text":"Football, traveling, cooking"},
+					"languages": [
+						"spanish",
+						"english"
+					],
+					"bullets": [{
+						"text": "Technical \/ language competencies: English (native), Spanish (native fluent), Matlab, SPSS, C"
+					}]
+				}
+			}
+		},
+		"bulk_upload_category_id": "47",
+		"bulk_upload_resume_id": "30937_1"
+	}, {
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "John Doe",
+					"address": "5807 S. Woodlawn",
+					"email": "ralsuqair@gmail.com",
+					"phone": "00447456772774 "
+				},
+				"education": [{
+					"degree": "Masters In Management",
+					"schoolname": "London Business School",
+					"location": "london",
+					"field": "Management",
+					"gmat": false,
+					"date_raw": "2013 - 2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2013",
+					"endyear": "2014",
+					"duration": 12,
+					"grade": null,
+					"bullets": [
+						"Reading for Masters in Management degree"
+					],
+					"organizations": [],
+					"awards": []
+				}, {
+					"degree": "BSC",
+					"schoolname": "Prince Mohammad Bin Fahd University, Alkhobar, Saudi Arabia",
+					"location": "london",
+					"field": "Finance",
+					"gmat": false,
+					"date_raw": "2007 - 2011",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2007",
+					"endyear": "2011",
+					"duration": 48,
+					"grade": null,
+					"bullets": [
+						"Dean's List student during undergraduate studies"
+					],
+					"organizations": [
+						"Dean's List student during undergraduate studies"
+					],
+					"awards": []
+				}],
+				"experience": [{
+					"position": "Sr. Procurement Analyst",
+					"position_trimed": "",
+					"position_full_div_text": "",
+					"companyname": "SAUDI ARABIAN MONETARY AGENCY (SAMA)",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "Riyadh, Saudi Arabia",
+					"data_raw": "Mar 2012 to Apr 2013",
+					"startmonth": "03",
+					"endmonth": "04",
+					"startyear": "2012",
+					"endyear": "2013",
+					"duration": 13,
+					"bullets": [
+						"Managed team of 12 representatives from SAMA and participant banks to oversee Prepaid",
+						"Payment Services (PPS) Pilot Program",
+						"Analyzed and critiqued technology-related financial products, made approval recommendations to Director, and ensured compliance with SAMA rules",
+						"Served as SAMA  s representative to consult on Wage Protection System (WPS), a Ministry of Labor national initiative to ensure workers in KSA receive salaries on-time and in-full via monitored process",
+						"Managed quarterly merchant satisfaction survey regarding SPAN linked point-of-sale (POS) terminals, measured system updates impact, and developed project business cases, including enablement of POS offline and contactless transactions",
+						"Assisted development of updated SPAN Operating Rules, Standards and Procedures",
+						"Supported launch of new SPAN website, including design selection, content development and editing, and management of pre-launch User Acceptance Testing and subsequent modifications",
+						"Served on 8-member evaluation committee representing SAMA and member banks to select a marketing firm to manage advertisement of new SPAN brand",
+						"Researched potential KSA market entry of international credit card company, focusing on potential regional brand acceptance, and presented recommendations to Director on whether company should enter market at current time"
+					]
+				}, {
+					"position": "Procurement Analyst",
+					"position_trimed": "Procurement Analyst",
+					"position_full_div_text": "Procurement Analyst",
+					"companyname": "NATIONAL INDUSTRIALISATION COMPANY (TASNEE)",
+					"function": "Supply Chain \/ Procurement",
+					"industry": "Plastic",
+					"linkedin_company_name": null,
+					"location": "Dubai, United Arab Emirates",
+					"data_raw": "Jan 2012 to Mar 2012",
+					"startmonth": "01",
+					"endmonth": "03",
+					"startyear": "2012",
+					"endyear": "2012",
+					"duration": 2,
+					"bullets": [
+						"Managed process to review, analyze, and approve purchase requisitions and related vendor proposals and awarded Purchase Orders to vendors of value up to SAR1 million",
+						"Evaluated contracts and negotiated pricing, service, payment and related terms with manufacturing, IT and other vendors",
+						"Liaised between vendors and end-users to clarify technical proposals and Scope of Work definitions"
+					]
+				}, {
+					"position": "Internship",
+					"position_trimed": "Internship",
+					"position_full_div_text": "Internship",
+					"companyname": "BANK OF AMERICA MERRILL LYNCH",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "Dubai, United Arab Emirates",
+					"data_raw": "Aug 2010 to Sep 2010",
+					"startmonth": "08",
+					"endmonth": "09",
+					"startyear": "2010",
+					"endyear": "2010",
+					"duration": 1,
+					"bullets": [
+						"Prepared reports to identify regional investment opportunities worldwide for use by Financial Advisors",
+						"Conducted client case studies to understand financial position, risk tolerance, and expected return, analyzed security markets, and constructed draft client portfolios"
+					]
+				}],
+				"additional_data": {
+					"interests":
+					{"text":"Football"},
+					"languages": [],
+					"bullets": [{
+						"text": "Vice President of the LBS Energy Club Executive Committee, responsible for career services"
+					}, {
+						"text": "Active member of the LBS Private Equity and Venture Capital Club, Finance Club, Industry"
+					}, {
+						"text": "Club and Football Club"
+					}, {
+						"text": "Strategic Planner in Giving Hands, a Saudi Charity Organization, planning for fund-raising  and charitable events"
+					}, {
+						"text": "Volunteered as a Finance Expert at Rawabi Talent Exhibit in Saudi Arabia"
+					}, {
+						"text": "Volunteered in an NGO based on Children Education"
+					}]
+				}
+			}
+		},
+		"bulk_upload_category_id": "338",
+		"bulk_upload_resume_id": "195404"
+	},
+
+	{
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "Robin Malhotra",
+					"address": "C-9/9352 Vasant Kunj",
+					"email": "me@rmalhotra.com",
+					"phone": "+91-9871269578"
+				},
+				"education": [{
+					"degree": "Bachelors in Technology",
+					"schoolname": "Indian Institute of Technology",
+					"location": "Delhi",
+					"field": "Textile Technology, minor in Computer Science",
+					"gmat": false,
+					"date_raw": "2013 - 2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2013",
+					"endyear": "2014",
+					"duration": 12,
+					"grade": null,
+					"bullets": [
+						"Textile Technology, minor in Computer Science",
+						"GPA: 8.19 on a ten point scale"
+					],
+					"organizations": [],
+					"awards": []
+				}],
+				"experience": [{
+					"position": "iOS Dev Intern",
+					"position_trimed": "",
+					"position_full_div_text": "",
+					"companyname": "Paytm, One 97 Inc",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "Noida, NCR",
+					"data_raw": "Dec 2014 to Jan 2015",
+					"startmonth": "03",
+					"endmonth": "04",
+					"startyear": "2012",
+					"endyear": "2013",
+					"duration": 13,
+					"bullets": [
+						"Worked on the Paytm wallet iOS app - deals module and API integration. Built in Objective-C on the iOS 7 SDK",
+						"Featured all new design and interactions to enable new user experiences",
+						"Link: https://itunes.apple.com/in/app/paytm-wallet/id985129485?mt=8"
+					]
+				}, {
+					"position": "Intern",
+					"position_trimed": "Procurement Analyst",
+					"position_full_div_text": "Procurement Analyst",
+					"companyname": "Madura Fashion and Lifestyle",
+					"function": "Supply Chain \/ Procurement",
+					"industry": "Plastic",
+					"linkedin_company_name": null,
+					"location": "Bangalore, India",
+					"data_raw": "May 2015 to July 2015",
+					"startmonth": "01",
+					"endmonth": "03",
+					"startyear": "2012",
+					"endyear": "2012",
+					"duration": 2,
+					"bullets": [
+						"Built a Production Optimisation System to generate manufacturing schedules from factory orders and automatically send them to concerned stakeholders.",
+						"Built in Python3 using Flask, Numpy and Pandas"
+					]
+				}, {
+					"position": "iOS Dev Intern",
+					"position_trimed": "Internship",
+					"position_full_div_text": "Internship",
+					"companyname": "Housing Labs, New Delhi",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "New Delhi",
+					"data_raw": "Aug 2015 to Nov 2015",
+					"startmonth": "08",
+					"endmonth": "09",
+					"startyear": "2010",
+					"endyear": "2010",
+					"bullets": [
+						"Helped develop Pipal, an app to aid communication in apartment complexes",
+						"Built in Swift 2 and Django for the RESTFUL API.",
+						"Here's a sneak peak: http://abheyraj.com/assets/out.mp4"
+					]
+				}],
+				"additional_data": {
+					"interests": {"text":"Football"},
+					"languages": [],
+					"bullets": [
+					{
+						"heading":"Spotify Table",
+						"text": "Implemented Spotify/Tweetbot's overscrolling behaviour. Wrote a medium article about it <a>here: https://medium.com/ios-os-x-development/recreating-spotify-s-tweetbot-s-artist-album-uitableview-8488979fc3e1#.b9ynyfn50"
+					},
+					{
+						"heading":"OpenCV on iOS",
+						"text": "Implemented simple OpenCV functions in iOS on top of camera input. Wrote another well received article on it: https://medium.com/ios-os-x-development/the-fd4fcb249358#.593xbrwnl"
+					},
+					{
+						"heading": "MathEmbed",
+						"text": "Built a NodeJS app that allows users to embed TeX equations in Medium articles. Approved by embed.ly. Link: www.mathembed.com"
+					},
+					{
+						"heading":"Chatalyst",
+						"text": "Wrote a conversational news app for a Hackathon held by the Tata Group. https://github.com/codeOfRobin/newChatalyst"
+					},
+					{
+						"heading":"CrowdFound",
+						"text": "Built a iBeacon based location aware app for the Delhi Startups Hackathon. https://github.com/codeOfRobin/crowdFound"
+					},
+					{
+						"heading":"swiftOpenCV",
+						"text": "Built an interaction layer between swift and OpenCV using an Objective-C++ bridging header"
+					},
+					{
+						"heading":"eSubzi",
+						"text": "Built a grocery delivery app for use within the IIT campus under Prof. M. Balakrishnan. https://github.com/codeOfRobin/eSubziiOS"
+					},
+					{
+						"heading":"SwiftyDropbox",
+						"text": "Contributed to the Swift Dropbox lib, adding functionality for identifying files and folders"
+					},
+					{
+						"heading":"SwiftyPug",
+						"text":"(In Progress) Building a pugjs/jade to HTML transpiler using Swift."
+					},
+					{
+						"heading":"kheraScrape",
+						"text":"Wrote a tiny script to help an IIT policy professor extract data from Government websites"
+					}]
+				}
+			}
+		},
+		"bulk_upload_category_id": "338",
+		"bulk_upload_resume_id": "Robin"
+	},
+
+	{
+		"DataStructure": {
+			"entities": {
+				"personalInformation": {
+					"name": "John Doe",
+					"address": "5807 S. Woodlawn",
+					"email": "ralsuqair@gmail.com",
+					"phone": "00447456772774 "
+				},
+				"education": [{
+					"degree": "Masters In Management",
+					"schoolname": "London Business School",
+					"location": "london",
+					"field": "Management",
+					"gmat": false,
+					"date_raw": "2013 - 2014",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2013",
+					"endyear": "2014",
+					"duration": 12,
+					"grade": null,
+					"bullets": [
+						"Reading for Masters in Management degree"
+					],
+					"organizations": [],
+					"awards": []
+				}, {
+					"degree": "BSC",
+					"schoolname": "Prince Mohammad Bin Fahd University, Alkhobar, Saudi Arabia",
+					"location": "london",
+					"field": "Finance",
+					"gmat": false,
+					"date_raw": "2007 - 2011",
+					"startmonth": "01",
+					"endmonth": "01",
+					"startyear": "2007",
+					"endyear": "2011",
+					"duration": 48,
+					"grade": null,
+					"bullets": [
+						"Dean's List student during undergraduate studies"
+					],
+					"organizations": [
+						"Dean's List student during undergraduate studies"
+					],
+					"awards": []
+				}],
+				"experience": [{
+					"position": "Sr. Procurement Analyst",
+					"position_trimed": "",
+					"position_full_div_text": "",
+					"companyname": "SAUDI ARABIAN MONETARY AGENCY (SAMA)",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "Riyadh, Saudi Arabia",
+					"data_raw": "Mar 2012 to Apr 2013",
+					"startmonth": "03",
+					"endmonth": "04",
+					"startyear": "2012",
+					"endyear": "2013",
+					"duration": 13,
+					"bullets": [
+						"Managed team of 12 representatives from SAMA and participant banks to oversee Prepaid",
+						"Payment Services (PPS) Pilot Program",
+						"Analyzed and critiqued technology-related financial products, made approval recommendations to Director, and ensured compliance with SAMA rules",
+						"Served as SAMA  s representative to consult on Wage Protection System (WPS), a Ministry of Labor national initiative to ensure workers in KSA receive salaries on-time and in-full via monitored process",
+						"Managed quarterly merchant satisfaction survey regarding SPAN linked point-of-sale (POS) terminals, measured system updates impact, and developed project business cases, including enablement of POS offline and contactless transactions",
+						"Assisted development of updated SPAN Operating Rules, Standards and Procedures",
+						"Supported launch of new SPAN website, including design selection, content development and editing, and management of pre-launch User Acceptance Testing and subsequent modifications",
+						"Served on 8-member evaluation committee representing SAMA and member banks to select a marketing firm to manage advertisement of new SPAN brand",
+						"Researched potential KSA market entry of international credit card company, focusing on potential regional brand acceptance, and presented recommendations to Director on whether company should enter market at current time"
+					]
+				}, {
+					"position": "Procurement Analyst",
+					"position_trimed": "Procurement Analyst",
+					"position_full_div_text": "Procurement Analyst",
+					"companyname": "NATIONAL INDUSTRIALISATION COMPANY (TASNEE)",
+					"function": "Supply Chain \/ Procurement",
+					"industry": "Plastic",
+					"linkedin_company_name": null,
+					"location": "Dubai, United Arab Emirates",
+					"data_raw": "Jan 2012 to Mar 2012",
+					"startmonth": "01",
+					"endmonth": "03",
+					"startyear": "2012",
+					"endyear": "2012",
+					"duration": 2,
+					"bullets": [
+						"Managed process to review, analyze, and approve purchase requisitions and related vendor proposals and awarded Purchase Orders to vendors of value up to SAR1 million",
+						"Evaluated contracts and negotiated pricing, service, payment and related terms with manufacturing, IT and other vendors",
+						"Liaised between vendors and end-users to clarify technical proposals and Scope of Work definitions"
+					]
+				}, {
+					"position": "Internship",
+					"position_trimed": "Internship",
+					"position_full_div_text": "Internship",
+					"companyname": "BANK OF AMERICA MERRILL LYNCH",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "Dubai, United Arab Emirates",
+					"data_raw": "Aug 2010 to Sep 2010",
+					"startmonth": "08",
+					"endmonth": "09",
+					"startyear": "2010",
+					"endyear": "2010",
+					"duration": 1,
+					"bullets": [
+						"Prepared reports to identify regional investment opportunities worldwide for use by Financial Advisors",
+						"Conducted client case studies to understand financial position, risk tolerance, and expected return, analyzed security markets, and constructed draft client portfolios"
+					]
+				}],
+				"additional_data": {
+					"interests": {"text":"Football"},
+					"languages": [],
+					"bullets": [{
+						"text": "Vice President of the LBS Energy Club Executive Committee, responsible for career services"
+					}]
+				}
+			}
+		},
+		"bulk_upload_category_id": "338",
+		"bulk_upload_resume_id": "10002"
+	}
+]

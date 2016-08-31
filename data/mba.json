@@ -1,0 +1,1877 @@
+[
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "RYAN PRYZNYK BOOZ ALLEN HAMILTON",
+                    "address": null,
+                    "email": "rpryznyk@hotmail.com",
+                    "phone": "1348        905-599-0297                     -                               (- 2004)    -           15-20          -                 -  (  ) (2001-"
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Business Administration",
+                        "schoolname": "KELLOGG SCHOOL OF MANAGEMENT",
+                        "location": "evanston",
+                        "field": "",
+                        "gmat": false,
+                        "date_raw": "2003-2005",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2003",
+                        "endyear": "2005",
+                        "duration": 24,
+                        "grade": null,
+                        "bullets": [
+                            "Majors in Management & Strategy, Finance, Management & Organizations.",
+                            "Selected co-chairman: Special Olympics club, Canadian Club, and Business Leadership club  marketing and communications group (2004); Business Manager: Kellogg Merger  newspaper.",
+                            "Selected classes included: Leading Teams, Turnaround Management, Negotiations."
+                        ],
+                        "organizations": [
+                            "Selected co-chairman",
+                            " Special Olympics club",
+                            " Canadian Club",
+                            " and Business Leadership club  marketing and communications group ",
+                            "Selected classes included"
+                        ],
+                        "awards": []
+                    },
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "UNIVERSITY OF TORONTO",
+                        "location": "toronto",
+                        "field": "Physics;Biology",
+                        "gmat": false,
+                        "date_raw": "1995-1999",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "1995",
+                        "endyear": "1999",
+                        "duration": 48,
+                        "grade": null,
+                        "bullets": [
+                            "Recipient of 16 scholarships and awards for academic and leadership achievements.",
+                            "University College Intramural male athlete of the year, 1998-99."
+                        ],
+                        "organizations": [],
+                        "awards": [
+                            "Recipient of 16 scholarships and awards for academic and leadership achievements."
+                        ]
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "",
+                        "function": "User Defined",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "amsterdam",
+                        "data_raw": 0,
+                        "startmonth": "06",
+                        "endmonth": "08",
+                        "startyear": "2004",
+                        "endyear": "2004",
+                        "duration": 2,
+                        "bullets": [
+                            "J. RYAN PRYZNYK 1348 Wheelwright Road, Oakville, Ontario rpryznyk@hotmail.com 905-599-0297   Led a benchmarking effort for a large American electric and gas utility that determined the gap to industry-leading performance and identified the drivers of the performance difference.   Held several leadership roles in the Montreal office. BOOZ ALLEN HAMILTON New York, NY Summer Associate (Jun-Aug 2004)   Developed off- shoring assessment for a leading investment bank that identified a 15-20% capacity increase by decreasing the amount of low value-added work performed by junior bankers. MCKINSEY & COMPANY Amsterdam, Netherlands Junior Associate\/ Non-Insead Fellow (business analyst equivalent) (2001-2003)   Developed a strategic plan to achieve EUR 10 million in annual top line growth for an international print media company.   Reduced the capital expenditure plan for a pharma-chemicals company by EUR 50 million by aligning the asset base with the growth targets.   Designed the international expansion strategy and convinced the CEO of its value for an energy services firm by performing market, competitor and potential partner analyses.   Helped a high-tech company improve its market capitalization by 50 percent by improving its communication to the stock market and realigning business units. STRONGGUARD SECURITY Villahermosa, Mexico Co-founding partner (2000)   Founded private security company. Grew firm to 30 employees in 2 geographic markets in initial six months through an aggressive client service strategy.   Determined and executed all functions related to company  s performance including strategy, finance, sales, operations and human resources. EDUCATION KELLOGG SCHOOL OF MANAGEMENT Evanston, IL NORTHWESTERN UNIVERSITY Master of Business Administration degree (2003-2005)    Majors in Management & Strategy, Finance, Management & Organizations.   Selected co-chairman: Special Olympics club, Canadian Club, and Business Leadership club marketing and communications group (2004); Business Manager: Kellogg Merger newspaper.   Selected classes included: Leading Teams, Turnaround Management, Negotiations. UNIVERSITY OF TORONTO Toronto, Canada Honours Bachelor of Science in Human Biology, Biology & Physics (1995-1999)   Recipient of 16 scholarships and awards for academic and leadership achievements.   University College Intramural male athlete of the year, 1998-99. OTHER DATA   Fluent in English and Spanish, functional in Dutch.   Admissions interviewer for Kellogg School of Management.   Former liaison consultant for the Amsterdam Admirals (NFL Europe); responsibilities included maintaining relationships between the Admirals and the U.S. Ambassador.   Achieved a score of 760 out of 800 on the General Management Admissions Test (GMAT), ranking in the 99th percentile."
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [
+                        "spanish",
+                        "english",
+                        "dutch"
+                    ],
+                    "bullets": [
+                        {
+                            "text": "Fluent in English and Spanish, functional in Dutch."
+                        },
+                        {
+                            "text": "Admissions interviewer for Kellogg School of Management."
+                        },
+                        {
+                            "text": "Former liaison consultant for the Amsterdam Admirals (NFL Europe); responsibilities  included maintaining relationships between the Admirals and the U.S. Ambassador."
+                        },
+                        {
+                            "text": "Achieved a score of 760 out of 800 on the General Management Admissions Test (GMAT),  ranking in the 99th percentile."
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "223",
+        "bulk_upload_resume_id": "163152"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": null,
+                    "email": "dmccoy@mbarqtech.com",
+                    "phone": "2 8474892724   -        -          -        -     -  20 "
+                },
+                "education": [
+                    {
+                        "degree": "MBA",
+                        "schoolname": "Kellogg School of Management, Northwestern University",
+                        "location": null,
+                        "field": "Organizational Behavior;Marketing",
+                        "gmat": false,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "grade": null,
+                        "bullets": [
+                            "MBA, concentrations in Organizational Behavior, Marketing, and Policy",
+                            "University of Illinois Champaign-Urbana",
+                            "B.S., Ceramic Engineering"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Dirk McCoy   \u0000\u0000\u0000\u0000\u0000\u0000dmccoy@mbarqtech.com page 2 847.489.2724 Sr. Account Manager-  \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Northlake",
+                        "position_trimed": "Dirk McCoy   dmccoymbarqtech",
+                        "position_full_div_text": "Dirk McCoy   \u0000\u0000\u0000\u0000\u0000\u0000dmccoy@mbarqtech.com page 2 847.489.2724 Sr. Account Manager-  \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Northlake, IL AG Communication Systems, an AT&T-GTE Joint Venture Created Electronic Manufacturing Services business through networking, world-class  process innovation, and paradigm shifting towards zero-defect and quick turn  customer-focus. Added $20M to bottom line over 3 years.   Staff Engineer \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Genoa, IL GTE Communications Systems  Responsible for new process research and implementation for organic and inorganic  circuit boards, SMT, Chip On Board assembly, In-Circuit and RF test, wire and cable  assemblies, plastic and metal enclosures, and final assembly and test. Generated $2M  in annual cost reductions. EDUCATION Kellogg School of Management, Northwestern University  \uf0b7 MBA, concentrations in Organizational Behavior, Marketing, and Policy University of Illinois Champaign-Urbana \uf0b7 B.S., Ceramic Engineering  TRAINING Swift and Xcode Programming, SEO optimization, Karrass Effective Negotiating,  Motorola Six Sigma, Motorola Process Characterization, GM APQP, Yestech X-ray AOI LEADERSHIP ACTIVITIES International Microelectronics Packaging Society- National Symposium Speaker Surface Mount Technology Association- National Conference Speaker Illinois Manufacturers Association- Team Excellence State Quality Awards Judge  International Wireless Industry Consortium- Millimeterwave Advisory Committee University of Illinois Sigma Pi Fraternity- Alumni Board Member  Northwestern University- NUvention Mentor 1871- College U Mentor FCA Academy- Board Member",
+                        "companyname": "",
+                        "function": "Account Management",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "champaign-urbana",
+                        "data_raw": 0,
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "bullets": [
+                            "Dirk McCoy     dmccoy@mbarqtech.com page 2 847.489.2724 Sr. Account Manager-        Northlake, IL AG Communication Systems, an AT&T-GTE Joint Venture Created Electronic Manufacturing Services business through networking, world-class process innovation, and paradigm shifting towards zero-defect and quick turn customer-focus. Added $20M to bottom line over 3 years.  Staff Engineer                               Genoa, IL GTE Communications Systems Responsible for new process research and implementation for organic and inorganic circuit boards, SMT, Chip On Board assembly, In-Circuit and RF test, wire and cable assemblies, plastic and metal enclosures, and final assembly and test. Generated $2M in annual cost reductions. EDUCATION Kellogg School of Management, Northwestern University   MBA, concentrations in Organizational Behavior, Marketing, and Policy University of Illinois Champaign-Urbana   B.S., Ceramic Engineering TRAINING Swift and Xcode Programming, SEO optimization, Karrass Effective Negotiating, Motorola Six Sigma, Motorola Process Characterization, GM APQP, Yestech X-ray AOI LEADERSHIP ACTIVITIES International Microelectronics Packaging Society- National Symposium Speaker Surface Mount Technology Association- National Conference Speaker Illinois Manufacturers Association- Team Excellence State Quality Awards Judge International Wireless Industry Consortium- Millimeterwave Advisory Committee University of Illinois Sigma Pi Fraternity- Alumni Board Member Northwestern University- NUvention Mentor 1871- College U Mentor FCA Academy- Board Member"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        },
+        "bulk_upload_category_id": "223",
+        "bulk_upload_resume_id": "162130"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "ABDO ABDO",
+                    "address": "501 Forest Avenue, Palo Alto, CA 94301",
+                    "email": "aabdo2006@kellogg.nor",
+                    "phone": "408-386-5007"
+                },
+                "education": [
+                    {
+                        "degree": "Masters Of Business Administration",
+                        "schoolname": "KELLOGG SCHOOL OF MANAGEMENT, NORTHWESTERN UNIVERSITY",
+                        "location": "evanston",
+                        "field": "Finance And Strategy",
+                        "gmat": false,
+                        "date_raw": "June 2006",
+                        "startmonth": "06",
+                        "endmonth": 0,
+                        "startyear": "2006",
+                        "endyear": 0,
+                        "duration": 1,
+                        "grade": null,
+                        "bullets": [
+                            "June 2006"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "SCHOOL OF ENGINEERING, ALEXANDRIA UNIVERSITY",
+                        "location": "alexandria",
+                        "field": "Computer Science",
+                        "gmat": false,
+                        "date_raw": "",
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "grade": null,
+                        "bullets": [
+                            "August 1998"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Manager, Mergers and Acquisitions",
+                        "position_trimed": "Manager Mergers and Acquisitions",
+                        "position_full_div_text": "Manager, Mergers and Acquisitions",
+                        "companyname": "Applied Materials",
+                        "function": "Corporate Strategy and Planning",
+                        "industry": "Semiconductors",
+                        "linkedin_company_name": null,
+                        "location": "Santa Clara, CA",
+                        "data_raw": "June 2009 - Present",
+                        "startmonth": "06",
+                        "endmonth": -1,
+                        "startyear": "2009",
+                        "endyear": -1,
+                        "duration": 78,
+                        "bullets": [
+                            "Reporting to head of M&A and responsible for all aspects of deal identification and execution across Applied Materials business units; engaging with senior management to identify high value prospects, developing and evaluating business cases, negotiating & executing deals. Responsibilities also include overseeing due diligence, estimating P&L impact and establishing value drivers and performance metrics for completed transactions.",
+                            "Advent Solar, Inc., privately-held company that designs and manufactures high efficiency silicon-based photovoltaic solar cells and modules. Responsibilities included working with business unit teams to build investment case, preparing investment recommendation to CEO and board of directors. Led due diligence team comprised of functional leads and outside advisors, worked with legal counsel on term sheet and key transaction agreement elements.",
+                            "Semitool, Inc., publicly-held semi-conductor capital equipment company, transaction value is $364M. Responsibilities included directing analysts in building initial valuation models, led effort with business unit in building investment case, and obtaining the necessary approvals by senior executives and board of directors. Led full due diligence team in validating investment case and preparing the necessary presentations for final approval by board of directors.",
+                            "Led an auction process to divest an $80m business unit, this included preparing sale materials, contacting buyers, performing management presentations, negotiating term sheets, definitive and transition services agreements.",
+                            "Led negotiations to acquire a software startup in yield prediction and performance analytics.",
+                            "Collaborated with outside consulting firm to create post-acquisition performance tracking, worked with business unit leaders to identify and set financial targets and report quarterly results to board of directors.",
+                            "Advised business unit heads on several M&A opportunities, including industry review, strategic fit and buy vs. build analysis.",
+                            "Led quarterly reviews of acquisition pipeline with CEO and investment committee. Collaborated with divisions to identify targets that address portfolio gaps and performed initial screening of potential M&A targets.",
+                            "Worked with internal teams to establish robust divestiture processes and practice. Developed process and framework materials that are being across divestiture projects."
+                        ]
+                    },
+                    {
+                        "position": "Associate, Mergers and Acquisitions",
+                        "position_trimed": "Associate Mergers and Acquisitions",
+                        "position_full_div_text": "Associate, Mergers and Acquisitions",
+                        "companyname": "IBM",
+                        "function": "Corporate Strategy and Planning",
+                        "industry": "Tech",
+                        "linkedin_company_name": null,
+                        "location": "Armonk, NY",
+                        "data_raw": "June 2006     June 2009",
+                        "startmonth": "06",
+                        "endmonth": "06",
+                        "startyear": "2006",
+                        "endyear": "2009",
+                        "duration": 36,
+                        "bullets": [
+                            "Performed the process of sourcing, evaluating, and executing acquisition opportunities. This included financial valuations, assembling and leading due diligence teams and external advisors, assisting with deal terms and agreements, developing post-acquisition integration plans.",
+                            "Co-led the signing and closing of five acquisitions, collectively contributing over $600M of incremental revenue in the first year and exceeding IBM investment criteria. Led a team of 60+ IBM subject matter experts and external advisors on numerous due diligence engagements.",
+                            "Select completed transactions:",
+                            "Cognos Inc., a publicly-held software company with a transaction value of $5B, largest software company in Canada. Executed all aspects of the deal, from early stage development of investment case and valuation, due diligence, assisting with legal agreements, including term sheet, negotiating covenants, reps and warranties, and retention agreements of key executives. Managed post-signing regulatory filings, working with IBM legal counsel and external advisors.",
+                            "DataMirror Corp., a publicly-held software company with a transaction value of $170M.",
+                            "ILog SA., a publicly-held provider of rules management systems, headquartered in Gentilly, France, with transaction value of $340M.",
+                            "Led several high profile strategy projects initiated by IBM CEO and Board of Directors including:",
+                            "Exploring strategic alternatives for under performing assets. Deals collectively valued at over $18B",
+                            "Performing competitive threat assessment of M&A strategy within market.",
+                            "Collaborated with IBM business units, investment banks, venture capital and private equity community to source investment opportunities and develop deal pipeline that meet IBM  s strategic and financial objectives.",
+                            "Developed strong skills in financial modeling, valuation, and accounting practices. Developed training programs for MBA interns and junior analysts on financial models."
+                        ]
+                    },
+                    {
+                        "position": "Software Product Development Manager",
+                        "position_trimed": "Software Product Development Manager",
+                        "position_full_div_text": "Software Product Development Manager",
+                        "companyname": "IBM",
+                        "function": "Product Management",
+                        "industry": "Tech",
+                        "linkedin_company_name": null,
+                        "location": "Rochester, MN",
+                        "data_raw": "January 1999- June 2006",
+                        "startmonth": "01",
+                        "endmonth": "06",
+                        "startyear": "1999",
+                        "endyear": "2006",
+                        "duration": 89,
+                        "bullets": [
+                            "Managed cross-functional team in delivering the first generation virtualization product to compete with VMware.",
+                            "Offering. Product won IBM  s 2005 Innovation Excellence Award.",
+                            "Successfully performed people management responsibilities for 21+ employees, including conducting annual performance reviews, coaching and career development, managing performance issues, and recruiting and retaining top talent.",
+                            "Co-developed product strategy and go-to-market plans, and presented to IBM top 50 customers.",
+                            "Lead Architect",
+                            "Co-led IBM DB2 Re-engineering, 2-year project with development budget of $60M, designed and developed DB2",
+                            "Statistics Engine. Effort contributed 12 Patents to IBM Intellectual Property portfolio.",
+                            "Served as a client advocate executive for two major accounts, Cabela  s and SPSS, assisted on closing sales opportunities in the range of $5M.",
+                            "Received IBM  s Outstanding Technical Achievement Award and selected in IBM technical resource program."
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": {
+                        "0": "travel",
+                        "1": "reading",
+                        "3": "traveling"
+                    },
+                    "languages": [
+                        "arabic"
+                    ],
+                    "bullets": [
+                        {
+                            "text": "Fluent in Arabic. US Citizen."
+                        },
+                        {
+                            "text": "Granted IBM Invention Achievement Award 3 times, reached 3rd   Invention Plateau in less than 5 years."
+                        },
+                        {
+                            "text": "Avid soccer player, cyclist, and windsurfer. Also enjoy traveling and reading."
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "223",
+        "bulk_upload_resume_id": "159806"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "CAITRIN ABSHERE",
+                    "address": "1260 Wilson St, Palo Alto, CA 94301",
+                    "email": "cabshere@stanford.edu",
+                    "phone": "617-515-1344"
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Business Administration",
+                        "schoolname": "STANFORD GRADUATE SCHOOL OF BUSINESS",
+                        "location": "stanford",
+                        "field": "",
+                        "gmat": null,
+                        "date_raw": "2012-2014",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2012",
+                        "endyear": "2014",
+                        "grade": null,
+                        "bullets": [
+                            "Healthcare Club Co-President; Career Management Committee Student Association Representative",
+                            "Intensive summer session for global health professionals; coursework: Epidemiological Methods for Global Health; Seminar on Management Perspectives in Global Health Delivery; Introduction to Global Health Care Delivery"
+                        ],
+                        "organizations": [
+                            "Healthcare Club Co-President"
+                        ],
+                        "awards": [],
+                        "duration": 24
+                    },
+                    {
+                        "degree": "Bachelor Of Arts",
+                        "schoolname": "MIDDLEBURY COLLEGE",
+                        "location": "middlebury",
+                        "field": "Geography;English",
+                        "gmat": null,
+                        "date_raw": "2003-2007",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2003",
+                        "endyear": "2007",
+                        "grade": "3.73\/4.0",
+                        "bullets": [
+                            "Bachelor of Arts, Joint Degree in Geography & English; Magna Cum Laude",
+                            "Overall GPA: 3.73\/4.0",
+                            "Geography department research assistant; collaboration with Professor Anne Knowles profiled in New York Times and awarded 2012 Smithsonian Ingenuity Award",
+                            "Womens varsity soccer (4 yrs.); 2006 captain; all-time assist leader"
+                        ],
+                        "organizations": [],
+                        "awards": [
+                            " collaboration with Professor Anne Knowles profiled in New York Times and awarded 2012 Smithsonian Ingenuity Award"
+                        ],
+                        "duration": 48
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Summer Associate",
+                        "position_trimed": "GE HEALTHYMAGINATION  Summer Associate",
+                        "position_full_div_text": "GE HEALTHYMAGINATION | Summer Associate",
+                        "companyname": "GE HEALTHYMAGINATION",
+                        "function": "Venture Capital",
+                        "industry": "Hospital & Health Care",
+                        "linkedin_company_name": null,
+                        "location": "Menlo Park, CA",
+                        "data_raw": "Summer 2013",
+                        "startmonth": "05",
+                        "endmonth": "07",
+                        "startyear": "2013",
+                        "endyear": "2013",
+                        "bullets": [
+                            "Venture capital and business incubation arm of GE, focused on access & affordability",
+                            "Developed project plan for 8-week effort culminating in presentation to CEO re: new business opportunity in the employer health space; wrote RFP, evaluated proposals, negotiated contract and selected consultants",
+                            "Assumed responsibilities of absent Executive Director for 6 weeks; executed project plan while managing 10- person cross functional team"
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Senior Associate",
+                        "position_trimed": "INNOSIGHT  Senior Associate",
+                        "position_full_div_text": "INNOSIGHT | Senior Associate",
+                        "companyname": "INNOSIGHT",
+                        "function": "Management Consulting",
+                        "industry": "Management Consulting",
+                        "linkedin_company_name": null,
+                        "location": "Lexington, MA",
+                        "data_raw": "2008-2012",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2008",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Strategy & innovation consultancy founded by Harvard Business School professor Clay Christensen",
+                            "Developed strategic and disruptive business model innovations for Fortune 50 healthcare organizations",
+                            "First in cohort promoted on accelerated management trajectory to Senior Associate (post-MBA title)",
+                            "Recognized as firm expert in qualitative research, health system analysis, and business model designs that improve accessibility and quality of healthcare. Notable projects:",
+                            "- Romania: Transformative market entry strategy   Created proposal for public-private partnership that will debut  public health approach  to market entry for new drugs. Impetus   and first demonstration project   for creation of  health systems engineering  internal start-up, sponsored by worldwide chairman",
+                            "- India: Market expansion assessment   Managed 60 interviews across 8 stakeholder groups. Presented partnership models for addressing unmet needs in primary care to CFO. Client in discussions with country  s 2 largest healthcare players to bring 1st Western retail healthcare experience to India",
+                            "- USA: Opportunity diligence for lab testing   Developed business case for  laboratory diagnostics at retail  proposal to evaluate venture investment in a technology vendor, and then national launch of new successful model (live now!). Following  go  decision, led 10-person team to create physician communication strategy",
+                            "- USA: Business model design for chronic care   Designed heavy- and light-touch versions of medication and lifestyle adherence interventions delivered at retail. Consultation service (  heavy  ) in pilot in 8 US cities. Automated reminders and retail-counter interventions (  light  ) being rolled out nationally at 8,500 locations",
+                            "Internal: Founded working group to increase social impact of projects. Engaged firm partnership on importance to employees, leading to formal 0.5 FTE allocation"
+                        ],
+                        "duration": "48"
+                    },
+                    {
+                        "position": "Research Specialist (Volunteer)",
+                        "position_trimed": "DESIGN THAT MATTERS  Health Research Specialist",
+                        "position_full_div_text": "DESIGN THAT MATTERS | Health Research Specialist (Volunteer)",
+                        "companyname": "DESIGN THAT MATTERS",
+                        "function": "Clinical Research",
+                        "industry": "Non profit organisation",
+                        "linkedin_company_name": null,
+                        "location": "Cambridge, MA \/ Hanoi, Vietnam",
+                        "data_raw": "2010-2012",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2010",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Conducted in-field prototype testing for infant phototherapy device at district-level hospitals in rural Vietnam. Findings used to modify product design and hospital launch strategy",
+                            "Firefly  treated first infant in January 2012, and was subsequently declared winner of 2012 IDSA IDEA Award"
+                        ],
+                        "duration": "24"
+                    },
+                    {
+                        "position": "Research Analyst",
+                        "position_trimed": "POPULATION  COMMUNITY DEVELOPMENT ASSOCIATION  Research Analyst",
+                        "position_full_div_text": "POPULATION & COMMUNITY DEVELOPMENT ASSOCIATION | Research Analyst",
+                        "companyname": "POPULATION & COMMUNITY DEVELOPMENT ASSOCIATION",
+                        "function": "Economic Research",
+                        "industry": "Non profit organisation",
+                        "linkedin_company_name": null,
+                        "location": "Thailand",
+                        "data_raw": "2007-2008",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2007",
+                        "endyear": "2008",
+                        "bullets": [
+                            "Non-profit organization; recipient of 2007 Gates Award for Global Health, 2008 Skoll Award",
+                            "Awarded grant to conduct research with PDA re: impact of microcredit-enabled enterprises on local ecologies",
+                            "Developed  junior ecopreneurship  microcredit program that educates and finances village youth to innovate environmentally-beneficial enterprises; core element of initiative that won United Nation  s 2009 SEED"
+                        ],
+                        "duration": "12"
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        },
+        "bulk_upload_category_id": "47",
+        "bulk_upload_resume_id": "30936"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "HANA ADANIYA",
+                    "address": "478 Oxford Ave. Palo Alto, CA 94306",
+                    "email": "adaniya@stanford.edu",
+                    "phone": "(617) 821-9713"
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Business Administration",
+                        "schoolname": "STANFORD GRADUATE SCHOOL OF BUSINESS",
+                        "location": "stanford",
+                        "field": "",
+                        "gmat": "GMAT 760",
+                        "date_raw": "2012-2014",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2012",
+                        "endyear": "2014",
+                        "duration": 24,
+                        "grade": null,
+                        "bullets": [
+                            "Master of Business Administration Candidate  GMAT 760",
+                            "Arbuckle Leadership Fellow; Hispanic Business Students Association co-president, Stanford University Committee on Graduate Studies student representative"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "Master Of Engineering",
+                        "schoolname": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
+                        "location": "cambridge",
+                        "field": "Electrical Engineering;Computer Science",
+                        "gmat": null,
+                        "date_raw": "2007-2008",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2007",
+                        "endyear": "2008",
+                        "duration": 12,
+                        "grade": "5.0\/5.0",
+                        "bullets": [
+                            "Master of Engineering - Electrical Engineering & Computer Science; GPA 5.0\/5.0"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT)",
+                        "location": "cambridge",
+                        "field": "Electrical Engineering;Computer Science",
+                        "gmat": null,
+                        "date_raw": "2003-2007",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2003",
+                        "endyear": "2007",
+                        "duration": 48,
+                        "grade": null,
+                        "bullets": [
+                            "MIT VI-A Fellow; Academic All-American Track & Field, 2nd team; US Presidential Scholar",
+                            "4 year Varsity Cross-Country, Indoor\/Outdoor Track & Field; Society of Hispanic Prof. Engineers"
+                        ],
+                        "organizations": [
+                            " Society of Hispanic Prof. Engineers"
+                        ],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Sales Support & Product Operations (SSPO) MBA intern",
+                        "position_trimed": "gTech Sales Support  Product Operations  MBA intern",
+                        "position_full_div_text": "gTech Sales Support & Product Operations (SSPO) MBA intern",
+                        "companyname": "GOOGLE, INC",
+                        "function": "Sales",
+                        "industry": "Internet",
+                        "linkedin_company_name": null,
+                        "location": "Mountain View, CA",
+                        "data_raw": "June 2013    Aug 2013",
+                        "startmonth": "06",
+                        "endmonth": "08",
+                        "startyear": "2013",
+                        "endyear": "2013",
+                        "duration": 2,
+                        "bullets": [
+                            "Identified need for Services organization to track service-requests and service-levels-received for top accounts; piloted new metrics\/dashboards for AdWords Large Customer Sales North America Sectors securing cross-functional buy-in;  Service Health  metric now being rolled out across Google",
+                            "Freed capacity via productivity initiatives equivalent to 5% of Product Ops & Escalation Mgmt team",
+                            "Received a  SpotBonus  for contribution to SalesTech Americas team"
+                        ]
+                    },
+                    {
+                        "position": "Consultant",
+                        "position_trimed": "Consultant",
+                        "position_full_div_text": "Consultant",
+                        "companyname": "THE BOSTON CONSULTING GROUP",
+                        "function": "Management Consulting",
+                        "industry": "Management Consulting",
+                        "linkedin_company_name": null,
+                        "location": "Boston, MA",
+                        "data_raw": "Sept 2010    Aug 2012",
+                        "startmonth": "09",
+                        "endmonth": "08",
+                        "startyear": "2010",
+                        "endyear": "2012",
+                        "duration": 23,
+                        "bullets": [
+                            "Supported development of ~$30M routine immunization strategy for the Gates Foundation",
+                            "Led efforts to increase clinical collaboration and efficiency for Gates Foundation grantees; launched shared training & lab audit program; developed $4M grant for global clinical trial site-finder platform",
+                            "Developed strategy for a top vaccine manufacturer to increase adult immunization rates in the US"
+                        ]
+                    },
+                    {
+                        "position": "Associate",
+                        "position_trimed": "Associate",
+                        "position_full_div_text": "Associate",
+                        "companyname": "THE BOSTON CONSULTING GROUP",
+                        "function": "Management Consulting",
+                        "industry": "Management Consulting",
+                        "linkedin_company_name": null,
+                        "location": "Boston, MA",
+                        "data_raw": "Sept 2008     Aug 2010",
+                        "startmonth": "09",
+                        "endmonth": "08",
+                        "startyear": "2008",
+                        "endyear": "2010",
+                        "duration": 23,
+                        "bullets": [
+                            "Supported a new CEO of a Fortune 100 company in defining the organizational, leadership, and strategic direction for the company as part of the CEO's first 100-day transition plan",
+                            "Supported sales force effectiveness strategy for major tech firm; created analysis to evaluate Return on Sales Force Investment (metric has since been adopted at executive level by client and BCG)",
+                            "Designed and piloted a lean production system for manufacturer; identified ~15% capacity savings",
+                            "Federally funded R&D center chartered to apply advanced technology to problems of national security 2005  2008 (part-time)"
+                        ]
+                    },
+                    {
+                        "position": "Researcher in Tactical Systems Technology Division",
+                        "position_trimed": "Researcher in Tactical Systems Technology Division",
+                        "position_full_div_text": "Researcher in Tactical Systems Technology Division",
+                        "companyname": "MIT LINCOLN LABORATORY",
+                        "function": "Defense Forces",
+                        "industry": "Defense & Space",
+                        "linkedin_company_name": null,
+                        "location": "Lexington , MA",
+                        "data_raw": 0,
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "bullets": [
+                            "Researched a significant defense need in signal cancellation (Dept of Defense Secret Clearance)"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": {
+                        "0": "cooking",
+                        "1": "running",
+                        "2": "swimming",
+                        "7": "cooking peruvian cuisine",
+                        "8": "international development"
+                    },
+                    "languages": [
+                        "spanish",
+                        "english"
+                    ],
+                    "bullets": [
+                        {
+                            "text": "\uf0b7 Technical \/ language competencies: English (native), Spanish (native fluent), Matlab, SPSS, C"
+                        },
+                        {
+                            "text": "\uf0b7 Other experience: Led BCG global recruiting efforts for MIT associates; Volunteer MIT Assistant"
+                        },
+                        {
+                            "text": "Coach XC & Track; Volunteer at Stanford Hospital and Clinics"
+                        },
+                        {
+                            "text": "\uf0b7 Interests: Running, swimming, cooking Peruvian cuisine, international development"
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "47",
+        "bulk_upload_resume_id": "30937"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "1334 Middlefield Road, Palo Alto CA 94301",
+                    "email": "bafolabi@stanford.edu",
+                    "phone": "+1 309 706 6264"
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Business Administration",
+                        "schoolname": "STANFORD GRADUATE SCHOOL OF BUSINESS",
+                        "location": "stanford",
+                        "field": "",
+                        "gmat": null,
+                        "date_raw": "2012 - 2014",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2012",
+                        "endyear": "2014",
+                        "duration": 24,
+                        "grade": null,
+                        "bullets": [
+                            "View From The Top (Co-Leader)",
+                            "o Member of the five-student leadership team responsible for the premier Deans Speaker Series",
+                            "Elected as Student Body President for the 2013\/2014 academic year",
+                            "Other Clubs: Travel & Tourism Club, Real Estate Club"
+                        ],
+                        "organizations": [
+                            "o Member of the five-student leadership team responsible for the premier Deans Speaker Series",
+                            "Elected as Student Body President for the 2013\/2014 academic year",
+                            "Other Clubs",
+                            " Travel & Tourism Club",
+                            " Real Estate Club"
+                        ],
+                        "awards": []
+                    },
+                    {
+                        "degree": "BA",
+                        "schoolname": "ILLINOIS WESLEYAN UNIVERSITY",
+                        "location": "bloomington",
+                        "field": "Economics;Business;Finance",
+                        "gmat": null,
+                        "date_raw": "2006 - 2010",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2006",
+                        "endyear": "2010",
+                        "duration": 48,
+                        "grade": null,
+                        "bullets": [
+                            "Served as Student Body President for the 2009\/2010 academic year",
+                            "Co-founded Illinois Wesleyan Universitys chapter of the International Association of Political Science students (IAPSS) and led the team to the 2008 international conference in Thessaloniki, Greece",
+                            "Selected Relevant Work Experience"
+                        ],
+                        "organizations": [
+                            "Served as Student Body President for the 2009\/2010 academic year",
+                            "Selected Relevant Work Experience"
+                        ],
+                        "awards": []
+                    },
+                    {
+                        "degree": "MBA",
+                        "schoolname": "American Airlines, Dallas, TX",
+                        "location": "dallas",
+                        "field": "",
+                        "gmat": null,
+                        "date_raw": "June - September",
+                        "startmonth": "06",
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "grade": null,
+                        "bullets": [
+                            "Developed a new model for the sales team to use in estimating the potential profitability of new routes and likelihood of support from key Corporate and Agency Accounts",
+                            "Performed various analyses on potential responses from key competitors and strategic Corporate Accounts given the potential merger with US Airways",
+                            "Participated in the Summer Leadership Conversations with the CEOs of American Airline, American Eagle and the Dallas-Fort Worth International Airport to learn more about the airline \/ airport businesses",
+                            "Worked with the HR department to craft preparatory materials for the summer class of 2015"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "",
+                        "schoolname": "Morgan Stanley, London, UK",
+                        "location": "london",
+                        "field": "Investment Banking",
+                        "gmat": null,
+                        "date_raw": "July, 2011     August, 2012",
+                        "startmonth": "07",
+                        "endmonth": "08",
+                        "startyear": "2011",
+                        "endyear": "2012",
+                        "duration": 13,
+                        "grade": null,
+                        "bullets": [
+                            "Initiated a detailed strategic review of companies in Sub Saharan Africa to identify new clients that the team should devote resources to",
+                            "o Identified and led the effort to initiate coverage of the largest West African airline",
+                            "Advised a major Nigerian Oil and Gas Company on a $150MM private placement (completed)",
+                            "o Edited the company operating model, prepared the management presentation, information memorandum, data room and other due diligence materials",
+                            "o Led roadshow tasks including managing logistics, printing marketing materials, helping with investor presentations and assisting the management team with day to day transaction processes",
+                            "Advised a large Nigerian conglomerate on a potential spin-off of a subsidiary (pending)",
+                            "o Performed valuation exercises using DCF, Prepaids and Comparable Analysis methods",
+                            "Served on interview teams for the Europe, Middle East & Africa (EMEA) Analyst Program",
+                            "Key member of the team that led a $500MM convertible offering for a public commercial line underwriting insurance company",
+                            "Advised a $800MM market cap specialty insurance and reinsurance company on strategic alternatives",
+                            "o Reviewed various scenarios including dividend recap, selective divestment, take private, a merger of equals and an outright sale",
+                            "Served on the recruiting team focused on non-traditional liberal art colleges for the Analyst Program"
+                        ],
+                        "organizations": [
+                            "Served on interview teams for the Europe",
+                            " Analyst Program",
+                            "Key member of the team that led a $500MM convertible offering for a public commercial line underwriting insurance company",
+                            "Served on the recruiting team focused on non-traditional liberal art colleges for the Analyst Program"
+                        ],
+                        "awards": []
+                    },
+                    {
+                        "degree": "",
+                        "schoolname": "Pre College Graduation Work Experience",
+                        "location": "london",
+                        "field": "Finance",
+                        "gmat": null,
+                        "date_raw": "June     August",
+                        "startmonth": "06",
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "grade": null,
+                        "bullets": [
+                            "GCM\/IBD Summer Analyst (Leverage Finance, Financial Sponsors & Africa Coverage Teams)"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "",
+                        "schoolname": "Morgan Stanley, New York, NY",
+                        "location": "new york",
+                        "field": "Real Estate",
+                        "gmat": null,
+                        "date_raw": "May     August",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "grade": null,
+                        "bullets": [
+                            "IBD Rotation Summer Analyst (Real Estate, Sponsors and Basic Materials Teams)"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Analyst Program June",
+                        "position_trimed": "Babawande I Afolabi 1334 Middlefield Road",
+                        "position_full_div_text": "Babawande I. Afolabi 1334 Middlefield Road, Palo Alto CA 94301 \uf0b7 +1 309 706 6264 \uf0b7 bafolabi@stanford.edu Education Stanford, CA STANFORD GRADUATE SCHOOL OF BUSINESS 2012 - 2014 Master of Business Administration Candidate \uf0b7 View From The Top (Co-Leader) o Member of the five-student leadership team responsible for the premier Dean\u2019s Speaker Series \uf0b7 Elected as Student Body President for the 2013\/2014 academic year \uf0b7 Other Clubs: Travel & Tourism Club, Real Estate Club ILLINOIS WESLEYAN UNIVERSITY Bloomington, IL 2006 - 2010 BA, Economics \/ Business (Finance Concentration), Political Science Minor \uf0b7 Served as Student Body President for the 2009\/2010 academic year \uf0b7 Co-founded Illinois Wesleyan University\u2019s chapter of the International Association of Political Science students (IAPSS) and led the team to the 2008 international conference in Thessaloniki, Greece Selected Relevant Work Experience June - September, 2013 American Airlines, Dallas, TX MBA Summer Leadership Associate (Global Sales Group) \uf0b7 Developed a new model for the sales team to use in estimating the potential profitability of new routes and likelihood of support from key Corporate and Agency Accounts \uf0b7 Performed various analyses on potential responses from key competitors and strategic Corporate Accounts given the potential merger with US Airways \uf0b7 Participated in the Summer Leadership Conversations with the CEOs of American Airline, American Eagle and the Dallas-Fort Worth International Airport to learn more about the airline \/ airport businesses \uf0b7 Worked with the HR department to craft preparatory materials for the summer class of 2015 July, 2011 \u2013 August, 2012 Morgan Stanley, London, UK Analyst, Sub Saharan Africa Investment Banking Team \uf0b7 Initiated a detailed strategic review of companies in Sub Saharan Africa to identify new clients that the team should devote resources to o Identified and led the effort to initiate coverage of the largest West African airline \uf0b7 Advised a major Nigerian Oil and Gas Company on a $150MM private placement (completed) o Edited the company operating model, prepared the management presentation, information memorandum, data room and other due diligence materials o Led roadshow tasks including managing logistics, printing marketing materials, helping with investor presentations and assisting the management team with day to day transaction processes \uf0b7 Advised a large Nigerian conglomerate on a potential spin-off of a subsidiary (pending) o Performed valuation exercises using DCF, Prepaids and Comparable Analysis methods \uf0b7 Served on interview teams for the Europe, Middle East & Africa (EMEA) Analyst Program June, 2010 \u2013 July, 2011 Morgan Stanley, New York, NY Analyst, Financial Institutions Group (Insurance Coverage) \uf0b7 Key member of the team that led a $500MM convertible offering for a public commercial line underwriting insurance company \uf0b7 Advised a $800MM market cap specialty insurance and reinsurance company on strategic alternatives o Reviewed various scenarios including dividend recap, selective divestment, take private, a merger of equals and an outright sale \uf0b7 Served on the recruiting team focused on non-traditional liberal art colleges for the Analyst Program Pre College Graduation Work Experience June \u2013 August, 2009 Morgan Stanley, London, UK GCM\/IBD Summer Analyst (Leverage Finance, Financial Sponsors & Africa Coverage Teams) May \u2013 August, 2008 Morgan Stanley, New York, NY IBD Rotation Summer Analyst (Real Estate, Sponsors and Basic Materials Teams) Additional \uf0b7 Strong interest in the aviation sector \u2013 in training for a pilot license \uf0b7 Big fan of jazz music, New Orleans gumbo, soccer and long travels",
+                        "companyname": "",
+                        "function": "Accounting",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "new orleans",
+                        "data_raw": 0,
+                        "startmonth": 0,
+                        "endmonth": 0,
+                        "startyear": 0,
+                        "endyear": 0,
+                        "duration": 1,
+                        "bullets": [
+                            "Babawande I. Afolabi 1334 Middlefield Road, Palo Alto CA 94301   +1 309 706 6264   bafolabi@stanford.edu Education Stanford, CA STANFORD GRADUATE SCHOOL OF BUSINESS 2012 - 2014 Master of Business Administration Candidate   View From The Top (Co-Leader) o Member of the five-student leadership team responsible for the premier Dean  s Speaker Series   Elected as Student Body President for the 2013\/2014 academic year   Other Clubs: Travel & Tourism Club, Real Estate Club ILLINOIS WESLEYAN UNIVERSITY Bloomington, IL 2006 - 2010 BA, Economics \/ Business (Finance Concentration), Political Science Minor   Served as Student Body President for the 2009\/2010 academic year   Co-founded Illinois Wesleyan University  s chapter of the International Association of Political Science students (IAPSS) and led the team to the 2008 international conference in Thessaloniki, Greece Selected Relevant Work Experience June - September, 2013 American Airlines, Dallas, TX MBA Summer Leadership Associate (Global Sales Group)   Developed a new model for the sales team to use in estimating the potential profitability of new routes and likelihood of support from key Corporate and Agency Accounts   Performed various analyses on potential responses from key competitors and strategic Corporate Accounts given the potential merger with US Airways   Participated in the Summer Leadership Conversations with the CEOs of American Airline, American Eagle and the Dallas-Fort Worth International Airport to learn more about the airline \/ airport businesses   Worked with the HR department to craft preparatory materials for the summer class of 2015 July, 2011   August, 2012 Morgan Stanley, London, UK Analyst, Sub Saharan Africa Investment Banking Team   Initiated a detailed strategic review of companies in Sub Saharan Africa to identify new clients that the team should devote resources to o Identified and led the effort to initiate coverage of the largest West African airline   Advised a major Nigerian Oil and Gas Company on a $150MM private placement (completed) o Edited the company operating model, prepared the management presentation, information memorandum, data room and other due diligence materials o Led roadshow tasks including managing logistics, printing marketing materials, helping with investor presentations and assisting the management team with day to day transaction processes   Advised a large Nigerian conglomerate on a potential spin-off of a subsidiary (pending) o Performed valuation exercises using DCF, Prepaids and Comparable Analysis methods   Served on interview teams for the Europe, Middle East & Africa (EMEA) Analyst Program June, 2010   July, 2011 Morgan Stanley, New York, NY Analyst, Financial Institutions Group (Insurance Coverage)   Key member of the team that led a $500MM convertible offering for a public commercial line underwriting insurance company   Advised a $800MM market cap specialty insurance and reinsurance company on strategic alternatives o Reviewed various scenarios including dividend recap, selective divestment, take private, a merger of equals and an outright sale   Served on the recruiting team focused on non-traditional liberal art colleges for the Analyst Program Pre College Graduation Work Experience June   August, 2009 Morgan Stanley, London, UK GCM\/IBD Summer Analyst (Leverage Finance, Financial Sponsors & Africa Coverage Teams) May   August, 2008 Morgan Stanley, New York, NY IBD Rotation Summer Analyst (Real Estate, Sponsors and Basic Materials Teams) Additional   Strong interest in the aviation sector   in training for a pilot license   Big fan of jazz music, New Orleans gumbo, soccer and long travels"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [
+                        "music",
+                        "travel"
+                    ],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "\uf0b7 Strong interest in the aviation sector \u2013 in training for a pilot license"
+                        },
+                        {
+                            "text": "\uf0b7 Big fan of jazz music, New Orleans gumbo, soccer and long travels"
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "47",
+        "bulk_upload_resume_id": "30938"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "29 W Kelso Rd, Apt 482C, Columbus, Ohio 43202",
+                    "email": "yan_65@fisher.osu.ed",
+                    "phone": "()     (61"
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Accounting",
+                        "schoolname": "The Ohio State University, Fisher College of Business",
+                        "location": "columbus",
+                        "field": "",
+                        "gmat": false,
+                        "date_raw": "May 2013",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2013",
+                        "endyear": 0,
+                        "grade": null,
+                        "bullets": [
+                            "May 2013"
+                        ],
+                        "organizations": [],
+                        "awards": [],
+                        "duration": 1
+                    },
+                    {
+                        "degree": "Bachelor Of Arts",
+                        "schoolname": "The Ohio State University, Fisher College of Business",
+                        "location": "marietta",
+                        "field": "Accountancy",
+                        "gmat": false,
+                        "date_raw": "May 2012",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2012",
+                        "endyear": 0,
+                        "grade": null,
+                        "bullets": [
+                            "Minor: Economics",
+                            "GPA3.7",
+                            "Awarded Marietta International Scholarship",
+                            "Member of Alpha Lambda Delta, National Academic Honor Society for freshmen",
+                            "Member of The Tau Pi Phi Honorary Society"
+                        ],
+                        "organizations": [
+                            "Member of Alpha Lambda Delta",
+                            " National Academic Honor Society for freshmen",
+                            "Member of The Tau Pi Phi Honorary Society"
+                        ],
+                        "awards": [
+                            "Awarded Marietta International Scholarship"
+                        ],
+                        "duration": 1
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Accounting Intern",
+                        "position_trimed": "Accounting Intern",
+                        "position_full_div_text": "Accounting Intern",
+                        "companyname": "BDO China (Shu Lun Pan CPA Co. Ltd)",
+                        "function": "Accounting",
+                        "industry": "Accounting",
+                        "linkedin_company_name": null,
+                        "location": "Beijing, China",
+                        "data_raw": "June 2011",
+                        "startmonth": "06",
+                        "endmonth": "0",
+                        "startyear": "2011",
+                        "endyear": "0",
+                        "bullets": [
+                            "Assisted in building working templates for an internal control audit project.",
+                            "Accomplished the rough draft of working template for   Information and Communication  part for the internal control audit project.",
+                            "Studied and utilized China  s Standard of Enterprise Internal Control"
+                        ],
+                        "duration": "1"
+                    },
+                    {
+                        "position": "Economics Intern",
+                        "position_trimed": "Economics Intern",
+                        "position_full_div_text": "Economics Intern",
+                        "companyname": "State Grid",
+                        "function": "Economic Research",
+                        "industry": "utilities",
+                        "linkedin_company_name": null,
+                        "location": "Beijing, China",
+                        "data_raw": "June 2010",
+                        "startmonth": "06",
+                        "endmonth": "0",
+                        "startyear": "2010",
+                        "endyear": "0",
+                        "bullets": [
+                            "Conducted research in an effort to determine China  s tariff on electronic vehicles.",
+                            "Collected and translated data and research papers about how foreign countries formulated their tariffs of electronic vehicles based on various kinds of electronic vehicles.",
+                            "Wrote a report based on findings that summarized the pros and cons of each tariff and submitted to immediate supervisors."
+                        ],
+                        "duration": "1"
+                    },
+                    {
+                        "position": "Tutor",
+                        "position_trimed": "Tutor",
+                        "position_full_div_text": "Tutor",
+                        "companyname": "Marietta College",
+                        "function": "High School Teaching Staff \/ Counseling",
+                        "industry": "education",
+                        "linkedin_company_name": null,
+                        "location": "Marietta College, Academic Resource Centre",
+                        "data_raw": "August. 2009- Dec. 2009",
+                        "startmonth": "08",
+                        "endmonth": "12",
+                        "startyear": "2009",
+                        "endyear": "2009",
+                        "bullets": [
+                            "Assisted students one-on-one and in small groups with Macro & Micro Economics, Accounting, Statistics and ESL writing.",
+                            "Helped students building their personal study plans, and improving their problem solving skills."
+                        ],
+                        "duration": "4"
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "Beacon of Hope of New Orleans"
+                        },
+                        {
+                            "text": "New Orleans, LA"
+                        },
+                        {
+                            "text": "March 2012"
+                        },
+                        {
+                            "text": "\u2022 Helped to clean up the communities that were destroyed in Hurricane Katrina."
+                        },
+                        {
+                            "text": "\u2022 Communicated with local elementary school students and helped them to repair their school utilities."
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "298",
+        "bulk_upload_resume_id": "174134"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": "886 Nettle Dr \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000Columbus, OH 43221",
+                    "email": "yang_1794@fisher.osu.ed",
+                    "phone": "315-212-1000"
+                },
+                "education": [
+                    {
+                        "degree": "Master Of Business Administration",
+                        "schoolname": "The Ohio State University, Fisher College of Business",
+                        "location": "columbus",
+                        "field": "",
+                        "gmat": false,
+                        "date_raw": "May 2013",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2013",
+                        "endyear": 0,
+                        "grade": null,
+                        "bullets": [
+                            "Fisher Graduate Fellow and VP of Chinese Business Professional Association",
+                            "Member of Operations & Logistics Association and Fisher Consulting & Strategy Association",
+                            "Member of Fisher Internal Case Competition winning team and Fisher Community Service team",
+                            "Maryland Smith Strategy and Operations Case Competition 3rd   place"
+                        ],
+                        "organizations": [
+                            "Member of Operations & Logistics Association and Fisher Consulting & Strategy Association",
+                            "Member of Fisher Internal Case Competition winning team and Fisher Community Service team"
+                        ],
+                        "awards": [
+                            "Member of Fisher Internal Case Competition winning team and Fisher Community Service team",
+                            "Maryland Smith Strategy and Operations Case Competition 3rd   place"
+                        ],
+                        "duration": 1
+                    },
+                    {
+                        "degree": "Master Of Business Administration",
+                        "schoolname": "Clarkson University",
+                        "location": "potsdam",
+                        "field": "Supply Chain;Management",
+                        "gmat": false,
+                        "date_raw": "May 2007",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2007",
+                        "endyear": 0,
+                        "grade": null,
+                        "bullets": [
+                            "Graduate Business Leadership Council Scholarship"
+                        ],
+                        "organizations": [],
+                        "awards": [
+                            "Graduate Business Leadership Council Scholarship"
+                        ],
+                        "duration": 1
+                    },
+                    {
+                        "degree": "Bachelor Of Science",
+                        "schoolname": "Jilin University",
+                        "location": "changchun",
+                        "field": "Business",
+                        "gmat": false,
+                        "date_raw": "June 2006",
+                        "startmonth": "06",
+                        "endmonth": 0,
+                        "startyear": "2006",
+                        "endyear": 0,
+                        "grade": null,
+                        "bullets": [
+                            "Awarded third prize scholarship for excellent academic performance 2006; Top 10% of class",
+                            "Captain of intramural basketball team; Basketball champion (2003, 2004); Intramural soccer team"
+                        ],
+                        "organizations": [],
+                        "awards": [
+                            "Awarded third prize scholarship for excellent academic performance 2006"
+                        ],
+                        "duration": 1
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Strategy Intern",
+                        "position_trimed": "Strategy Intern",
+                        "position_full_div_text": "Strategy Intern",
+                        "companyname": "Cummins Inc",
+                        "function": "Corporate Strategy and Planning",
+                        "industry": "Automotive",
+                        "linkedin_company_name": null,
+                        "location": "Columbus, IN",
+                        "data_raw": "06\/2012-08\/2012",
+                        "startmonth": "06",
+                        "endmonth": "08",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Conducted company competitive analysis and developed high level China market remanufacturing strategy for Cummins $2 billion parts business unit",
+                            "Led a 4-person project team, designed an innovative business model for China market and developed the launching strategy to introduce Cummins  first commercial remanufacturing product in China"
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Commodity Manager",
+                        "position_trimed": "Senior Commodity Manager",
+                        "position_full_div_text": "Senior Commodity Manager",
+                        "companyname": "Anderson Instrument Company",
+                        "function": "Supply Chain \/ Procurement",
+                        "industry": "Dairy",
+                        "linkedin_company_name": null,
+                        "location": "germany",
+                        "data_raw": "06\/2010-08\/2011",
+                        "startmonth": "06",
+                        "endmonth": "08",
+                        "startyear": "2010",
+                        "endyear": "2011",
+                        "bullets": [
+                            "Led strategic sourcing projects of a $40-million business, coordinated with sister companies in South Carolina and Germany and reduced material cost and supply risks",
+                            "Collected and analyzed data, developed supplier consolidation strategy and optimized global supplier basis",
+                            "Managed division sourcing and inventory KPI reports, cooperated with corporate commodity team, facilitated tasks between corporate and division and drove division supply chain improvement",
+                            "Conducted suppliers visit, negotiated better payment terms and production cooperation agreement; Improved supply chain by solving quality issues, on time delivery issues and new components technical issues",
+                            "Project and Material Management",
+                            "Participated in new product development projects, facilitated with engineering, marketing and suppliers, solved new product technical and manufacturing issues and assured new product successful release",
+                            "Led a 6-person team, initiated a material kaizen project, optimized system data, switched from traditional Kanban to electronic scanning Kanban and improved material transaction process to achieve lean manufacturing",
+                            "Collected data from ERP system, used data mining skills, designed company  s first supplier scorecard and implemented with a critical German supplier with the result of on-time-delivery improvement from 80% to 94%",
+                            "Successfully completed the company-wide carrier switching project with colleagues, led the inventory reduction project and raised the inventory turnover from 7.2 to 10;"
+                        ],
+                        "duration": "14"
+                    },
+                    {
+                        "position": "Commodity Manager",
+                        "position_trimed": "Commodity ManagerBuyer",
+                        "position_full_div_text": "Commodity Manager\/Buyer",
+                        "companyname": "Anderson Instrument Company",
+                        "function": "Logistics \/ Distribution",
+                        "industry": "Dairy",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "10\/2007-05\/2010",
+                        "startmonth": "10",
+                        "endmonth": "05",
+                        "startyear": "2007",
+                        "endyear": "2010",
+                        "bullets": [
+                            "Managed daily purchasing activities and negotiated better prices and payment terms with suppliers successfully",
+                            "Cooperated with key suppliers in US, China and Germany; Optimized planning process and shortened material lead time, resulting in highly flexible and efficient supply chain",
+                            "Built analytical and reporting tools for department by using Database, SAP Crystal Report and Excel skills and enhanced analyzing and reporting process",
+                            "Sourcing and logistics Management",
+                            "Drove the cost reduction projects and accomplished company goal every year",
+                            "Initiated on-site supplier auditing and assessed suppliers risk; Developed new suppliers, increased potential supplier capabilities and switched to low risk suppliers to secure future material supply",
+                            "Improved material in-bond freight transit process and reduced logistics cost by 30% in 2009"
+                        ],
+                        "duration": "31"
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "\ue001 GMAT 740,  Quantitative 98%, Total 97%"
+                        },
+                        {
+                            "text": "\ue001 APICS CPIM Certificate (2010)"
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "298",
+        "bulk_upload_resume_id": "174136"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "Robin Malhotra",
+                    "address": "C-9/9352 Vasant Kunj, New Delhi",
+                    "email": "me@rmalhotra.com",
+                    "phone": "+91-9871269578"
+                },
+                "education": [
+                    {
+                        "degree": "Bachelors in Technology",
+                        "schoolname": "Indian Institute of Technology, Delhi",
+                        "location": "Delhi",
+                        "field": "Textile Technology, Minor degree in Computer Science",
+                        "date_raw": "2012-2016",
+                        "startmonth": "05",
+                        "endmonth": 0,
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "grade": "8.19\/10",
+                        "bullets": [],
+                        "organizations": [],
+                        "awards": [
+                            "Merit1based Scholarship"
+                        ],
+                        "duration": 1
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Intern",
+                        "position_trimed": "Fixed Income Intern JPMorgan  Columbus OH",
+                        "position_full_div_text": "Fixed Income Intern, JPMorgan  Columbus OH",
+                        "companyname": "JPMorgan",
+                        "function": "Finance - Fixed Income",
+                        "industry": "Financial Services",
+                        "linkedin_company_name": null,
+                        "location": "Columbus OH",
+                        "data_raw": "February 2014   April 2014",
+                        "startmonth": "02",
+                        "endmonth": "04",
+                        "startyear": "2014",
+                        "endyear": "2014",
+                        "bullets": [
+                            "Researched on global fixed income currency and commodities and built a database of the yield history.",
+                            "Developed a model to evaluate the relative richness\/cheapness of various Treasury issues."
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Equity Research Analyst",
+                        "position_trimed": "Equity Research Analyst OSU Student Investment Fund  Columbus OH",
+                        "position_full_div_text": "Equity Research Analyst, OSU Student Investment Fund  Columbus OH",
+                        "companyname": "OSU Student Investment Fund",
+                        "function": "Equity Research",
+                        "industry": "Investment Management",
+                        "linkedin_company_name": null,
+                        "location": "Columbus OH",
+                        "data_raw": "January 2014   April 2014",
+                        "startmonth": "01",
+                        "endmonth": "04",
+                        "startyear": "2014",
+                        "endyear": "2014",
+                        "bullets": [
+                            "Conducted fundamental equity research covering Financials sector.",
+                            "Identified risk\/investment opportunities to assist the University Endowment Fund to manage $10MM."
+                        ],
+                        "duration": "3"
+                    },
+                    {
+                        "position": "Resident Assistant",
+                        "position_trimed": "Resident Assistant University of Delaware  Newark DE",
+                        "position_full_div_text": "Resident Assistant, University of Delaware  Newark DE",
+                        "companyname": "University of Delaware",
+                        "function": "Teaching Assistants \/ Research Assistant",
+                        "industry": "Higher Education",
+                        "linkedin_company_name": null,
+                        "location": "Delaware  Newark DE",
+                        "data_raw": "Summer 2012",
+                        "startmonth": "05",
+                        "endmonth": "07",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Created and maintained a leadership role with 45 residence hall floor members.",
+                            "Engaged in meetings focused on goal setting and developing problem solving strategies.",
+                            "Collaborated with a diverse team of coworkers to implement programs and events for students.",
+                            "Facilitated presentations focused on group dynamics community living and leadership opportunities.",
+                            "Received training and gained experience in mediating interpersonal and group conflict situations."
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Finance Intern",
+                        "position_trimed": "Finance Intern Bank of China  Henan Province  China",
+                        "position_full_div_text": "Finance Intern, Bank of China  Henan Province  China",
+                        "companyname": "Bank of China",
+                        "function": "Finance - Commercial Banking",
+                        "industry": "Banking",
+                        "linkedin_company_name": null,
+                        "location": "China  Henan Province  China",
+                        "data_raw": "Summer 2012",
+                        "startmonth": "05",
+                        "endmonth": "07",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Gained a solid understanding of the theory and the operational practices regarding the department.",
+                            "Mastered the process of categorizing clients into appropriate subcategories based on their situation in order to correctly draft domestic letters of credit.",
+                            "Collaborated with international trade financing team to increase revenue from client portfolio.",
+                            "Attended meetings with business clients to help maintain customer relations."
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Finance Intern",
+                        "position_trimed": "Finance Intern Industrial and Commercial Bank of China  Henan Province  China",
+                        "position_full_div_text": "Finance Intern, Industrial and Commercial Bank of China  Henan Province  China",
+                        "companyname": "Industrial and Commercial Bank of China",
+                        "function": "Finance - Commercial Banking",
+                        "industry": "Banking",
+                        "linkedin_company_name": null,
+                        "location": "China  Henan Province  China",
+                        "data_raw": "Summer 2011",
+                        "startmonth": "05",
+                        "endmonth": "07",
+                        "startyear": "2011",
+                        "endyear": "2011",
+                        "bullets": [
+                            "Researched on the market of Chinese microfinance and investigated the cooperation mode of commercial banks and microfinance institutions.",
+                            "Selected ten potential microfinance partners and reported their history and financial performance.",
+                            "Analyzed the pros and cons of these microfinance institutions and presented to the department."
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Volunteer",
+                        "position_trimed": "Volunteer  SWUFE Research Program  Sichuan Province  China",
+                        "position_full_div_text": "Volunteer  SWUFE Research Program  Sichuan Province  China",
+                        "companyname": "SWUFE Research Program  Sichuan Province  China",
+                        "function": "NGO",
+                        "industry": "Non profit",
+                        "linkedin_company_name": null,
+                        "location": "Sichuan Province  China",
+                        "data_raw": "Summer 2010",
+                        "startmonth": "05",
+                        "endmonth": "07",
+                        "startyear": "2010",
+                        "endyear": "2010",
+                        "bullets": [
+                            "Performed research on elderly earthquake victims and volunteered teaching middle school students.",
+                            "Maintained a productive and friendly learning environment."
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Director & Writer",
+                        "position_trimed": "Director  Writer SWUFE  Sichuan Province  China",
+                        "position_full_div_text": "Director & Writer, SWUFE  Sichuan Province  China",
+                        "companyname": "SWUFE Research Program  Sichuan Province  China",
+                        "function": "Content Writer",
+                        "industry": "Non profit",
+                        "linkedin_company_name": null,
+                        "location": "Sichuan Province  China",
+                        "data_raw": "Spring 2010",
+                        "startmonth": "01",
+                        "endmonth": "03",
+                        "startyear": "2010",
+                        "endyear": "2010",
+                        "bullets": [
+                            "Wrote and directed an original stage play and organized practice schedules.",
+                            "Selected actors for the stage play and directed them to proper positions."
+                        ],
+                        "duration": "2"
+                    }
+                ],
+                "additional_data": {
+                    "interests": [],
+                    "languages": [],
+                    "bullets": []
+                }
+            }
+        },
+        "bulk_upload_category_id": "298",
+        "bulk_upload_resume_id": "1000000"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": null,
+                    "email": "simon.amslinger@gmail.com",
+                    "phone": "+41 (0)7"
+                },
+                "education": [
+                    {
+                        "degree": "Masters In Management",
+                        "schoolname": "London Business School",
+                        "location": "london",
+                        "field": "Management",
+                        "gmat": "GMAT 730",
+                        "date_raw": "2013 - 2014",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2013",
+                        "endyear": "2014",
+                        "duration": 12,
+                        "grade": "5.6\/6.0",
+                        "bullets": [
+                            "Reading for Masters in Management degree",
+                            "GMAT 730",
+                            "Exchange Student GPA 5.6\/6.0"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "Bachelor Of Arts",
+                        "schoolname": "University of St. Gallen, Switzerland",
+                        "location": "switzerland",
+                        "field": "Business Administration",
+                        "gmat": false,
+                        "date_raw": "2010 - 2013",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2010",
+                        "endyear": "2013",
+                        "duration": 36,
+                        "grade": "5.3\/6.0",
+                        "bullets": [
+                            "Bachelor of Arts in Business Administration",
+                            "Specialized in Finance and Strategy",
+                            "GPA 5.3\/6.0"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "ROTHSCHILD",
+                        "function": "Finance - Investment Banking",
+                        "industry": "Investment Banking",
+                        "linkedin_company_name": null,
+                        "location": "Switzerland",
+                        "data_raw": "Aug 2014 to Present to",
+                        "startmonth": "08",
+                        "endmonth": "08",
+                        "startyear": "2014",
+                        "endyear": 0,
+                        "duration": 1,
+                        "bullets": [
+                            "Future 3 months rotation in Fund research or Fixed income research",
+                            "Developed Rothschild  s new Swiss Onshore Private Banking Strategy through extensive interviews with senior management and competitors analysis",
+                            "Prepared and designed presentation for quarterly staff meeting, in which senior management presents the latest developments of the bank the whole Switzerland staff"
+                        ]
+                    },
+                    {
+                        "position": "Summer Intern in Corporate and Investment Banking Relationship Management",
+                        "position_trimed": "Summer Intern in Corporate and Investment Banking Relationship Management",
+                        "position_full_div_text": "Summer Intern in Corporate and Investment Banking Relationship Management",
+                        "companyname": "UniCredit Bank AG",
+                        "function": "Finance - Investment Banking",
+                        "industry": "Banking",
+                        "linkedin_company_name": null,
+                        "location": "Germany",
+                        "data_raw": "Jul 2012 to Aug 2012",
+                        "startmonth": "07",
+                        "endmonth": "08",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 1,
+                        "bullets": [
+                            "Summer Intern in Corporate and Investment Banking Relationship Management",
+                            "Built Europe-wide strategy for a major French client, to raise  15m over three years. Organised meetings, prepared the presentation and moderated the discussion",
+                            "Developed new template for client  s strategy discussions and long-term revenue planning within the division",
+                            "Identified new pitch opportunities with existing customers by updating and maintaining the client database",
+                            "Organised a meeting with a CEO of an utilities company and prepared the presentation, covering the current situation of the Swiss Utilities market by analysing the the market and the competitors"
+                        ]
+                    },
+                    {
+                        "position": "Summer Intern in Corporate and Investment Banking M&A and ECM",
+                        "position_trimed": "Summer Intern in Corporate and Investment Banking MA and ECM",
+                        "position_full_div_text": "Summer Intern in Corporate and Investment Banking M&A and ECM",
+                        "companyname": "UniCredit Bank AG",
+                        "function": "Finance - Investment Banking",
+                        "industry": "Banking",
+                        "linkedin_company_name": null,
+                        "location": "Germany",
+                        "data_raw": "Jul 2011 to Aug 2011",
+                        "startmonth": "07",
+                        "endmonth": "08",
+                        "startyear": "2011",
+                        "endyear": "2011",
+                        "duration": 1,
+                        "bullets": [
+                            "Prepared a pitch for a rights-issue for a major German utilities company, which successfully raised  800m",
+                            "Created the weekly market newsletter and the daily market round-up, which was used by the whole Corporate and Investment Banking Division in Germany",
+                            "Analysed peer groups using financial ratios, thus enabling team to valuate companies"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [
+                        "tennis",
+                        "guitar",
+                        "music"
+                    ],
+                    "languages": [
+                        "english",
+                        "german"
+                    ],
+                    "bullets": [
+                        {
+                            "text": "\u2022 Skills in Thomson One, Bloomberg and SPSS, Participated in an AMT Valuation Workshop"
+                        },
+                        {
+                            "text": "\u2022 Active Member of the Investment Club and the Banker\u2019s Club at the University of St. Gallen,  organized a speaker series for the Investment Club"
+                        },
+                        {
+                            "text": "\u2022 Founding Member and Head of Marketing of Sonflora St. Gallen, a student-led organization  that organizes trips for volunteers to teach English in Nicaragua"
+                        },
+                        {
+                            "text": "\u2022 Captain of the Men\u2019s Tennis Team in a Nuremberg Tennis Club"
+                        },
+                        {
+                            "text": "\u2022 Volunteer at N\u00fcrnberger Tafel e.V. , an organization that helps people in need by providing  them with food and clothes"
+                        },
+                        {
+                            "text": "\u2022 Member of a Guitar Ensemble of Nuremberg\u2019s Music School"
+                        },
+                        {
+                            "text": "German"
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "338",
+        "bulk_upload_resume_id": "195405"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "Bruce B. Wayne",
+                    "address": "5807 S. Woodlawn",
+                    "email": "ralsuqair@gmail.com",
+                    "phone": "00447456772774 "
+                },
+                "education": [
+                    {
+                        "degree": "Masters In Management",
+                        "schoolname": "London Business School",
+                        "location": "london",
+                        "field": "Management",
+                        "gmat": false,
+                        "date_raw": "2013 - 2014",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2013",
+                        "endyear": "2014",
+                        "duration": 12,
+                        "grade": null,
+                        "bullets": [
+                            "Reading for Masters in Management degree"
+                        ],
+                        "organizations": [],
+                        "awards": []
+                    },
+                    {
+                        "degree": "BSC",
+                        "schoolname": "Prince Mohammad Bin Fahd University, Alkhobar, Saudi Arabia",
+                        "location": "london",
+                        "field": "Finance",
+                        "gmat": false,
+                        "date_raw": "2007 - 2011",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2007",
+                        "endyear": "2011",
+                        "duration": 48,
+                        "grade": null,
+                        "bullets": [
+                            "Dean's List student during undergraduate studies"
+                        ],
+                        "organizations": [
+                            "Dean's List student during undergraduate studies"
+                        ],
+                        "awards": []
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "",
+                        "position_trimed": "",
+                        "position_full_div_text": "",
+                        "companyname": "SAUDI ARABIAN MONETARY AGENCY (SAMA)",
+                        "function": "User Defined",
+                        "industry": "Financial Services",
+                        "linkedin_company_name": null,
+                        "location": "Riyadh, Saudi Arabia",
+                        "data_raw": "Mar 2012 to Apr 2013",
+                        "startmonth": "03",
+                        "endmonth": "04",
+                        "startyear": "2012",
+                        "endyear": "2013",
+                        "duration": 13,
+                        "bullets": [
+                            "Managed team of 12 representatives from SAMA and participant banks to oversee Prepaid",
+                            "Payment Services (PPS) Pilot Program",
+                            "Analyzed and critiqued technology-related financial products, made approval recommendations to Director, and ensured compliance with SAMA rules",
+                            "Served as SAMA  s representative to consult on Wage Protection System (WPS), a Ministry of Labor national initiative to ensure workers in KSA receive salaries on-time and in-full via monitored process",
+                            "Managed quarterly merchant satisfaction survey regarding SPAN linked point-of-sale (POS) terminals, measured system updates impact, and developed project business cases, including enablement of POS offline and contactless transactions",
+                            "Assisted development of updated SPAN Operating Rules, Standards and Procedures",
+                            "Supported launch of new SPAN website, including design selection, content development and editing, and management of pre-launch User Acceptance Testing and subsequent modifications",
+                            "Served on 8-member evaluation committee representing SAMA and member banks to select a marketing firm to manage advertisement of new SPAN brand",
+                            "Researched potential KSA market entry of international credit card company, focusing on potential regional brand acceptance, and presented recommendations to Director on whether company should enter market at current time"
+                        ]
+                    },
+                    {
+                        "position": "Procurement Analyst",
+                        "position_trimed": "Procurement Analyst",
+                        "position_full_div_text": "Procurement Analyst",
+                        "companyname": "NATIONAL INDUSTRIALISATION COMPANY (TASNEE)",
+                        "function": "Supply Chain \/ Procurement",
+                        "industry": "Plastic",
+                        "linkedin_company_name": null,
+                        "location": "",
+                        "data_raw": "Jan 2012 to Mar 2012",
+                        "startmonth": "01",
+                        "endmonth": "03",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "duration": 2,
+                        "bullets": [
+                            "Managed process to review, analyze, and approve purchase requisitions and related vendor proposals and awarded Purchase Orders to vendors of value up to SAR1 million",
+                            "Evaluated contracts and negotiated pricing, service, payment and related terms with manufacturing, IT and other vendors",
+                            "Liaised between vendors and end-users to clarify technical proposals and Scope of Work definitions"
+                        ]
+                    },
+                    {
+                        "position": "Internship",
+                        "position_trimed": "Internship",
+                        "position_full_div_text": "Internship",
+                        "companyname": "BANK OF AMERICA MERRILL LYNCH",
+                        "function": "User Defined",
+                        "industry": "Financial Services",
+                        "linkedin_company_name": null,
+                        "location": "Dubai, United Arab Emirates",
+                        "data_raw": "Aug 2010 to Sep 2010",
+                        "startmonth": "08",
+                        "endmonth": "09",
+                        "startyear": "2010",
+                        "endyear": "2010",
+                        "duration": 1,
+                        "bullets": [
+                            "Prepared reports to identify regional investment opportunities worldwide for use by Financial Advisors",
+                            "Conducted client case studies to understand financial position, risk tolerance, and expected return, analyzed security markets, and constructed draft client portfolios"
+                        ]
+                    }
+                ],
+                "additional_data": {
+                    "interests": [
+                        "football"
+                    ],
+                    "languages": [],
+                    "bullets": [
+                        {
+                            "text": "\u2022 Vice President of the LBS Energy Club Executive Committee, responsible for career services"
+                        },
+                        {
+                            "text": "\u2022 Active member of the LBS Private Equity and Venture Capital Club, Finance Club, Industry"
+                        },
+                        {
+                            "text": "Club and Football Club"
+                        },
+                        {
+                            "text": "\u2022 Strategic Planner in Giving Hands, a Saudi Charity Organization, planning for fund-raising  and charitable events"
+                        },
+                        {
+                            "text": "\u2022 Volunteered as a Finance Expert at Rawabi Talent Exhibit in Saudi Arabia"
+                        },
+                        {
+                            "text": "Saudi Arabia"
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "338",
+        "bulk_upload_resume_id": "195404"
+    },
+    {
+        "DataStructure": {
+            "entities": {
+                "personalInformation": {
+                    "name": "",
+                    "address": null,
+                    "email": "iagarwal.mim2014@london.edu",
+                    "phone": ""
+                },
+                "education": [
+                    {
+                        "degree": "Masters In Management",
+                        "schoolname": "London Business School",
+                        "location": "london",
+                        "field": "Management",
+                        "gmat": false,
+                        "date_raw": "2013 - 2014",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2013",
+                        "endyear": "2014",
+                        "grade": null,
+                        "bullets": [
+                            "Reading for Masters in Management degree"
+                        ],
+                        "organizations": [],
+                        "awards": [],
+                        "duration": 12
+                    },
+                    {
+                        "degree": "Bachelors Of Commerce",
+                        "schoolname": "Shri Ram College of Commerce, Delhi University, India",
+                        "location": "commerce",
+                        "field": "",
+                        "gmat": false,
+                        "date_raw": "2010 - 2013",
+                        "startmonth": "01",
+                        "endmonth": "01",
+                        "startyear": "2010",
+                        "endyear": "2013",
+                        "grade": null,
+                        "bullets": [
+                            "Shri Ram College of Commerce is the top ranked college in India for commerce studies"
+                        ],
+                        "organizations": [],
+                        "awards": [],
+                        "duration": 36
+                    }
+                ],
+                "experience": [
+                    {
+                        "position": "Business Development Intern",
+                        "position_trimed": "Business Development Intern",
+                        "position_full_div_text": "Business Development Intern",
+                        "companyname": "KAARYAH.COM",
+                        "function": "Business Development",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "Delhi, India",
+                        "data_raw": "Jul 2012 to Nov 2012",
+                        "startmonth": "07",
+                        "endmonth": "11",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Selected products to appeal to the professional woman in collaboration with the design team",
+                            "Developed process flows for efficient functioning of the business, collating information from various departments and making recommendations to determine supply chain and resource utilisation",
+                            "Estimated costs for product categories across the business to ensure margins were met and sustainable"
+                        ],
+                        "duration": "4"
+                    },
+                    {
+                        "position": "Summer Intern",
+                        "position_trimed": "Summer Intern",
+                        "position_full_div_text": "Summer Intern",
+                        "companyname": "ROOMSTORY.COM",
+                        "function": "Marketing",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "India",
+                        "data_raw": "Mar 2012 to May 2012",
+                        "startmonth": "03",
+                        "endmonth": "05",
+                        "startyear": "2012",
+                        "endyear": "2012",
+                        "bullets": [
+                            "Conducted brainstorming sessions with core team to ascertain product mix, recommended close to 50 products (furniture, upholstery and room accessories) that were successfully marketed on the site",
+                            "Organised marketing events and promotional activities at Delhi University and other institutions to find new interns and drive traffic to the e-commerce site",
+                            "Conducted in-depth interviews with architects and designers recommending line modifications and building contacts, leading to increased sales"
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Summer Trainee",
+                        "position_trimed": "Summer Trainee",
+                        "position_full_div_text": "Summer Trainee",
+                        "companyname": "ENVISAGE PRIVATE SOLUTIONS",
+                        "function": "Marketing Consulting",
+                        "industry": "",
+                        "linkedin_company_name": null,
+                        "location": "New Delhi, India",
+                        "data_raw": "Jul 2011 to Sep 2011",
+                        "startmonth": "07",
+                        "endmonth": "09",
+                        "startyear": "2011",
+                        "endyear": "2011",
+                        "bullets": [
+                            "Created a case study on the local consumption patterns and sales forecast across different age groups for the client Philip Morris International",
+                            "Collaborated with a cross functional team of 80 across 3 cities to obtain cohesive survey results"
+                        ],
+                        "duration": "2"
+                    },
+                    {
+                        "position": "Summer Intern- Administrative Department",
+                        "position_trimed": "Summer Intern",
+                        "position_full_div_text": "Summer Intern- Administrative Department",
+                        "companyname": "WILDLIFE SOS",
+                        "function": "NGO",
+                        "industry": "Environmental Services",
+                        "linkedin_company_name": null,
+                        "location": "New Delhi, India",
+                        "data_raw": "Jun 2011 to Jul 2011",
+                        "startmonth": "06",
+                        "endmonth": "07",
+                        "startyear": "2011",
+                        "endyear": "2011",
+                        "bullets": [
+                            "Initiated the process of researching recording meaningful data along with a 6-member team for interpretation analysis",
+                            "Entrusted with responsibility of writing articles based on animal rehabilitation programs undertaken by WSOS and conducted surveys for the company  s in house publication resulting in increased public awareness"
+                        ],
+                        "duration": "1"
+                    }
+                ],
+                "additional_data": {
+                    "interests": [
+                        "dance",
+                        "martial",
+                        "karate"
+                    ],
+                    "languages": [
+                        "english",
+                        "hindi"
+                    ],
+                    "bullets": [
+                        {
+                            "text": "\u2022 Organising Head of Finance and Investment Cell, Shri Ram College of Commerce. Led a  research discussion on micro-finance in India with the Finance & Investment Cell team  Coordinated finance events like mock stocks and quizzes"
+                        },
+                        {
+                            "text": "\u2022 Vice President of Social Events of the India Club, London Business School"
+                        },
+                        {
+                            "text": "\u2022 Taught Mathematics, English and Hindi at Jagriti, an NGO engaged in providing education to  underprivileged children"
+                        },
+                        {
+                            "text": "\u2022 Worked for Peacock Feather Project, an NGO initiative to raise funds for cancer patients"
+                        },
+                        {
+                            "text": "\u2022 Interests: Dance (trained in Indian Classical, Jazz, Belly dance and contemporary), Martial"
+                        },
+                        {
+                            "text": "Arts (Silver medalist at a National karate championship, May 2013)"
+                        },
+                        {
+                            "text": "\u2022 ISC Board (A level equivalent) Examination result 2010: 97.75%"
+                        },
+                        {
+                            "text": "GMAT score: 720"
+                        },
+                        {
+                            "text": "Indian"
+                        }
+                    ]
+                }
+            }
+        },
+        "bulk_upload_category_id": "338",
+        "bulk_upload_resume_id": "195403"
+    }
+]
