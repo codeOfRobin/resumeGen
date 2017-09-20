@@ -8,3 +8,11 @@ button, .margin-control
 {
     display: none;
 }
+
+a {
+  color: #3CACFC
+}
+
+a:visited {
+  color: #3CACFC
+}

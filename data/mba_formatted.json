@@ -808,7 +808,7 @@
 					"startmonth": "01",
 					"endmonth": "01",
 					"startyear": "2013",
-					"endyear": "2014",
+					"endyear": "2016",
 					"duration": 12,
 					"grade": null,
 					"bullets": [
@@ -835,8 +835,7 @@
 					"duration": 13,
 					"bullets": [
 						"Worked on the Paytm wallet iOS app - deals module and API integration. Built in Objective-C on the iOS 7 SDK",
-						"Featured all new design and interactions to enable new user experiences",
-						"Link: https://itunes.apple.com/in/app/paytm-wallet/id985129485?mt=8"
+						"Featured all new design and interactions to enable new user experiences"
 					]
 				}, {
 					"position": "Intern",
@@ -873,33 +872,57 @@
 					"endyear": "2010",
 					"bullets": [
 						"Helped develop Pipal, an app to aid communication in apartment complexes",
-						"Built in Swift 2 and Django for the RESTFUL API.",
-						"Here's a sneak peak: http://abheyraj.com/assets/out.mp4"
+						"Built in Swift 2.2 and Django for the RESTFUL API.",
+						"<a href=\"https://gfycat.com/gifs/detail/ReflectingFlashyDromaeosaur\">Here</a>'s are a <a href=\"https://gfycat.com/gifs/detail/KindOpenDegu\">couple</a> of sneak peaks"
+					]
+				},{
+					"position": "iOS Engineer",
+					"position_trimed": "iOS Engineer",
+					"position_full_div_text": "iOS Engineer",
+					"companyname": "Kayako Support Systems",
+					"function": "User Defined",
+					"industry": "Financial Services",
+					"linkedin_company_name": null,
+					"location": "Gurgaon",
+					"data_raw": "Aug 2016 to Present",
+					"startmonth": "08",
+					"endmonth": "09",
+					"startyear": "2010",
+					"endyear": "2010",
+					"bullets": [
+						"Built the agent app for support agents to easily communicate with customers in a chat like fashion",
+						"Also built an <a href = \"https://developer.kayako.com/messenger/ios/installation/\">Open Source SDK</a> for developers to integrate chat functionality in their apps"
 					]
 				}],
+				"publications": [
+					"I will be <a href=\"https://www.tryswift.co/events/2017/bangalore/#codeofrobin\">speaking</a> at try! Swift India in November 2017 on \"Refactoring your app using Rx\"",
+					"Wrote an <a href = \"https://medium.com/flawless-app-stories/secret-variables-in-xcode-and-your-ci-for-fun-and-profit-d387a50475d7\">article</a> on Safely securing secret variables on Travis CI and Xcode. Over 1,000 \"claps\" received and has appeared in <a href = \"https://gist.github.com/codeOfRobin/71b1b16b9fa4a812e2974bb199f53ae5\">several iOS newsletters</a>",
+					"Implemented Spotify/Tweetbot's overscrolling behaviour. Wrote a medium article about it <a href=\"https://medium.com/ios-os-x-development/recreating-spotify-s-tweetbot-s-artist-album-uitableview-8488979fc3e1#.b9ynyfn50\">here</a>",
+					"Implemented simple OpenCV functions in iOS on top of camera input. Wrote a well received <a href=\"https://medium.com/ios-os-x-development/the-fd4fcb249358#.593xbrwnl\">article</a> on it"
+				],
 				"additional_data": {
 					"interests": {"text":"Football"},
 					"languages": [],
 					"bullets": [
 					{
-						"heading":"Spotify Table",
-						"text": "Implemented Spotify/Tweetbot's overscrolling behaviour. Wrote a medium article about it <a>here: https://medium.com/ios-os-x-development/recreating-spotify-s-tweetbot-s-artist-album-uitableview-8488979fc3e1#.b9ynyfn50"
-					},
-					{
-						"heading":"OpenCV on iOS",
-						"text": "Implemented simple OpenCV functions in iOS on top of camera input. Wrote another well received article on it: https://medium.com/ios-os-x-development/the-fd4fcb249358#.593xbrwnl"
+						"heading":"Swiftplate",
+						"text": "Added CLI + <a href=\"https://github.com/Homebrew/homebrew-core/pull/8914\">Homebrew support</a> to <a href=\"https://github.com/JohnSundell/SwiftPlate/pulls?utf8=✓&q=is%3Apr%20author%3AcodeOfRobin%20\">Swiftplate by John Sundell"
 					},
 					{
 						"heading": "MathEmbed",
-						"text": "Built a NodeJS app that allows users to embed TeX equations in Medium articles. Approved by embed.ly. Link: www.mathembed.com"
+						"text": "Built a NodeJS app that allows users to embed TeX equations in Medium articles. Approved by embed.ly. Link: <a href= \"https://mathembed.com/\">www.mathembed.com</a>"
+					},
+					{
+						"heading":"Networking",
+						"text": "<a href = \"https://github.com/3lvis/Networking/pull/182\">Refactored</a> multipart-form implementations in a popular Swift networking library(Resulted in actually removing lines of code)"
 					},
 					{
 						"heading":"Chatalyst",
-						"text": "Wrote a conversational news app for a Hackathon held by the Tata Group. https://github.com/codeOfRobin/newChatalyst"
+						"text": "Wrote a conversational news app for a Hackathon held by the Tata Group. <a href=\"https://github.com/codeOfRobin/newChatalyst\">Github Link</a>"
 					},
 					{
 						"heading":"CrowdFound",
-						"text": "Built a iBeacon based location aware app for the Delhi Startups Hackathon. https://github.com/codeOfRobin/crowdFound"
+						"text": "Built a iBeacon based location aware app for the Delhi Startups Hackathon. <a href=\"https://github.com/codeOfRobin/crowdFound\">Github Link</a>"
 					},
 					{
 						"heading":"swiftOpenCV",
@@ -907,19 +930,11 @@
 					},
 					{
 						"heading":"eSubzi",
-						"text": "Built a grocery delivery app for use within the IIT campus under Prof. M. Balakrishnan. https://github.com/codeOfRobin/eSubziiOS"
-					},
-					{
-						"heading":"SwiftyDropbox",
-						"text": "Contributed to the Swift Dropbox lib, adding functionality for identifying files and folders"
-					},
-					{
-						"heading":"SwiftyPug",
-						"text":"(In Progress) Building a pugjs/jade to HTML transpiler using Swift."
+						"text": "Built a grocery delivery app for use within the IIT campus under Prof. M. Balakrishnan. <a href=\"https://github.com/codeOfRobin/eSubziiOS\">Github Link</a> <a href=\"https://imgur.com/a/qZzpe\">Grainy Newspaper clipping scan from ToI</a>"
 					},
 					{
 						"heading":"kheraScrape",
-						"text":"Wrote a tiny script to help an IIT policy professor extract data from Government websites"
+						"text":"Wrote a tiny script to help an IIT policy professor extract data from Government websites <a href=\"https://github.com/codeOfRobin/kheraScrape\">Github Link"
 					}]
 				}
 			}

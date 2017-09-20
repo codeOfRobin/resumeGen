@@ -12,24 +12,10 @@ html(lang='en',ng-app = "resumeEditApp")
     body(ng-controller = "mainCtrl")
         section.personalInformation
             .name(contenteditable ng-model = "resumeData.personalInformation.name") {{resumeData.personalInformation.name}}
-            .address(contenteditable ng-model = "resumeData.personalInformation.address") {{resumeData.personalInformation.address}} | New Delhi India 110070
             .centeredFlex
                 .phone(contenteditable ng-model = "resumeData.personalInformation.phone") {{resumeData.personalInformation.phone}}
                 | |
                 .email(contenteditable ng-model = "resumeData.personalInformation.email") {{resumeData.personalInformation.email}}
-        section.education
-            h1 Education
-            .educationPoint(ng-repeat = "educationPoint in resumeData.education")
-                .separated
-                    .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}
-                    .educationPoint.location(contenteditable ng-model = "educationPoint.location" ) {{educationPoint.location}}
-                .separated
-                    .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
-                    .educationPoint.date(contenteditable ng-model = "educationPoint.endyear") {{educationPoint.endyear}}    
-                ul
-                    li.education.bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}} 
-                    button(ng-click = "addBullet(educationPoint)") Add Bullet
-            button(style = "font-size : 1.5em" ng-click = "addEducationPoint()") Add Education
         section.experience
             h1  Experience
             .experiencePoint(ng-repeat = "experiencePoint in resumeData.experience")
@@ -43,10 +29,27 @@ html(lang='en',ng-app = "resumeEditApp")
                     li.experiencePoint.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in experiencePoint.bullets") {{bullet.text}}
                     button(ng-click = "addBullet(experiencePoint)") Add Bullet
             button(style = "font-size : 1.5em" ng-click = "addExperiencePoint()") Add Experience
+        section.education
+            h1 Education
+            .educationPoint(ng-repeat = "educationPoint in resumeData.education")
+                .separated
+                    .educationPoint.schoolname(contenteditable ng-model = "educationPoint.schoolname" ) {{educationPoint.schoolname}}
+                    .educationPoint.location(contenteditable ng-model = "educationPoint.location" ) {{educationPoint.location}}
+                .separated
+                    .educationPoint.degree(contenteditable ng-model = "educationPoint.degree") {{educationPoint.degree}}
+                    .educationPoint.date(contenteditable ng-model = "educationPoint.endyear") {{educationPoint.endyear}}    
+                ul
+                    li.education.bullet(ng-repeat = "bullet in educationPoint.bullets" contenteditable ng-model = "bullet.text") {{bullet.text}} 
+                    button(ng-click = "addBullet(educationPoint)") Add Bullet
+            button(style = "font-size : 1.5em" ng-click = "addEducationPoint()") Add Education
         section.additionalInformation
-            h1 Personal Projects
+            h1 Public Appearances & Stuff I've written
             ul
-                li.additionalInformation.bullet(ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets")
+                li.additionalInformation.bullet(contenteditable ng-model = "bullet" ng-repeat = "bullet in resumeData.publications") {{bullet}}
+        section.additionalInformation
+            h1 Personal & OSS Projects
+            ul
+                li.additionalInformation.bullet(contenteditable ng-model = "bullet.text" ng-repeat = "bullet in resumeData.additional_data.bullets")
                     b {{bullet.heading}} : 
                     {{bullet.text}}
                 button(ng-click = "addBullet(resumeData.additional_data)") Add Bullet

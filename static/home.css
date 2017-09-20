@@ -72,6 +72,14 @@ label.light {
   display: inline;
 }
 
+a {
+  color: #3CACFC
+}
+
+a:visited {
+  color: #3CACFC
+}
+
 @media screen and (min-width: 480px) {
 
   form {
